@@ -1,4 +1,4 @@
-# [Deploy Microsoft 365 Education](index.md)
+# [Deploy Microsoft 365 Education](placeholder.md)
 # [Move to the cloud](placeholder.md)
 ## [Azure AD Connect](placeholder.md)
 ## [Licensing](placeholder.md)
