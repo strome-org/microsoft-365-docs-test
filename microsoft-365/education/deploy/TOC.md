@@ -1,4 +1,3 @@
-# [Microsoft Education documentation and resources](../index.md)
 # [Deploy Microsoft 365 Education](index.md)
 # [Move to the cloud](placeholder.md)
 ## [Azure AD Connect](placeholder.md)
