@@ -6,7 +6,7 @@
 ## [School Data Sync](placeholder.md)
 ## [Exchange Online](placeholder.md)
 # [Modernize your devices](placeholder.md)
-## [Deploy Windows 10 to your devices](windows10-infrastructure.md)
+## [Deploy Windows 10 to your devices](placeholder.md)
 ### [Configure and deploy Windows 10 Enterprise as an in-place upgrade](../../enterprise/windows10-deploy-inplaceupgrade.md)
 ### [Configure and deploy Windows 10 Enterprise with Windows AutoPilot](../../enterprise/windows10-deploy-autopilot.md)
 ### [Enable Windows Analytics](../../enterprise/windows10-enable-windows-analytics.md)
