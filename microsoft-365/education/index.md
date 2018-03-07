@@ -40,7 +40,7 @@ ms.date: 10/30/2017
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <span class="likeAnH3">For IT Pros: Get Started using Microsoft Education</span>
+                                    <span class="likeAnH3">For IT admins: Get Started with Microsoft Education</span>
                                 </div>
                             </div>
                         </div>
@@ -74,11 +74,11 @@ ms.date: 10/30/2017
                 <a href="#itpro">IT Admins</a>
                 <ul id="itpro">
                     <li>
-                        <a href="#itpro-all"></a>
-                        <ul id="itpro-all" class="cardsC">
+                        <a data-default="true" href="#getstarted">Get started</a>
+                        <ul id="getstarted" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Get started with deploying and managing a full cloud IT solution for your school, and follow the links for in-depth information about the technologies and features.</p>
+                                    <p>TBD. Intro goes here.</p>
                                 </div>
                             </li>
                             <li>
@@ -107,17 +107,75 @@ ms.date: 10/30/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/education/education-pro-get-started.svg" alt="For IT Pros: Get started with Microsoft Education" />
+                                                        <img src="/media/hubs/education/education-pro-get-started.svg" alt="For IT admins: Get started with Microsoft Education" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Get started for IT Pros</h3>
-                                                    <p>Get started with Microsoft Education and set up a cloud infrastructure for your school, acquire apps, and configure and deploy settings to your Windows 10 devices.</p>
+                                                    <h3>Get started for IT admins</h3>
+                                                    <p>Interested in trying out the Microsoft Education solution? Sign up for the Intune for Education trial to get started with Microsoft Education. Learn how to set up a cloud infrastructure for your school, acquire apps, manage devices and settings, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a data-default="true" href="#deploy">Deploy</a>
+                        <ul id="deploy" class="cardsD">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>TBD. Intro goes here</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="placeholder.md" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub-itadmin-deploy/existing-it-infrastructure.svg" alt="Existing Microsoft IT infrastructure" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>My company already uses Microsoft technologies</h3>
+                                                    <p>Great! You’re familiar with our products. We'll help you fine-tune your environment for Microsoft 365 Education.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="placeholder.md" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub-itadmin-deploy/m365-enterprise-deployment-process.svg" alt="Microsoft 365 Education deployment process" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>My school is new to Microsoft 365</h3>
+                                                    <p>Welcome! We'll help you get the most out of your investment and walk you through the deployment process.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a data-default="true" href="#producthelp">Product help</a>
+                        <ul id="producthelp" class="cardsD">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>TBD.</p>
+                                </div>
                             </li>
                             <li>
                                 <a href="https://support.office.com/en-us/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1#ID0EAAAAEAAA=Education" target="_blank">
@@ -299,7 +357,7 @@ ms.date: 10/30/2017
                 <ul id="teachers">
                     <li>
                         <a href="#teachers-all"></a>
-                        <ul id="teachers-all" class="cardsC">
+                        <ul id="teachers-all" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for information and resources for teachers about Microsoft Education products? Start here.</p>
@@ -447,7 +505,7 @@ ms.date: 10/30/2017
                 <ul id="students">
                     <li>
                         <a href="#students-all"></a>
-                        <ul id="students-all" class="cardsC">
+                        <ul id="students-all" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Students can find Help on Class Notebooks, Office, Windows and more, and download software and development tools for school projects.</p>
@@ -538,7 +596,7 @@ ms.date: 10/30/2017
                 <ul id="developer">
                     <li>
                         <a href="#developer-all"></a>
-                        <ul id="developer-all" class="cardsC">
+                        <ul id="developer-all" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Are you an app developer looking for information about developing solutions on Microsoft Education products? Start here.</p>
@@ -610,7 +668,7 @@ ms.date: 10/30/2017
                 <ul id="partner">
                     <li>
                         <a href="#partner-all"></a>
-                        <ul id="partner-all" class="cardsC">
+                        <ul id="partner-all" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for resources available to Microsoft Education partners? Start here.</p>
