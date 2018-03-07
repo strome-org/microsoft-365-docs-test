@@ -112,7 +112,7 @@ ms.date: 10/30/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Get started for IT admins</h3>
-                                                    <p>Interested in trying out the Microsoft Education solution? Sign up for the Intune for Education trial to get started with Microsoft Education. Learn how to set up a cloud infrastructure for your school, acquire apps, manage devices and settings, and more.</p>
+                                                    <p>Interested in trying out the Microsoft Education solution? Sign up for the Intune for Education trial and learn how to set up a cloud infrastructure for your school, acquire apps, manage devices and settings, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ ms.date: 10/30/2017
                         <ul id="deploy" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>TBD. Intro goes here</p>
+                                    <p>TBD. Intro goes here.</p>
                                 </div>
                             </li>
                             <li>
@@ -174,7 +174,7 @@ ms.date: 10/30/2017
                         <ul id="producthelp" class="cardsD">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>TBD.</p>
+                                    <p>TBD. Intro goes here.</p>
                                 </div>
                             </li>
                             <li>
