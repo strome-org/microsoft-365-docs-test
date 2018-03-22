@@ -112,7 +112,7 @@ ms.date: 10/30/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Get started for IT admins</h3>
-                                                    <p>Interested in trying out the Microsoft Education solution? Sign up for the Intune for Education trial and learn how to set up a cloud infrastructure for your school, acquire apps, manage devices and settings, and more.</p>
+                                                    <p>Want to try out the Microsoft Education solution? Sign up for the Intune for Education trial and learn how to set up a cloud infrastructure for your school, acquire apps, manage devices and settings, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,7 +140,7 @@ ms.date: 10/30/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>My company already uses Microsoft technologies</h3>
+                                                    <h3>My school already uses Microsoft technologies</h3>
                                                     <p>Great! You’re familiar with our products. We'll help you fine-tune your environment for Microsoft 365 Education.</p>
                                                 </div>
                                             </div>
@@ -197,6 +197,25 @@ ms.date: 10/30/2017
                                 </a>
                             </li>
                             <li>
+                                <a href="https://docs.microsoft.com/schooldatasync/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/education/education-pro-school-data.svg" alt="School Data Sync" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>School Data Sync</h3>
+                                                    <p>Import Student Information System (SIS) into Office 365.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/intune-education" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -235,37 +254,18 @@ ms.date: 10/30/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/schooldatasync/" target="_blank">
+                                <a href="/education/windows/use-set-up-school-pcs-app" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/education/education-pro-school-data.svg" alt="School Data Sync" />
+                                                        <img src="images/education-pro-usb.svg" alt="Set up School PCs" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>School Data Sync</h3>
-                                                    <p>Import Student Information System (SIS) into Office 365.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/azure/active-directory/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/education/education-pro-azure-directory.svg" alt="Azure Active Directory" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Azure Active Directory</h3>
-                                                    <p>Use to create and manage user and group accounts.</p>
+                                                    <h3>Set up School PCs</h3>
+                                                    <p>Use the app to create a provisioning package that you can use to quickly set up one or more Windows 10 devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -311,26 +311,7 @@ ms.date: 10/30/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="/education/windows/use-set-up-school-pcs-app" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="images/education-pro-usb.svg" alt="Set up School PCs" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Set up School PCs</h3>
-                                                    <p>Use the app to create a provisioning package that you can use to quickly set up one or more Windows 10 devices.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-quick-start-edu target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-quick-start-edu" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -342,6 +323,25 @@ ms.date: 10/30/2017
                                                 <div class="cardText">
                                                     <h3>Microsoft Teams</h3>
                                                     <p>Make the most of Microsoft Teams and find out how to deploy, launch pilot teams, and launch Teams to the rest of your organization.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/azure/active-directory/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/education/education-pro-azure-directory.svg" alt="Azure Active Directory" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Active Directory</h3>
+                                                    <p>Use to create and manage user and group accounts.</p>
                                                 </div>
                                             </div>
                                         </div>
