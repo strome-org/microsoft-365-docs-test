@@ -52,7 +52,7 @@ However, in Windows commercial products your organization retains control over p
 
 The most recent version of Windows (Windows 10, version 1803 and above) complies with the GDPR for data access and control by providing the following means for your end users to restrict data collection, and to view, edit, port, or delete data that has already been gathered.
 
-* **In-app settings** — Your end users can control privacy settings and delete diagnostics data for their device directly within each Windows product, app, or service. In the most recent version of Windows, end users can lower the level of Windows diagnostic data that is shared with Microsoft, if their IT administrator allows it. In addition, they can use the [Diagnostic Data Viewer](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/) — available from within In-app settings — to view and search diagnostic data related to their device.
+* **In-app settings** — Your end users can control privacy settings and delete diagnostics data for their device directly within each Windows product, app, or service. In the most recent version of Windows, end users can lower the level of Windows diagnostic data that is shared with Microsoft, if their IT administrator allows it. In addition, they can use the [Diagnostic Data Viewer](https://docs.microsoft.com/windows/configuration/diagnostic-data-viewer-overview) — available from within In-app settings — to view and search diagnostic data related to their device.
 
 * **Microsoft Privacy Dashboard** — Your end users can use the web-based [Microsoft Privacy Dashboard](https://account.microsoft.com/account/privacy?ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy&destrt=privacy-dashboard) — available through their Microsoft account — to view, control and delete activity data tied to their Microsoft account across multiple Microsoft services. For example, end users can view and clear browsing history from Microsoft Edge, voice data from Cortana, and location data used by apps like Maps. They can also download a copy of their activity history and control whether they are shown interest-based ads. Deleted data is automatically removed from all data streams in our storage system.
 
@@ -81,7 +81,7 @@ Your IT administrator can set the level of Windows diagnostic data that is share
 
 * **In-app settings** - In the most recent version of Windows, if your IT administrator allows it end users can lower the amount of diagnostic data that is shared with Microsoft to the minimum required by Windows Analytics.
 
-* **Diagnostic Data Viewer** - In the most recent version of Windows, end users can view Windows diagnostic data on their device by using the [Diagnostic Data Viewer](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/), if your IT administrator allows this activity.
+* **Diagnostic Data Viewer** - In the most recent version of Windows, end users can view Windows diagnostic data on their device by using the [Diagnostic Data Viewer](https://docs.microsoft.com/windows/configuration/diagnostic-data-viewer-overview), if your IT administrator allows this activity.
 
 * **Deleting data** - In the most recent version of Windows, two steps are required by end users to delete all data for a device enrolled in Windows Analytics: 
    1. The end user must use the Delete diagnostic data setting on their device to remove Windows diagnostic data from the device and the copy of the data stored for Microsoft.
