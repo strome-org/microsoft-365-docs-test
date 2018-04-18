@@ -42,7 +42,7 @@ However, in Windows commercial products your organization retains control over p
 >[!IMPORTANT]
 >Your organization is responsible for implementing privacy and security practices for Windows products if it does not accept the default Windows solution. If your IT administrator disables the default Windows privacy consent screens and privacy notification, your organization will need to provide users with its own privacy program for Windows products to be compliant with the GDPR. 
 
-![First of seven privacy consent screens](mobiledevicemgmt_icon.png)
+![First of seven privacy consent screens](\images\gdpr-dsr-windows-consent.png)
 
 *First of seven privacy consent screens*
 
