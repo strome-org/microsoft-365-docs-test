@@ -40,9 +40,9 @@ The Windows installation for some users displays a series of seven privacy conse
 However, in Windows commercial products your organization retains control over privacy settings and security. To manage privacy settings for users within your organization, your IT administrator may choose to disable the default Windows privacy consent screens (first screen shown below). If your IT administrator disables the privacy screens, a privacy notification (like one shown below) is displayed to your users until they acknowledge it, or until 72 hours have passed since initial login. Your IT administrator may choose to disable this privacy notification as well.
 
 >[!IMPORTANT]
->Your organization is responsible for implementing privacy and security practices for Windows products if it does not accept the default Windows solution. If your IT administrator disables the default Windows privacy consent screens and privacy notification, your organization will need to provide your users with its own privacy program for Windows products to be compliant with the GDPR. 
+>Your organization is responsible for implementing privacy and security practices for Windows products if it does not accept the default Windows solution. If your IT administrator disables the default Windows privacy consent screens and privacy notification, your organization will need to provide your users with its own privacy program for Windows products to be compliant with the GDPR.
 
-![First of seven privacy consent screens](images\gdpr-dsr-windows-consent.png)
+![First of seven privacy consent screens](images/gdpr-dsr-windows-consent.png)
 
 *First of seven privacy consent screens*
 
