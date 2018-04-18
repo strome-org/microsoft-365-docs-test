@@ -46,7 +46,7 @@ However, in Windows commercial products your organization retains control over p
 
 *First of seven privacy consent screens*
 
-![Privacy notification](mobiledevicemgmt_icon.png)
+![Privacy notification](images/gdpr-dsr-windows-notification.png)
 
 *Privacy notification*
 
