@@ -87,7 +87,7 @@ Your IT administrator can set the level of Windows diagnostic data that is share
 
 * **Deleting data** - In the most recent version of Windows, two steps are required by users to delete all data for a device enrolled in Windows Analytics: 
    1. The user must use the Delete diagnostic data setting on their device to remove Windows diagnostic data from the device and the copy of the data stored for Microsoft.
-   2. The user must ask the IT administrator to delete the copy of the data that is stored in the Windows Analytics workspace. 
+   2. The user must ask the IT administrator to delete the copy of the data that is stored in the Windows Analytics workspace, using the [purge API](https://docs.microsoft.com/rest/api/loganalytics/workspaces 2015-03-20/purge).
 
 For more information about how Microsoft enables you to respond to DSRs, see [GDPR: Data Subject Requests (DSRs)](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) in the Service Trust Portal.
 
