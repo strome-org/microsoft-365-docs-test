@@ -3,7 +3,7 @@ title: "Step 3: Customize the Office 365 sign-in page"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/29/2018
+ms.date: 03/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,9 +16,11 @@ description: Configure a customized Office 365 sign-in page.
 
 # Step 3: Customize the Office 365 sign-in page
 
-![This step is optional and for both the E3 and E5 versions of Microsoft 365 Enterprise](./media/banners/Banner-Optional-BothSKUs.png)
+*This step is optional and for both the E3 and E5 versions of Microsoft 365 Enterprise*
 
-When you apply a consistent look and feel across all the websites and services you manage that reflect the name, logo, and other recognizable elements of your organization’s brand, your end users aren't confused when they use your sites. 
+![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+
+In Step 3, you'll help users recognize your organization’s sign-in page by adding your company name, logo, and other recognizable elements. 
 
 With Microsoft 365 Enterprise, you can customize the appearance of the sign-in and Access Panel pages so they include your company logo, color schemes, and custom user information. 
 
@@ -34,11 +36,11 @@ For more information, see [Add your company branding to Office 365 Sign In page]
 
 For configuration instructions, see [Add company branding to your sign-in and Access Panel pages](http://aka.ms/aadpaddbranding).
 
-The result of this step is your organization’s logo, picture, and user information are visible in the Office 365 sign-in page for your organization.
-
-As an interim checkpoint, you can see the [exit criteria](identity-exit-criteria.md#crit-identity-step3)
- corresponding to this step.
+As an interim checkpoint, you can see the [exit criteria](identity-exit-criteria.md#crit-identity-step3) for this step.
 
 ## Next step
 
-[Step 4: Azure AD Connect Health](identity-azure-ad-connect-health.md)
+|||
+|:-------|:-----|
+|![](./media/stepnumbers/Step4.png)| [Monitor synchronization health](identity-azure-ad-connect-health.md) |
+
