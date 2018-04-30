@@ -1626,7 +1626,7 @@ ms.date: 11/01/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://support.officeppe.com/en-us/article/microsoft-365-business-security-features-c123694a-1efb-459e-a8d5-2187975373dc?ui=en-US&rs=en-US&ad=US" target="_blank">
+                                <a href="https://support.office.com/article/c123694a-1efb-459e-a8d5-2187975373dc" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
