@@ -1952,7 +1952,7 @@ ms.date: 05/10/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="working-with-managed-desktop/updates.md" target="_blank">
+                                <a href="working-with-managed-desktop/updates" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -1971,7 +1971,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="working-with-managed-desktop/support.md" target="_blank">
+                                <a href="working-with-managed-desktop/support" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -1990,7 +1990,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="working-with-managed-desktop/manage-apps.md" target="_blank">
+                                <a href="working-with-managed-desktop/manage-apps" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -2009,7 +2009,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="working-with-managed-desktop/operations-and-monitoring.md" target="_blank">
+                                <a href="working-with-managed-desktop/operations-and-monitoring" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
