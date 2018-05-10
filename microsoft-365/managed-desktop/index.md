@@ -837,13 +837,13 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://evals.office.com/microsoft365/#m365business" target="_blank">
+                                <a href="https://partners.office.com/microsoft365/#m365business" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="images/eval-resource-training-1.svg" alt="SMB resources and training" />
+                                                        <img src="images/partners-resource-training-1.svg" alt="SMB resources and training" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -856,13 +856,13 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://evals.office.com/news" target="_blank">
+                                <a href="https://partners.office.com/news" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="images/eval-news-2.svg" alt="News for evals" />
+                                                        <img src="images/partner-news-2.svg" alt="News for evals" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1621,7 +1621,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Find a Microsoft-certified service provider" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1996,7 +1996,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Find a Microsoft-certified service provider" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -2067,7 +2067,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Find a Microsoft-certified service provider" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
