@@ -1,5 +1,5 @@
 ---
-title: Security in mWaaS (Windows 10)
+title: Security in Microsoft 365 Managed Desktop (Windows 10)
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Security in mWaaS
+# Security in Microsoft 365 Managed Desktop

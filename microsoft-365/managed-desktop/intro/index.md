@@ -1,5 +1,5 @@
 ---
-title: Is Modern Workplace as a Service right for you (Windows 10)
+title: Is Microsoft 365 Managed Desktop right for you (Windows 10)
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Is Modern Workplace as a Service right for you?
+# Is Microsoft 365 Managed Desktop right for you?

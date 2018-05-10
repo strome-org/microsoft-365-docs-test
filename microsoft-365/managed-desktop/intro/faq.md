@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# FAQ for Modern Workplace as a Service
+# FAQ for Microsoft 365 Managed Desktop

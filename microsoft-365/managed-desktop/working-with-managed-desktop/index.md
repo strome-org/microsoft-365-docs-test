@@ -1,5 +1,5 @@
 ---
-title: Working with Modern Workplace as a Service (Windows 10)
+title: Working with Microsoft 365 Managed Desktop 
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Working with mWaaS
+# Working with Microsoft 365 Managed Desktop

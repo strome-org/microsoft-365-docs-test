@@ -1,5 +1,5 @@
 ---
-title: Preparing apps for mWaaS (Windows 10)
+title: Preparing apps for Microsoft 365 Managed Desktop (Windows 10)
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Preparing apps for mWaaS
+# Preparing apps for Microsoft 365 Managed Desktop

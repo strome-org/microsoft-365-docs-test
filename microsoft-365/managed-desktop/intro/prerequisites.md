@@ -1,5 +1,5 @@
 ---
-title: Prerequisites for Modern Workplace as a Service (Windows 10)
+title: Prerequisites for Microsoft 365 Managed Desktop
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Prerequisites for mWaaS
+# Prerequisites for Microsoft 365 Managed Desktop

@@ -1,5 +1,5 @@
 ---
-title: Manage apps in mWaaS (Windows 10)
+title: Manage apps in Microsoft 365 Managed Desktop
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Manage apps in mWaaS
+# Manage apps in Microsoft 365 Managed Desktop

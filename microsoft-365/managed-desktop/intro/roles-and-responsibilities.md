@@ -1,5 +1,5 @@
 ---
-title: mWaaS roles and responsibilities (Windows 10)
+title: Microsoft 365 Managed Desktop roles and responsibilities
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# mWaaS roles and responsibilities
+# Microsoft 365 Managed Desktop roles and responsibilities

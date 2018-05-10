@@ -1,5 +1,5 @@
 ---
-title: mWaaS operations and monitoring (Windows 10)
+title: Microsoft 365 Managed Desktop operations and monitoring 
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# mWaaS operations and monitoring
+# Microsoft 365 Managed Desktop operations and monitoring

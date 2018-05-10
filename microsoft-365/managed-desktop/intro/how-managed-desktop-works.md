@@ -1,5 +1,5 @@
 ---
-title: How Modern Workplace as a Service works (Windows 10)
+title: How Microsoft 365 Managed Desktop works (Windows 10)
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# How mWaaS works
+# How Microsoft 365 Managed Desktop works
