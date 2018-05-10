@@ -17,7 +17,7 @@ ms.date: 05/10/2018
         <h1>Microsoft 365 Managed Desktop documentation and resources</h1>
         <ul class="pivots">
             <li>
-                <a href="#partner">Is M365 Managed Desktop right for you?</a>
+                <a href="#partner">Evaluate</a>
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner-getstarted">Get started</a>
@@ -900,7 +900,7 @@ ms.date: 05/10/2018
                 </ul>
             </li>
             <li>
-                <a href="#it-admin">Get ready for M365 Managed Desktop</a>
+                <a href="#it-admin">Get ready</a>
                 <ul id="it-admin">
                     <li>
                         <a data-default="true" href="#getstarted">Get started</a>
@@ -1802,7 +1802,7 @@ ms.date: 05/10/2018
                 </ul>
             </li>
             <li>
-                <a href="#end-user-pro">Get started with M365 Managed Desktop</a>
+                <a href="#end-user-pro">Get started</a>
                 <ul id="end-user-pro">
                     <li>
                         <a data-default="true" href="#end-user-pro-1">Set up devices</a>
@@ -1941,7 +1941,7 @@ ms.date: 05/10/2018
                 </ul>
             </li>
             <li>
-                <a href="#bus-owner">Working with M365 Managed Desktop</a>
+                <a href="#bus-owner">Using</a>
                 <ul id="bus-owner">
                     <li>
                         <a data-default="true" href="#bus-owner-1">Get started</a>
