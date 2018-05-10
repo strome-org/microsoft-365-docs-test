@@ -843,7 +843,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="images/partners-resource-training-1.svg" alt="SMB resources and training" />
+                                                        <img src="images/partner-resource-training-1.svg" alt="SMB resources and training" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
