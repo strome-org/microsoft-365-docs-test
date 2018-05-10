@@ -138,7 +138,7 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-             <li>
+            <li>
                 <a href="#bus-owner2">Business owner2</a>
                 <ul id="bus-owner2">
                     <li>
@@ -260,7 +260,7 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-             <li>
+            <li>
                 <a href="#bus-owner3">Business owner3</a>
                 <ul id="bus-owner3">intro/faq.md
                     <li>
@@ -382,7 +382,7 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-             <li>
+            <li>
                 <a href="#bus-owner4">Business owner4</a>
                 <ul id="bus-owner4">intro/faq.md
                     <li>
@@ -504,7 +504,7 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-             <li>
+            <li>
                 <a href="#bus-owner5">Business owner5</a>
                 <ul id="bus-owner5">intro/faq.md
                     <li>
@@ -626,6 +626,7 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
+        </ul>
         </ul>
     </div>
 </div>
