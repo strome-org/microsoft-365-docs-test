@@ -1809,22 +1809,22 @@ ms.date: 05/10/2018
                         <ul id="using-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Start using Microsoft 365 Managed Desktop.</p>
+                                    <p></p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/updates?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/apps?branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn how updates are managed" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn how to prepare your apps" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Updates</h3>
-                                                    <p>Learn how M365 Managed Desktop manages updates to devices.</p>
+                                                    <h3>Apps</h3>
+                                                    <p>Learn how to prepare your line-of-business apps for M365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1832,18 +1832,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/devices?branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Learn how to get support" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Learn how to order devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Support</h3>
-                                                    <p>Learn how to get support for M365 Managed Desktop.</p>
+                                                    <h3>Ordering devices</h3>
+                                                    <p>Learn how to order devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1851,18 +1851,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/manage-apps?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/device-configuration?branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn how apps are managed" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about the device configuration policies" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>App management</h3>
-                                                    <p>Learn how apps are managed in M365 Managed Desktop.</p>
+                                                    <h3>Device configuration</h3>
+                                                    <p>Learn about the default policies applied to M365 Managed Desktop devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1870,18 +1870,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/operations-and-monitoring?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/security?branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about notifications, monitoring, and reporting" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about security enforcements" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Operations and monitoring</h3>
-                                                    <p>Learn how M365 Managed Desktop provides change management notifications, monitoring, and reporting.</p>
+                                                    <h3>Security</h3>
+                                                    <p>Learn about the security enforcment for M365 Managed Desktop devices.</p>
                                                 </div>
                                             </div>
                                         </div>
