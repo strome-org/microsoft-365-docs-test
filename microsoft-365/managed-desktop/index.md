@@ -1941,7 +1941,7 @@ ms.date: 05/10/2018
                 </ul>
             </li>
             <li>
-                <a href="#bus-owner">Using</a>
+                <a href="#bus-owner">Using2</a>
                 <ul id="bus-owner">
                     <li>
                         <a data-default="true" href="#bus-owner-1">Get started</a>
@@ -2011,11 +2011,11 @@ ms.date: 05/10/2018
                         </ul>
                     </li>
                     <li>
-                <a href="#bus-owner2">Get help</a>
-                <ul id="bus-owner2">
+                <a href="#help">Get help</a>
+                <ul id="help">
                     <li>
-                        <a data-default="true" href="#bus-owner-2">Get started</a>
-                        <ul id="bus-owner-2" class="cardsC">
+                        <a data-default="true" href="#help-1">Get started</a>
+                        <ul id="help-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Learn about Microsoft 365 Business and find out how you can start using it for your business.</p>
