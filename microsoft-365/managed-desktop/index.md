@@ -2010,6 +2010,76 @@ ms.date: 05/10/2018
                             </li>
                         </ul>
                     </li>
+                    <li>
+                <a href="#bus-owner">Get help</a>
+                <ul id="bus-owner">
+                    <li>
+                        <a data-default="true" href="#bus-owner-1">Get started</a>
+                        <ul id="bus-owner-1" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Learn about Microsoft 365 Business and find out how you can start using it for your business.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.microsoft.com/en-us/microsoft-365/business" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Learn about Microsoft 365 Business</h3>
+                                                    <p>Want to learn more about Microsoft 365 Business and wondering whether it's the right solution for your business? Start here. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="intro/faq.md" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 365 Business FAQ</h3>
+                                                    <p>Browse our list of Frequently Asked Questions.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.microsoft.com/solution-providers/search" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Find a Partner</h3>
+                                                    <p>Visit the Microsoft Partner Center to locate a Microsoft-certified solution provider who can help you locally or remotely. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     <!--
                     <li>
                         <a data-default="true" href="#bus-owner-2">Placeholder 2</a>
