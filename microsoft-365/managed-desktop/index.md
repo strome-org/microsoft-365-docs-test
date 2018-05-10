@@ -1941,7 +1941,7 @@ ms.date: 05/10/2018
                 </ul>
             </li>
             <li>
-                <a href="#bus-owner">Using2</a>
+                <a href="#bus-owner">Using</a>
                 <ul id="bus-owner">
                     <li>
                         <a data-default="true" href="#bus-owner-1">Get started</a>
@@ -2009,6 +2009,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                         </ul>
+                    </li>
                     </li>
                     <li>
                 <a href="#help">Get help</a>
