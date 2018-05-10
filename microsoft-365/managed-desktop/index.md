@@ -1944,26 +1944,26 @@ ms.date: 05/10/2018
                 <a href="#using">Using</a>
                 <ul id="using">
                     <li>
-                        <a data-default="true" href="#using-1">Get started</a>
+                        <a data-default="true" href="#using-1">Working with Microsoft 365 Managed Desktop</a>
                         <ul id="using-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Learn about Microsoft 365 Business and find out how you can start using it for your business.</p>
+                                    <p>Start using Microsoft 365 Managed Desktop.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/en-us/microsoft-365/business" target="_blank">
+                                <a href="working-with-managed-desktop/updates.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn how updates are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Learn about Microsoft 365 Business</h3>
-                                                    <p>Want to learn more about Microsoft 365 Business and wondering whether it's the right solution for your business? Start here. </p>
+                                                    <h3>Updates</h3>
+                                                    <p>Learn how M365 Managed Desktop manages updates to devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1971,18 +1971,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="intro/faq.md" target="_blank">
+                                <a href="working-with-managed-desktop/support.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Learn how to get support" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 365 Business FAQ</h3>
-                                                    <p>Browse our list of Frequently Asked Questions.</p>
+                                                    <h3>Support</h3>
+                                                    <p>Learn how to get support for M365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1990,18 +1990,37 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/solution-providers/search" target="_blank">
+                                <a href="working-with-managed-desktop/manage-apps.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn how apps are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Find a eval</h3>
-                                                    <p>Visit the Microsoft eval Center to locate a Microsoft-certified solution provider who can help you locally or remotely. </p>
+                                                    <h3>App management</h3>
+                                                    <p>Learn how apps are managed in M365 Managed Desktop.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="working-with-managed-desktop/operations-and-monitoring.md" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about notifications, monitoring, and reporting" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Operations and monitoring</h3>
+                                                    <p>Learn how M365 Managed Desktop provides change management notifications, monitoring, and reporting.</p>
                                                 </div>
                                             </div>
                                         </div>
