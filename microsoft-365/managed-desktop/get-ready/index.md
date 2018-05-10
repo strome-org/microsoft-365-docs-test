@@ -1,5 +1,5 @@
 ---
-title: Get started with Microsoft 365 Managed Desktop
+title: Get ready for Microsoft 365 Managed Desktop
 description:  
 keywords: 
 ms.prod: W10
@@ -10,4 +10,4 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# Get started with Microsoft 365 Managed Desktop
+# Get ready for Microsoft 365 Managed Desktop

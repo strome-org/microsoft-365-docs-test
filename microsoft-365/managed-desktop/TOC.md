@@ -1,7 +1,7 @@
 # [Microsoft 365 Managed Desktop](index.md)
 ## [Is M365 Managed Desktop right for you?](intro/index.md)
 ### [How M365 Managed Desktop works](intro/how-managed-desktop-works.md)
-### [Prerequisites for mWaaS](intro/prerequisites.md)
+### [Prerequisites for M365 Managed Desktop](intro/prerequisites.md)
 ### [M365 Managed Desktop FAQ](intro/faq.md)
 ### [Roles and responsibilities](intro/roles-and-responsibilities.md)
 ### [Technologies and devices](intro/technologies-and-devices.md)
