@@ -2011,8 +2011,8 @@ ms.date: 05/10/2018
                         </ul>
                     </li>
                     </li>
-                    <li>
-                <a href="#help">Get help</a>
+            <li>
+                <a href="#help">Get help?</a>
                 <ul id="help">
                     <li>
                         <a data-default="true" href="#help-1">Get started</a>
