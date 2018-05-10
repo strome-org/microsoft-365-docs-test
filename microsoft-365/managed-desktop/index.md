@@ -1804,27 +1804,27 @@ ms.date: 05/10/2018
             <li>
                 <a href="#get-started">Get started</a>
                 <ul id="get-started">
-                    <li>
-                        <a data-default="true" href="#get-started-1">Set up devices</a>
-                        <ul id="get-started-1" class="cardsC">
+                      <li>
+                        <a data-default="true" href="#using-1">Working with Microsoft 365 Managed Desktop</a>
+                        <ul id="using-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Employees and other users can follow the guidance here to set up devices.</p>
+                                    <p>Start using Microsoft 365 Managed Desktop.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://support.office.com/article/d868561b-d340-4c04-a973-e2575d7f09bc" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/updates#branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-iw-devicesetup-setup-1.svg" alt="Set up mobile devices for Microsoft 365 Business users" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn how updates are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Set up mobile devices for Microsoft 365 Business users</h3>
-                                                    <p>Find out how to install Office on an iPhone or an Android phone. After you follow these steps, your work files created in Office apps will be protected by Microsoft 365 Business.</p>
+                                                    <h3>Updates</h3>
+                                                    <p>Learn how M365 Managed Desktop manages updates to devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1832,18 +1832,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://support.office.com/article/eb8244aa-a302-481a-b2b5-d34e88b18ec7" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support#branch=mswaas" target="_blank">
                                     <div class="cardSize">
-                                        <div class="cardPadding"> 
+                                        <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-iw-devicesetup-move-files-2.svg" alt="Move files to OneDrive for Business" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Learn how to get support" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Move files to OneDrive for Business</h3>
-                                                    <p>Optional. Use OneDrive for Business or a third-party tool to move files associated with your Windows profile.</p>
+                                                    <h3>Support</h3>
+                                                    <p>Learn how to get support for M365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1851,18 +1851,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://support.office.com/article/2d7ff45e-0da0-4caa-89a9-48cabf41f193" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/manage-apps#branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-windows10pc-3.svg" alt="Set up Windows 10 PCs" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn how apps are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Set up Windows 10 PCs</h3>
-                                                    <p>Join your Windows 10 PC to your organization's Azure Active Directory and sync your device to start using your Microsoft 365 Business account.</p>
+                                                    <h3>App management</h3>
+                                                    <p>Learn how apps are managed in M365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1870,18 +1870,18 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://support.office.com/article/2d7ff45e-0da0-4caa-89a9-48cabf41f193" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/operations-and-monitoring#branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management- install-4.svg" alt="Install Windows for Microsoft 365 Business users" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about notifications, monitoring, and reporting" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Install Windows for Microsoft 365 Business users</h3>
-                                                    <p>Setting up new PCs? Install Windows for Microsoft 365 Business users.</p>
+                                                    <h3>Operations and monitoring</h3>
+                                                    <p>Learn how M365 Managed Desktop provides change management notifications, monitoring, and reporting.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1890,53 +1890,6 @@ ms.date: 05/10/2018
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a data-default="true" href="#get-started-2">Product help</a>
-                        <ul id="get-started-2" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>When you're using Office or Windows and have a question about how to do something, you can search the product help for info. </p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="https://support.office.com" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="images/bcs-information-product-help-office.svg" alt="Office help and training" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Office help and training</h3>
-                                                    <p>Discover everything you need to know about Office products.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://support.microsoft.com/products/windows" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="images/bcs-information-product-help-windows10.svg" alt="Windows help" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Windows 10 help</h3>
-                                                    <p>Get help, how-to, and other info for all things Windows.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </li>
