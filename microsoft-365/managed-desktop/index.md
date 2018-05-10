@@ -34,7 +34,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-get-started-1.svg" alt="Get started with Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-get-started-1.svg" alt="Get started with Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -101,7 +101,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-upgrade-2.svg" alt="Upgrade to Windows 10" />
+                                                        <img src="images/bcs-partner-upgrade-2.svg" alt="Upgrade to Windows 10" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -120,7 +120,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-prepare-office-1.svg" alt="Prepare for Office client installation" />
+                                                        <img src="images/bcs-partner-prepare-office-1.svg" alt="Prepare for Office client installation" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -139,7 +139,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-install-2.svg" alt="Install or uninstall Office on Windows 10 devices" />
+                                                        <img src="images/bcs-partner-install-2.svg" alt="Install or uninstall Office on Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -158,7 +158,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-remove-3.svg" alt="Remove company data from devices" />
+                                                        <img src="images/bcs-partner-remove-3.svg" alt="Remove company data from devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -177,7 +177,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-reset-windows-4.svg" alt="Reset Windows 10 devices to their factory settings" />
+                                                        <img src="images/bcs-partner-reset-windows-4.svg" alt="Reset Windows 10 devices to their factory settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -206,7 +206,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-policies-set-device-config-1.svg" alt="Set device protection settings for Windows 10 PCs" />
+                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="Set device protection settings for Windows 10 PCs" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -225,7 +225,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-policies-set-device-config-1.svg" alt="Set app protection settings for Windows 10 devices" />
+                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="Set app protection settings for Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -263,7 +263,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Validate app protection settings on Android devices" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Validate app protection settings on Android devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -282,7 +282,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Validate app protection settings on iOS devices" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Validate app protection settings on iOS devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -301,7 +301,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
+                                                        <img src="images/bcs-partner-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -320,7 +320,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-policies-view-policies-2.svg" alt="View policies and devices" />
+                                                        <img src="images/bcs-partner-policies-view-policies-2.svg" alt="View policies and devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -349,7 +349,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-office-migration-1.svg" alt="Identity integration" />
+                                                        <img src="images/bcs-partner-office-migration-1.svg" alt="Identity integration" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -368,7 +368,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-identity-manager.svg" alt="Identity integration" />
+                                                        <img src="images/bcs-partner-identity-manager.svg" alt="Identity integration" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -397,7 +397,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-add-user-1.svg" alt="Add a user" />
+                                                        <img src="images/bcs-partner-advanced-management-add-user-1.svg" alt="Add a user" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -416,7 +416,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-add-domain-2.svg" alt="Add a domain and other FAQs about domains" />
+                                                        <img src="images/bcs-partner-advanced-management-add-domain-2.svg" alt="Add a domain and other FAQs about domains" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -435,7 +435,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- add-group-5.svg" alt="Add a group" />
+                                                        <img src="images/bcs-partner-advanced-management- add-group-5.svg" alt="Add a group" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -454,7 +454,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Manage passwords" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Manage passwords" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -473,7 +473,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- billing-7.svg" alt="Billing" />
+                                                        <img src="images/bcs-partner-advanced-management- billing-7.svg" alt="Billing" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -492,7 +492,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- reports-9.svg" alt="Reports" />
+                                                        <img src="images/bcs-partner-advanced-management- reports-9.svg" alt="Reports" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -511,7 +511,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-settings-8.svg" alt="Settings" />
+                                                        <img src="images/bcs-partner-advanced-management-settings-8.svg" alt="Settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -545,7 +545,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-windows10-2.svg" alt="Learn more about Windows 10" />
+                                                        <img src="images/bcs-partner-advanced-management-windows10-2.svg" alt="Learn more about Windows 10" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -564,7 +564,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
+                                                        <img src="images/bcs-partner-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -583,7 +583,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
+                                                        <img src="images/bcs-partner-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -602,7 +602,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
+                                                        <img src="images/bcs-partner-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -631,7 +631,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-technical-support-4.svg" alt="File a ticket for Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-technical-support-4.svg" alt="File a ticket for Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -650,7 +650,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- billing-7.svg" alt="Billing" />
+                                                        <img src="images/bcs-partner-advanced-management- billing-7.svg" alt="Billing" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -670,7 +670,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-troubleshooting-3.svg" alt="Find solutions for common Microsoft 365 Business issues" />
+                                                        <img src="images/bcs-partner-advanced-management-troubleshooting-3.svg" alt="Find solutions for common Microsoft 365 Business issues" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -824,7 +824,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -917,7 +917,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -936,7 +936,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -955,7 +955,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-get-started-1.svg" alt="Get started with Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-get-started-1.svg" alt="Get started with Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1072,7 +1072,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-upgrade-2.svg" alt="Upgrade to Windows 10" />
+                                                        <img src="images/bcs-partner-upgrade-2.svg" alt="Upgrade to Windows 10" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1091,7 +1091,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-prepare-office-1.svg" alt="Prepare for Office client installation" />
+                                                        <img src="images/bcs-partner-prepare-office-1.svg" alt="Prepare for Office client installation" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1110,7 +1110,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-install-2.svg" alt="Install or uninstall Office on Windows 10 devices" />
+                                                        <img src="images/bcs-partner-install-2.svg" alt="Install or uninstall Office on Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1129,7 +1129,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-remove-3.svg" alt="Remove company data from devices" />
+                                                        <img src="images/bcs-partner-remove-3.svg" alt="Remove company data from devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1148,7 +1148,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-reset-windows-4.svg" alt="Reset Windows 10 devices to their factory settings" />
+                                                        <img src="images/bcs-partner-reset-windows-4.svg" alt="Reset Windows 10 devices to their factory settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1177,7 +1177,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-policies-set-device-config-1.svg" alt="Set device protection settings for Windows 10 PCs" />
+                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="Set device protection settings for Windows 10 PCs" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1196,7 +1196,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-policies-set-device-config-1.svg" alt="Set app protection settings for Windows 10 devices" />
+                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="Set app protection settings for Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1234,7 +1234,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Validate app protection settings on Android devices" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Validate app protection settings on Android devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1253,7 +1253,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Validate app protection settings on iOS devices" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Validate app protection settings on iOS devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1272,7 +1272,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
+                                                        <img src="images/bcs-partner-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1291,7 +1291,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-policies-view-policies-2.svg" alt="View policies and devices" />
+                                                        <img src="images/bcs-partner-policies-view-policies-2.svg" alt="View policies and devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1320,7 +1320,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-office-migration-1.svg" alt="Identity integration" />
+                                                        <img src="images/bcs-partner-office-migration-1.svg" alt="Identity integration" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1339,7 +1339,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-identity-manager.svg" alt="Identity integration" />
+                                                        <img src="images/bcs-partner-identity-manager.svg" alt="Identity integration" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1368,7 +1368,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-add-user-1.svg" alt="Add a user" />
+                                                        <img src="images/bcs-partner-advanced-management-add-user-1.svg" alt="Add a user" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1387,7 +1387,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-add-domain-2.svg" alt="Add a domain and other FAQs about domains" />
+                                                        <img src="images/bcs-partner-advanced-management-add-domain-2.svg" alt="Add a domain and other FAQs about domains" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1406,7 +1406,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- add-group-5.svg" alt="Add a group" />
+                                                        <img src="images/bcs-partner-advanced-management- add-group-5.svg" alt="Add a group" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1425,7 +1425,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Manage passwords" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Manage passwords" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1444,7 +1444,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- billing-7.svg" alt="Billing" />
+                                                        <img src="images/bcs-partner-advanced-management- billing-7.svg" alt="Billing" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1463,7 +1463,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- reports-9.svg" alt="Reports" />
+                                                        <img src="images/bcs-partner-advanced-management- reports-9.svg" alt="Reports" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1482,7 +1482,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-settings-8.svg" alt="Settings" />
+                                                        <img src="images/bcs-partner-advanced-management-settings-8.svg" alt="Settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1516,7 +1516,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-windows10-2.svg" alt="Learn more about Windows 10" />
+                                                        <img src="images/bcs-partner-advanced-management-windows10-2.svg" alt="Learn more about Windows 10" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1535,7 +1535,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
+                                                        <img src="images/bcs-partner-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1554,7 +1554,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
+                                                        <img src="images/bcs-partner-advanced-management-auto-pilot-3.svg" alt="Use Windows AutoPilot to deploy Windows 10 devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1573,7 +1573,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
+                                                        <img src="images/bcs-partner-advanced-management-intune-1.svg" alt="Mapping Microsoft 365 Business protection features to Intune settings" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1592,7 +1592,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-password-3.svg" alt="Microsoft 365 Business security features" />
+                                                        <img src="images/bcs-partner-advanced-management-password-3.svg" alt="Microsoft 365 Business security features" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1621,7 +1621,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1640,7 +1640,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-technical-support-4.svg" alt="Submit a technical support request for Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-technical-support-4.svg" alt="Submit a technical support request for Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1660,7 +1660,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-troubleshooting-3.svg" alt="Find solutions for common Microsoft 365 Business issues" />
+                                                        <img src="images/bcs-partner-advanced-management-troubleshooting-3.svg" alt="Find solutions for common Microsoft 365 Business issues" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1857,7 +1857,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-windows10pc-3.svg" alt="Set up Windows 10 PCs" />
+                                                        <img src="images/bcs-partner-advanced-management-windows10pc-3.svg" alt="Set up Windows 10 PCs" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1876,7 +1876,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management- install-4.svg" alt="Install Windows for Microsoft 365 Business users" />
+                                                        <img src="images/bcs-partner-advanced-management- install-4.svg" alt="Install Windows for Microsoft 365 Business users" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1958,7 +1958,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1977,7 +1977,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1996,7 +1996,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -2029,7 +2029,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -2048,7 +2048,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -2067,7 +2067,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-eval-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
+                                                        <img src="images/bcs-partner-advanced-management-find-eval-1.svg" alt="Find a Microsoft-certified service provider" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
