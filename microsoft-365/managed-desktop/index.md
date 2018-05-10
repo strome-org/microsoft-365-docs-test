@@ -291,7 +291,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="support/microsoft-365-business-faqs.md" target="_blank">
+                                <a href="intro/faq.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -413,7 +413,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="support/microsoft-365-business-faqs.md" target="_blank">
+                                <a href="intro/faq.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -535,7 +535,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="support/microsoft-365-business-faqs.md" target="_blank">
+                                <a href="intro/faq.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
