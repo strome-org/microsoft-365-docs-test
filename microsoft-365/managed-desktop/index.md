@@ -2034,11 +2034,11 @@ ms.date: 05/10/2018
                 <a href="#help">Get help</a>
                 <ul id="help">
                     <li>
-                        <a data-default="true" href="#help-1">Get started</a>
+                        <a data-default="true" href="#help-1">Get help with your device</a>
                         <ul id="help-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Learn about Microsoft 365 Business and find out how you can start using it for your business.</p>
+                                    <p>Microsoft is ready to help you with your Microsoft 365 Managed Desktop device.</p>
                                 </div>
                             </li>
                             <li>
@@ -2048,105 +2048,18 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn more about Microsoft 365 Business" />
+                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Get help with your device" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Learn about Microsoft 365 Business</h3>
-                                                    <p>Want to learn more about Microsoft 365 Business and wondering whether it's the right solution for your business? Start here. </p>
+                                                    <h3>Get help with your device</h3>
+                                                    <p>If you need help with your Microsoft 365 Managed Desktop device, (do what?) </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="intro/faq.md" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Browse the list of frequently asked questions" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft 365 Business FAQ</h3>
-                                                    <p>Browse our list of Frequently Asked Questions.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.microsoft.com/solution-providers/search" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Find a Microsoft-certified service provider" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Find a eval</h3>
-                                                    <p>Visit the Microsoft eval Center to locate a Microsoft-certified solution provider who can help you locally or remotely. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--
-                    <li>
-                        <a data-default="true" href="#using-2" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>TBD - Introductory text</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="/media/common/placeholder.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Card 1</h3>
-                                                    <p>tbd</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="/media/common/placeholder.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Card 2</h3>
-                                                    <p>tbd</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            -->
                         </ul>
                     </li>
                 </ul>
