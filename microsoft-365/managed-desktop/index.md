@@ -47,7 +47,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="support/microsoft-365-business-faqs.md" target="_blank">
+                                <a href="intro/faq.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -169,7 +169,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="support/microsoft-365-business-faqs.md" target="_blank">
+                                <a href="intro/faq.md" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -262,7 +262,7 @@ ms.date: 05/10/2018
             </li>
              <li>
                 <a href="#bus-owner3">Business owner3</a>
-                <ul id="bus-owner3">
+                <ul id="bus-owner3">intro/faq.md
                     <li>
                         <a data-default="true" href="#bus-owner-3">Get started</a>
                         <ul id="bus-owner-3" class="cardsC">
@@ -384,7 +384,7 @@ ms.date: 05/10/2018
             </li>
              <li>
                 <a href="#bus-owner4">Business owner4</a>
-                <ul id="bus-owner4">
+                <ul id="bus-owner4">intro/faq.md
                     <li>
                         <a data-default="true" href="#bus-owner-4">Get started</a>
                         <ul id="bus-owner-4" class="cardsC">
@@ -506,7 +506,7 @@ ms.date: 05/10/2018
             </li>
              <li>
                 <a href="#bus-owner5">Business owner5</a>
-                <ul id="bus-owner5">
+                <ul id="bus-owner5">intro/faq.md
                     <li>
                         <a data-default="true" href="#bus-owner-5">Get started</a>
                         <ul id="bus-owner-5" class="cardsC">
