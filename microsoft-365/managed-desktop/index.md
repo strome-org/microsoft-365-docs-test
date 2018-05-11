@@ -1901,7 +1901,7 @@ ms.date: 05/10/2018
                         <ul id="using-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Start using Microsoft 365 Managed Desktop.</p>
+                                    <p></p>
                                 </div>
                             </li>
                             <li>
