@@ -1911,7 +1911,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn how updates are managed" />
+                                                        <img src="images/bcs-partner-reset-windows-4.svg" alt="Learn how updates are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1930,7 +1930,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Learn how to get support" />
+                                                        <img src="images/bcs-partner-advanced-management-technical-support-4.svg" alt="Learn how to get support" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1949,7 +1949,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn how apps are managed" />
+                                                        <img src="images/bcs-partner-advanced-management-intune-1.svg" alt="Learn how apps are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1968,7 +1968,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about notifications, monitoring, and reporting" />
+                                                        <img src="images/bcs-partner-policies-view-policies-2.svg" alt="Learn about notifications, monitoring, and reporting" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -2001,7 +2001,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Get help with your device" />
+                                                        <img src="images/iw-product-help-windows-help-4.svg" alt="Get help with your device" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
