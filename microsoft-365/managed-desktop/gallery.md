@@ -1,5 +1,5 @@
 ---
-title: How updates are handled in Microsoft 365 Managed Desktop
+title: gallery
 description:  
 keywords: 
 ms.prod: W10
@@ -10,7 +10,7 @@ ms.localizationpriority: high
 ms.date: 04/15/2018
 ---
 
-# How updates are handled in Microsoft 365 Managed Desktop
+# gallery
 
 | | | | |
 --- | --- | --- | ---
