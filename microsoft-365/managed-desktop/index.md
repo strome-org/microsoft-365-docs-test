@@ -2006,7 +2006,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Get help with your device</h3>
-                                                    <p>If you need help with your Microsoft 365 Managed Desktop device, (do what?) </p>
+                                                    <p>If you need help with your Microsoft 365 Managed Desktop device, (do what?) </p><br><p>Rather than a card, I think we can put one link for IT pro to the library, and then a screenshot of the Help chat app that we want people to use, with instructions.
                                                 </div>
                                             </div>
                                         </div>
