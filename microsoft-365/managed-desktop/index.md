@@ -18,8 +18,8 @@ ms.date: 05/10/2018
         <ul class="pivots">
             <li>
                 <a href="#eval">Evaluate</a>
-                                <ul id="evaluate">
-                      <li>
+                <ul id="evaluate">
+                    <li>
                         <a data-default="true" href="#eval-1">Is Microsoft 365 Managed Desktop right for you?</a>
                         <ul id="eval-1" class="cardsC">
                             <li class="fullSpan">
@@ -142,8 +142,7 @@ ms.date: 05/10/2018
                             </li>
                         </ul>
                     </li>
-                    </li>
-                </ul>
+        </ul>
             </li>
             <li>
                 <a href="#get-ready">Get ready</a>
