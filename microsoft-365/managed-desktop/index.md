@@ -1,4 +1,4 @@
---- 
+---
 layout: HubPage
 hide_bc: true
 author: jdeckerms
@@ -435,7 +435,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management- add-group-5.svg" alt="Add a group" />
+                                                        <img src="images/bcs-partner-advanced-management-add-group-5.svg" alt="Add a group" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -473,7 +473,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management- billing-7.svg" alt="Billing" />
+                                                        <img src="images/bcs-partner-advanced-management-billing-7.svg" alt="Billing" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -492,7 +492,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management- reports-9.svg" alt="Reports" />
+                                                        <img src="images/bcs-partner-advanced-management-reports-9.svg" alt="Reports" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -650,7 +650,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management- billing-7.svg" alt="Billing" />
+                                                        <img src="images/bcs-partner-advanced-management-billing-7.svg" alt="Billing" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -662,7 +662,7 @@ ms.date: 05/10/2018
                                     </div>
                                 </a>
                             </li>
-                            <!-- placeholder
+                            <!--placeholder
                             <li>
                                 <a href="#">
                                     <div class="cardSize">
@@ -674,7 +674,7 @@ ms.date: 05/10/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Troubleshoot problems - Coming soon</h3>
+                                                    <h3>Troubleshoot problems -Coming soon</h3>
                                                     <p>Find solutions for common Microsoft 365 Business issues.</p>
                                                 </div>
                                             </div>
