@@ -34,7 +34,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/icon-video" alt="What is Microsoft 365 Managed Desktop" />
+                                                        <img src="images/icon-video.svg" alt="What is Microsoft 365 Managed Desktop" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
