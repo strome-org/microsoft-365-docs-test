@@ -1819,7 +1819,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-learn-about-1.svg" alt="Learn how to prepare your apps" />
+                                                        <img src="images/bcs-partner-advanced-management-settings-8.svg" alt="Learn how to prepare your apps" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1838,7 +1838,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Learn how to order devices" />
+                                                        <img src="images/bcs-partner-get-started-1.svg" alt="Learn how to order devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1857,7 +1857,7 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about the device configuration policies" />
+                                                        <img src="images/admin-devices-intune-6.svg" alt="Learn about the device configuration policies" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1876,12 +1876,12 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-find-partner-1.svg" alt="Learn about security enforcements" />
+                                                        <img src="images/admin-security-security-compliance-o365.svg" alt="Learn about security enforcement" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Security</h3>
-                                                    <p>Learn about the security enforcment for M365 Managed Desktop devices.</p>
+                                                    <p>Learn about the security enforcement for M365 Managed Desktop devices.</p>
                                                 </div>
                                             </div>
                                         </div>
