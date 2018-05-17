@@ -234,12 +234,12 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-install-4.svg" alt="Device management" />
+                                                        <img src="images/bcs-partner-advanced-management-find-partner-2.svg" alt="Authentication" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Device management</h3>
-                                                    <p>Learn how to meet the device management prerequisite.</p>
+                                                    <h3>Authentication</h3>
+                                                    <p>Learn how to meet the authentication prerequisite.</p>
                                                 </div>
                                             </div>
                                         </div>
