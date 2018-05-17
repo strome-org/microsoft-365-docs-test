@@ -459,7 +459,7 @@ ms.date: 05/10/2018
                 <a href="#help">Get help</a>
                 <ul id="help">                    
                     <li>
-                        <a data-default="true" href="#help-1">Get help with your device</a>
+                        <a data-default="true" href="#help-1"></a>
                         <ul id="help-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
