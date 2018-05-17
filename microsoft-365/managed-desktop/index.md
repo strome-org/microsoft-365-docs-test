@@ -24,7 +24,7 @@ ms.date: 05/10/2018
                         <ul id="eval-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>placeholder</p>
+                                    <p></p>
                                 </div>
                             </li>
                             <li>
@@ -46,7 +46,6 @@ ms.date: 05/10/2018
                                     </div>
                                 </a>
                             </li>
-                        </li>
                             <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/how-managed-desktop-works" target="_blank">
                                     <div class="cardSize">
