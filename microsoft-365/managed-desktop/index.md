@@ -14,7 +14,7 @@ ms.date: 05/10/2018
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Microsoft 365 Managed Desktop documentation and resources</h1>
+        <h1>Microsoft 365 Managed Desktop documentation and resources </h1>
         <ul class="pivots">
             <li>
                 <a href="#eval">Evaluate</a>
