@@ -453,6 +453,7 @@ ms.date: 05/10/2018
                         </ul>
                     </li>
                     </li>
+            </li>
             <li>
                 <a href="#help">Get help</a>
                 <ul id="help">                    
