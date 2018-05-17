@@ -142,6 +142,7 @@ ms.date: 05/10/2018
                             </li>
                         </ul>
                     </li>
+                </ul>
             </li>
             <li>
                 <a href="#get-ready">Get ready</a>
