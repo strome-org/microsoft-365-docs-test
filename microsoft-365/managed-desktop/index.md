@@ -463,7 +463,7 @@ ms.date: 05/10/2018
                         <ul id="helpa-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p></p>
+                                    <p>test help</p>
                                 </div>
                             </li>
                             <li>
