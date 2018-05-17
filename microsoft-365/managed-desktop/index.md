@@ -456,11 +456,11 @@ ms.date: 05/10/2018
                 </ul>
             </li>
             <li>
-                <a href="#help">Get help</a>
-                <ul id="help">                    
+                <a href="#helpa">Get help</a>
+                <ul id="helpa">                    
                     <li>
-                        <a data-default="true" href="#help-1"></a>
-                        <ul id="help-1" class="cardsC">
+                        <a data-default="true" href="#helpa-1"></a>
+                        <ul id="helpa-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p></p>
