@@ -455,30 +455,30 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-            <li>
-                <a href="#helpa">Get help</a>
-                <ul id="helpa">                    
+ <li>
+                <a href="#using2">Using</a>
+                <ul id="using2">
                     <li>
-                        <a data-default="true" href="#helpa-1"></a>
-                        <ul id="helpa-1" class="cardsC">
+                        <a data-default="true" href="#using2-1">Working with Microsoft 365 Managed Desktop</a>
+                        <ul id="using2-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>test help</p>
+                                    <p></p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/updates?branch=mswaas" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/iw-product-help-windows-help-4.svg" alt="Get help with your device" />
+                                                        <img src="images/bcs-partner-reset-windows-4.svg" alt="Learn how updates are managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Get help with your device</h3>
-                                                    <p>If you need help with your Microsoft 365 Managed Desktop device, (do what?) </p><br><p>Rather than a card, I think we can put one link for IT pro to the library, and then a screenshot of the Help chat app that we want people to use, with instructions.</p>
+                                                    <h3>Updates</h3>
+                                                    <p>Learn how M365 Managed Desktop manages updates to devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -486,6 +486,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                         </ul>
+                    </li>
                     </li>
                 </ul>
             </li>
