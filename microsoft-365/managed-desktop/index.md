@@ -161,6 +161,97 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-faq-2.svg" alt="Licensing" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Licensing</h3>
+                                                    <p>Learn how to meet the licensing prerequisite.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-ready/?branch=mswaas" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-add-domain-2.svg" alt="Azure Active Directory" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Active Directory</h3>
+                                                    <p>Learn how to meet the Azure AD prerequisite.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-ready/?branch=mswaas" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-office-migration-1.svg" alt="Office 365" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office 365</h3>
+                                                    <p>Learn how to meet the Office 365 prerequisite.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-ready/?branch=mswaas" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-intune-1.svg" alt="Connectivity" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Connectivity</h3>
+                                                    <p>Learn how to meet the connectivity prerequisite.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-ready/?branch=mswaas" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-install-4.svg" alt="Device management" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Device management</h3>
+                                                    <p>Learn how to meet the device management prerequisite.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-ready/?branch=mswaas" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
                                                         <img src="images/bcs-partner-advanced-management-install-4.svg" alt="Device management" />
                                                     </div>
                                                 </div>
