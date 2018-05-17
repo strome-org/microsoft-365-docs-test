@@ -484,6 +484,25 @@ ms.date: 05/10/2018
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=mswaas" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/iw-product-help-windows-help-4.svg" alt="Get help with your device" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Get help with your device</h3>
+                                                    <p>If you need help with your Microsoft 365 Managed Desktop device, (do what?) </p><br><p>Rather than a card, I think we can put one link for IT pro to the library, and then a screenshot of the Help chat app that we want people to use, with instructions.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
