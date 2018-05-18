@@ -28,7 +28,7 @@ ms.date: 05/10/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -47,7 +47,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/how-managed-desktop-works" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/how-managed-desktop-works?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -192,7 +192,7 @@ ms.date: 05/10/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/apps?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/apps?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -211,7 +211,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/devices?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/devices?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -230,7 +230,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/device-configuration?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/device-configuration?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -249,7 +249,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/security?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/security?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -284,7 +284,7 @@ ms.date: 05/10/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/updates?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/updates?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -303,7 +303,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -322,7 +322,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/manage-apps?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/manage-apps?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -341,7 +341,7 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/operations-and-monitoring?branch=mswaas" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/operations-and-monitoring?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
