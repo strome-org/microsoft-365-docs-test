@@ -456,11 +456,11 @@ ms.date: 05/10/2018
                 </ul>
             </li>
  <li>
-                <a href="#using2">Using</a>
-                <ul id="using2">
+                <a href="#get-help">Get help</a>
+                <ul id="get-help">
                     <li>
-                        <a data-default="true" href="#using2-1">Working with Microsoft 365 Managed Desktop</a>
-                        <ul id="using2-1" class="cardsC">
+                        <a data-default="true" href="#get-help-1">Get help for your device</a>
+                        <ul id="get-help-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p></p>
@@ -473,12 +473,12 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-reset-windows-4.svg" alt="Learn how updates are managed" />
+                                                        <img src="images/iw-product-help-windows-help-4.svg" alt="Get help for your device" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Updates</h3>
-                                                    <p>Learn how M365 Managed Desktop manages updates to devices.</p>
+                                                    <h3>Get help</h3>
+                                                    <p>Ideally, let's use a screenshot of the chat app that end users will have</p>
                                                 </div>
                                             </div>
                                         </div>
