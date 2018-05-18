@@ -83,7 +83,7 @@ ms.date: 09/25/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/microsoft-365/managed-desktop/" target="blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/?branch=v1hub" target="blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
