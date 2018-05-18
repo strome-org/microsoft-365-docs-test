@@ -467,7 +467,7 @@ ms.date: 05/10/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/updates?branch=v1" target="_blank">
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
