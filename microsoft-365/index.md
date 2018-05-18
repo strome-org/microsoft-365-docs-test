@@ -5,7 +5,7 @@ author: CelesteDG
 localization_priority: Normal
 ms.author: celested
 ms.topic: hub-page
-keywords: Microsoft 365, Microsoft 365 documentation, Microsoft 365 for business, Microsoft 365 for enterprise, Microsoft 365 for education, enterprise, business, education, docs, documentation, Microsoft 365 Managed Desktop
+keywords: Microsoft 365, Microsoft 365 documentation, Microsoft 365 for business, Microsoft 365 for enterprise, Microsoft 365 for education, enterprise, business, education, docs, documentation
 title: Microsoft 365 Documentation
 description: Find documentation and resources for Microsoft 365--a complete, intelligent solution, including Office 365, Windows 10, and Enterprise Mobility + Security, that empowers everyone to be creative and work together, securely. 
 ms.date: 09/25/2017
@@ -76,26 +76,6 @@ ms.date: 09/25/2017
                                                     <br />
                                                     <h3>Microsoft 365 Education</h3>
                                                     <p>Microsoft 365 Education empowers educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/microsoft-365/managed-desktop/" target="blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="Microsoft 365 Managed Desktop documentation and resources" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <br />
-                                                    <h3>Microsoft 365 Managed Desktop</h3>
-                                                    <p>Microsoft 365 Managed Desktop combines Microsoft 365 with device-as-a-service and IT-as-a-service to provide a complete solution for your business.</p>
                                                 </div>
                                             </div>
                                         </div>
