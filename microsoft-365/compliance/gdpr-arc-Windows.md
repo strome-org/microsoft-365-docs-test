@@ -36,7 +36,7 @@ The customer should document the purpose for which personal data is processed.
 
 A description of the processing Microsoft performs for you, and the purposes of that processing, that can be included in your accountability documentation.
 * GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
-* Product  Terms ([*1*](#1)), see *Processing of Personal Data*; GDPR ([*1*](#1))
+* Product  Terms <sup>([*1*](#1))</sup>, see *Processing of Personal Data*; GDPR <sup>([*1*](#1))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -52,7 +52,7 @@ The customer should understand any requirements related to the lawful basis of p
 
 A description of processing personal data by Microsoft Windows, including how your users can control personal data.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -69,7 +69,7 @@ The customer should understand legal or regulatory requirements for obtaining co
 
 Microsoft Windows does not provide direct support for gaining user consent for applications. For an explanation of how Windows allows users to control personal data see:
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 (6)(1)(a), (8)(1), (8)(2)
@@ -84,7 +84,7 @@ When it is determined to be required, the customer should appropriately obtain c
 
 Microsoft Windows does not provide direct support for gaining user consent for applications. For an explanation of how Windows allows users to control personal data see:
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Privacy Consent*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Privacy Consent*
 
 #### Addresses GDPR Article(s)
 
@@ -100,7 +100,7 @@ The customer should be aware of requirements for completing privacy impact asses
 
 How Microsoft Windows determines when to perform a DPIA, and an overview of the DPIA program at Microsoft including the involvement of the DPO, is provided n the Service Trust Portal Data Protection Impact Assessments (DPIAs) page. For support for your DPIAs when deploying Windows see:
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -116,7 +116,7 @@ The customer should ensure that their contracts with processors include requirem
 
 The Microsoft contracts that require us to aid with your obligations under the GDPR, including support for the data subject's rights.
 
-* Product Terms see *19. Processing of Personal Data*; GDPR ([*1*](#1))
+* Product Terms see *19. Processing of Personal Data*; GDPR <sup>([*1*](#1))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -132,7 +132,7 @@ The customer should maintain all necessary and required records related to proce
 
 The tools provided by Microsoft Windows to help you maintain the records necessary demonstrate compliance and support for accountability under the GDPR.
 
-* Windows and GDPR Records ([*16*](#16))
+* Windows and GDPR Records <sup>([*16*](#16))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -150,7 +150,7 @@ The customer should understand requirements around the rights of individuals rel
 
 The capabilities Microsoft provides to help you support data subject rights.
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
 
 #### Addresses GDPR Article(s)
 
@@ -178,8 +178,8 @@ Where the customer uses third-party systems or processors, they should determine
 
 Information about Microsoft Windows that you can include in the data you provide to data subjects.
 
-* Windows Data Subject Requests for the GDPR  ([*9*](#9))
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* Windows Data Subject Requests for the GDPR  <sup>([*9*](#9))/sup>
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -195,8 +195,8 @@ The customer should comply with any requirements around how/when/in what form th
 
 Information about Microsoft Windows that you can include in the data you provide to data subjects.
 
-* Windows Data Subject Requests for the GDPR  ([*9*](#9))
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* Windows Data Subject Requests for the GDPR  <sup>([*9*](#9))/sup>
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -212,8 +212,8 @@ The customer should understand requirements for informing users about their righ
 
 Information about capabilities in Microsoft Windows that you can use when defining the information you provide to data subjects when requesting consent.
 
-* Windows Data Subject Requests for the GDPR  ([*9*](#9))
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Privacy Consent* 
+* Windows Data Subject Requests for the GDPR  <sup>([*9*](#9))/sup>
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Privacy Consent* 
 
 #### Addresses GDPR Article(s)
 
@@ -229,7 +229,7 @@ The customer should understand requirements around rights of data subjects. Wher
 
 Information about Microsoft Windows relating to object to processing that you can include in the data you provide to data subjects.
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9)) 
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup> 
 
 #### Addresses GDPR Article(s)
 
@@ -245,7 +245,7 @@ The customer should understand requirements for notifying third-parties with who
 
 Information about capabilities in Microsoft Windows that allow you to discover personal data that you have shared with third parties.
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
 
 #### Addresses GDPR Article(s)
 
@@ -261,7 +261,7 @@ The customer should understand requirements for informing users about their righ
 
 Information about Microsoft Windows relating to their ability to access, correct or erase personal data that you can include in the data you provide to data subjects.
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
 
 #### Addresses GDPR Article(s)
 
@@ -277,7 +277,7 @@ The customer should understand requirements around providing a copy of the perso
 
 Information about capabilities in Microsoft Windows to allow you to obtain a copy of their personal data that you can include in the data you provide to data subjects.
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
 
 #### Addresses GDPR Article(s)
 
@@ -293,8 +293,8 @@ The customer should understand requirements for accepting and responding to legi
 
 Information about capabilities in Microsoft Windows that you can use when defining the information you provide to data subjects as you manage data subject requests.
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -310,7 +310,7 @@ The customer should understand requirements around automated personal data proce
 
 Information about any capabilities in Microsoft Windows for that might support automated decision making that you can use in your accountability documentation, and templated information for data subjects about those capabilities.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -328,8 +328,8 @@ The customer should understand requirements around limits on collection of perso
 
 A description of the data collected by Microsoft Windows.
 
-* Product Terms see *19. Processing of Personal Data*; GDPR ([*1*](#1))
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Personal data we collect*
+* Product Terms see *19. Processing of Personal Data*; GDPR <sup>([*1*](#1))</sup>
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Personal data we collect*
 
 #### Addresses GDPR Article(s)
 
@@ -345,8 +345,8 @@ The customer is responsible for limiting the processing of personal data so that
 
 A description of the data collected by Microsoft Windows.
 
-* Product Terms ([*1*](#1)) see *19. Processing of Personal Data*; GDPR ([*1*](#1))
-*  GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* Product Terms <sup>([*1*](#1))</sup> see *19. Processing of Personal Data*; GDPR <sup>([*1*](#1))</sup>
+*  GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -362,7 +362,7 @@ The customer should understand requirements around de-identification of personal
 
 Windows does not support de-identification of the data you control. For information about de-identification of data Windows collects see:
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Personal data we collect*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Personal data we collect*
 
 #### Addresses GDPR Article(s)
 
@@ -378,7 +378,7 @@ The customer should use and comply with de-identification objectives and methods
 
 Windows does not support de-identification of the data you control. For information about de-identification of data Windows collects see:
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Personal data we collect*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Personal data we collect*
 
 #### Addresses GDPR Article(s)
 
@@ -394,7 +394,7 @@ The customer should understand requirements around the retention of personal dat
 
 Capabilities provided by Microsoft Windows to support your data retention policies.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Data retention and storage* 
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Data retention and storage* 
 
 #### Addresses GDPR Article(s)
 
@@ -410,7 +410,7 @@ The customer should be aware of temporary files that may be created by the syste
 
 A description of capabilities provided by the service to identify personal data to support your temporary file policies. 
 
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
 
 #### Addresses GDPR Article(s)
 
@@ -426,7 +426,7 @@ The customer should determine how long personal data should be retained, taking 
 
 Information about the retention of personal data by Microsoft Windows that you can include in documentation provided to data subjects.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Data retention and storage*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Data retention and storage*
 
 #### Addresses GDPR Article(s)
 
@@ -442,7 +442,7 @@ The customer should utilize any deletion or disposal mechanisms provided by the 
 
 Capabilities provided by Microsoft Windows to support your data deletion policies.
 
-* GDPR Considerations for Data Controllers Using Windows  ([*9*](#9)) 
+* GDPR Considerations for Data Controllers Using Windows  <sup>([*9*](#9))/sup> 
 
 #### Addresses GDPR Article(s)
 
@@ -457,7 +457,7 @@ The customer should be aware of requirements around the accuracy of personal dat
 #### Supporting Microsoft Documentation
 
 How Microsoft Windows supports the accuracy of personal data, and any capabilities they provide to support your data accuracy policy, or review and editing by users.
-* Windows Data Subject Requests for the GDPR ([*9*](#9))
+* Windows Data Subject Requests for the GDPR <sup>([*9*](#9))/sup>
 
 #### Addresses GDPR Article(s)
 
@@ -473,8 +473,8 @@ The customer should understand requirements around safeguarding the transmission
 
 A description of the types of personal data that are transferred by Microsoft Windows and the locations they are transferred between, and the legal safeguards for the transfer.
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) see *Data security*
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> see *Data security*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -490,7 +490,7 @@ The customer should be aware of requirements for transferring personal data (PII
 
 A description of the types of personal data that are transferred by Microsoft Windows and the locations they are transferred between, and the legal safeguards for the transfer.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -506,7 +506,7 @@ The customer should understand, and be able to provide to the individual, the co
 
 A description of the types of personal data that are transferred by Microsoft Windows and the locations they are transferred between, and the legal safeguards for the transfer.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -522,7 +522,7 @@ The customer should maintain all necessary and required records related to trans
 
 A description of the types of personal data that are transferred by Microsoft Windows and the locations they are transferred between, and the legal safeguards for the transfer.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -538,8 +538,8 @@ The customer should understand requirements around recording to whom personal da
 
 Documentation provided about the categories of recipients of disclosures of personal data including available records of disclosure.
  
-* Who can access your data and on what terms ([*7*](#7)) 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Data sharing with third parties*
+* Who can access your data and on what terms <sup>([*7*](#7))</sup> 
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Data sharing with third parties*
 
 #### Addresses GDPR Article(s)
 
@@ -555,7 +555,7 @@ The customer should determine whether they are a joint controller with any other
 
 Documentation of Microsoft Windows as a controller of personal information, including information that can be included in documentation to data subjects. 
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -573,7 +573,7 @@ Customers should determine their role in processing personal data (e.g. controll
 
 How Microsoft considers each service as either a processor or controller when processing personal data.
 
-* Microsoft Online Services Terms, Data Protection Terms, see *Processing of Personal Data*; GDPR, Processor and Controller Roles and Responsibilities ([*1*](#1))
+* Microsoft Online Services Terms, Data Protection Terms, see *Processing of Personal Data*; GDPR, Processor and Controller Roles and Responsibilities <sup>([*1*](#1))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -589,7 +589,7 @@ Customers should identify parties that may have a role or interest in their proc
 
 How Microsoft incorporates the views of all stakeholders in consideration of the risks involved in the processing of personal data. 
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -605,7 +605,7 @@ As part of any overall security or privacy program that a customer may have, the
 
 How Microsoft Windows includes the processing of personal data in information security management and privacy programs.
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) see *Data security*
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> see *Data security*
 
 #### Addresses GDPR Article(s)
 
@@ -621,7 +621,7 @@ Customers should consider the handling of personal data as part of any risk asse
 
 How Microsoft Windows considers the risks specific to the processing of personal data as part of their overall security and privacy program. 
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) see *Data security*
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> see *Data security*
 
 #### Addresses GDPR Article(s)
 
@@ -637,8 +637,8 @@ The customer should augment any existing information security policies to includ
 
 Microsoft policies for information security and any specific measures for the protection of personal information. 
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) see Data  security
-* Microsoft Cloud Security Policy ([*4*](#4))
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> see Data  security
+* Microsoft Cloud Security Policy <sup>([*4*](#4))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -650,8 +650,8 @@ The customer should, within their organization, define responsibilities for secu
 
 #### Supporting Microsoft Documentation
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) see *Data security*
-* Microsoft Security Policy ([*4*](#4)) see *03. Human Resources Security*
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> see *Data security*
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see *03. Human Resources Security*
 
 #### Addresses GDPR Article(s)
 
@@ -667,8 +667,8 @@ The customer should determine and assign responsibility for providing relevant t
 
 An overview of the role of Microsoft's Data Protection Officer, the nature of his duties, reporting structure and contact information. 
 
-* Microsoft Security Policy ([*4*](#4)) see *03. Human Resources Security*
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Responsibilities of the EU Data Protection Officer* 
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see *03. Human Resources Security*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Responsibilities of the EU Data Protection Officer* 
 
 #### Addresses GDPR Article(s)
 
@@ -684,7 +684,7 @@ The customer should explicitly consider personal data as part of a data classifi
 
 How Microsoft considers personal data in data classification, tagging and tracking information.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Data tagging and tracking*
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Data tagging and tracking*
 
 #### Addresses GDPR Article(s)
 
@@ -700,7 +700,7 @@ The customer should determine internal policies for the use of removeable media 
 
 How Microsoft Windows protects the security of personal information on any removeable media. 
 
-* FedRAMP Moderate FedRAMP System Security Plan ([*3*](#3)) see *13.10 Media Protection (MP)*
+* FedRAMP Moderate FedRAMP System Security Plan <sup>([*3*](#3))</sup> see *13.10 Media Protection (MP)*
 
 #### Addresses GDPR Article(s)
 
@@ -716,7 +716,7 @@ The customer should determine internal policies for protecting personal data whe
 
 How Microsoft Windows protects personal data during any transfer of physical media.
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) see *Data security*
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> see *Data security*
 
 #### Addresses GDPR Article(s)
 
@@ -814,7 +814,7 @@ utilize encryption as needed, using the tools available to them.
 
 How Microsoft Windows supports encryption and pseudonymization to reduce the risk of processing personal data. 
 
-* Data Protection, Security, and Assessment for Window ([*2*](#2)) see *Data security*
+* Data Protection, Security, and Assessment for Window <sup>([*2*](#2))</sup> see *Data security*
 #### Addresses GDPR Article(s)
 
 (32)(1)(a)
@@ -829,7 +829,7 @@ Where the customer uses cloud computing services (PaaS, SaaS, IaaS) they should 
 
 How Microsoft Windows ensures that personal data is erased from storage equipment before that equipment is transferred or reused. 
 
-* Data Protection, Security, and Assessment for Window ([*2*](#2))
+* Data Protection, Security, and Assessment for Window <sup>([*2*](#2))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -845,7 +845,7 @@ The customer should consider risks around hardcopy material that displays person
 
 What Microsoft implements to manage hardcopy.
 
-* Data Protection, Security, and Assessment for Window ([*2*](#2))
+* Data Protection, Security, and Assessment for Window <sup>([*2*](#2))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -861,7 +861,7 @@ The customer should consider the implications of using personal data in developm
 
 How Microsoft ensures that personal data is protected in development and test environments. 
 
-* Microsoft Azure (All-Up) ISO/IEC 27001:2013 ISMS Statement of Applicability ([*13*](#13)) see *A.12.1.4*
+* Microsoft Azure (All-Up) ISO/IEC 27001:2013 ISMS Statement of Applicability <sup><sup>([*13*](#13))</sup></sup> see *A.12.1.4*
 * Azure Standard Response to RFI on Security, Privacy, and Compliance see *DSI-05*
 
 #### Addresses GDPR Article(s)
@@ -897,7 +897,7 @@ related to personal data that they deem necessary.
 The data Microsoft service records for you, including user activities, exceptions, faults and information security events, and how you can access those 
 logs for use as part of your record keeping. 
 
-* Azure Security Documentation ([*2*](#2)) see *Document protection of personal data with Azure reporting tools*
+* Azure Security Documentation <sup>([*2*](#2))</sup> see *Document protection of personal data with Azure reporting tools*
 
 #### Addresses GDPR Article(s)
 
@@ -913,7 +913,7 @@ The customer should consider requirements for protecting log information that ma
 
 How Microsoft protects logs that may contain personal data.
 
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11)) see *Data retention and storage* 
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup> see *Data retention and storage* 
 
 #### Addresses GDPR Article(s)
 
@@ -929,7 +929,7 @@ The customer should have procedures for cases where personal data may be transfe
 
 How Microsoft Windows transfers physical media that may contain personal data, including the circumstances when transfer might occur, and the protective measures taken to protect the data. 
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2))
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup>
 * Microsoft Cloud Security Policy see 04-03 Asset handling
 
 #### Addresses GDPR Article(s)
@@ -946,7 +946,7 @@ The customer should determine the need for confidentiality agreements or the equ
 
 How Microsoft Windows ensures that individuals with authorized access to personal data have committed themselves to confidentiality. 
 
-* Microsoft Security Policy ([*4*](#4)) see *03-04: Confidentiality and Nondisclosure Agreements* 
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see *03-04: Confidentiality and Nondisclosure Agreements* 
 
 #### Addresses GDPR Article(s)
 
@@ -964,7 +964,7 @@ mechanisms to encrypt data, the customer should utilize those mechanisms where n
 Description of the measures Microsoft Windows takes to protect data in transit, including encryption of the data, and how Microsoft Windows protects data 
 that may contain personal data as it passes through public data networks, including any encryption measures. 
 
-* Microsoft Security Policy ([*4*](#4)) see 09-02: Secure Communication Channels
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see 09-02: Secure Communication Channels
 
 #### Addresses GDPR Article(s)
 
@@ -980,8 +980,8 @@ The customer should understand how systems are designed and engineered to consid
 
 How Microsoft Windows includes personal data protection principles as a mandatory part of our secure design/engineering principles. 
 
-* Data Protection, Security, and Assessment for Window ([*2*](#2)) see *Data security*
-* Microsoft Security Policy ([*4*](#4)) see *10 Systems Acquisition, Development, and Maintenance*
+* Data Protection, Security, and Assessment for Window <sup>([*2*](#2))</sup> see *Data security*
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see *10 Systems Acquisition, Development, and Maintenance*
 * Software Development Security and Integrity
 
 #### Addresses GDPR Article(s)
@@ -998,7 +998,7 @@ The customer should ensure that any information security and personal data prote
 
 How Microsoft Windows addresses security and data protection in our agreements with our suppliers and how we ensure those agreements are effectively implemented.
 
-* Who can access your data and on what terms ([*7*](#7)) 
+* Who can access your data and on what terms <sup>([*7*](#7))</sup> 
 
 #### Addresses GDPR Article(s)
 
@@ -1014,7 +1014,7 @@ The customer should have processes for determining when a personal data breach h
 
 How Microsoft Windows determines if a security incident is a breach of personal data, and how we communicate the breach to you. 
 
-* Windows and Breach Notification Under the GDPR ([*10*](#10))
+* Windows and Breach Notification Under the GDPR <sup>([*10*](#10))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -1030,7 +1030,7 @@ The customer should understand and document their responsibilities during a data
 
 How to notify Microsoft Windows if you detect a security incident or breach of personal data. 
 
-* Windows and Breach Notification Under the GDPR ([*10*](#10))
+* Windows and Breach Notification Under the GDPR <sup>([*10*](#10))</sup>
 
 
 #### Addresses GDPR Article(s)
@@ -1047,7 +1047,7 @@ The customer should have processes for determining when a personal data breach h
 
 Description of the information Microsoft Windows provides to help you decide if a breach of personal data has occurred. 
 
-* Windows and Breach Notification Under the GDPR ([*10*](#10))
+* Windows and Breach Notification Under the GDPR <sup>([*10*](#10))</sup>
 
 #### Addresses GDPR Article(s)
 
@@ -1064,8 +1064,8 @@ The customer should understand the requirements for records related to personal 
 
 How Microsoft Windows stores records relating to the processing of personal data. 
 
-* Windows and GDPR Records ([*16*](#16))  see Records storage 
-* Microsoft Security Policy ([*4*](#4)) see 08-07 Event Logging
+* Windows and GDPR Records <sup>([*16*](#16))</sup>  see Records storage 
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see 08-07 Event Logging
 
 #### Addresses GDPR Article(s)
 
@@ -1083,8 +1083,8 @@ other measures for assessing the security of processing. Where the customer is d
 How Microsoft Windows tests and assesses the effectiveness of technical and organizational measures to ensure the security of processing, including any 
 audits by third parties.
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) Audit
-* Microsoft Security Policy ([*4*](#4)) see *14-04: Security Performance Assessment*
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> Audit
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see *14-04: Security Performance Assessment*
 
 #### Addresses GDPR Article(s)
 
@@ -1102,8 +1102,8 @@ penetration testing. Where the customer uses a third-party system or processor, 
 How Microsoft Windows tests security based on identified risks, including tests by third parties, and the types of technical tests and any available 
 reports from the tests. 
 
-* Data Protection, Security, and Assessment for Windows ([*2*](#2)) Audit
-* Microsoft Security Policy ([*4*](#4)) see *14-04: Security Performance Assessment*
+* Data Protection, Security, and Assessment for Windows <sup>([*2*](#2))</sup> Audit
+* Microsoft Security Policy <sup>([*4*](#4))</sup> see *14-04: Security Performance Assessment*
 
 #### Addresses GDPR Article(s)
 
@@ -1111,22 +1111,18 @@ reports from the tests.
 
 ## Resources referenced in this topic
 
-* <a id="1"></a>1 [Product Terms](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=53)
-* <a id="2"></a>2 [Data Protection, Security, and Assessment for Windows]()
-* <a id="2a"></a>2a
-* <a id="3"></a>3	
-* <a id="4"></a>4 [Microsoft Security Policy](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&* downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* <a id="5"></a>5	
-* <a id="6"></a>6	
-* <a id="7"></a>7 [Who can access your data and on what terms?](https://www.microsoft.com/en-us/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms)
-* <a id="8"></a>8 [Contracts for sub-processors: Contracting with Microsoft](https://www.microsoft.com/en-us/procurement/supplier-contracting.aspx)
-* <a id="9"></a>9 [Windows Data Subject Requests for the GDPR](https://aka.ms/DSRWindows)
-* <a id="10"></a>10 [Windows and Breach Notification Under the GDPR](https://aka.ms/BreachWindows)
-* <a id="11"></a>11 [GDPR Considerations for Data Controllers Using Windows]()
-* <a id="14"></a>14 [Microsoft Trust Center Compliance offerings](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
-* <a id="16"></a>16 [Windows and GDPR Records]()
-* <a id="17"></a>17 [Operational Security Assurance]()
-
-
-
-
+* <a id="1"></a><sup>1</sup> [Product Terms](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=53)
+* <a id="2"></a><sup>2</sup> [Data Protection, Security, and Assessment for Windows]()
+* <a id="2a"></a><sup>2a</sup>
+* <a id="3"></a><sup>3</sup>
+* <a id="4"></a><sup>4 [Microsoft Security Policy](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&* downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* <a id="5"></a><sup>5</sup>	
+* <a id="6"></a><sup>6</sup>	
+* <a id="7"></a><sup>7</sup> [Who can access your data and on what terms?](https://www.microsoft.com/en-us/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms)
+* <a id="8"></a><sup>8</sup> [Contracts for sub-processors: Contracting with Microsoft](https://www.microsoft.com/en-us/procurement/supplier-contracting.aspx)
+* <a id="9"></a><sup>9</sup> [Windows Data Subject Requests for the GDPR](https://aka.ms/DSRWindows)
+* <a id="10"></a><sup>10</sup> [Windows and Breach Notification Under the GDPR](https://aka.ms/BreachWindows)
+* <a id="11"></a><sup>11</sup> [GDPR Considerations for Data Controllers Using Windows]()
+* <a id="14"></a><sup>14</sup> [Microsoft Trust Center Compliance offerings](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
+* <a id="16"></a><sup>16</sup> [Windows and GDPR Records]()
+* <a id="17"></a><sup>17</sup> [Operational Security Assurance]()
