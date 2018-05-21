@@ -35,7 +35,7 @@ The customer should document the purpose for which personal data is processed.
 #### Supporting Microsoft documentation
 
 A description of the processing Microsoft performs for you, and the purposes of that processing, that can be included in your accountability documentation.
-* GDPR Considerations for Data Controllers Using Windows ([*11*](#11))
+* GDPR Considerations for Data Controllers Using Windows <sup>([*11*](#11))</sup>
 * Product  Terms ([*1*](#1)), see *Processing of Personal Data*; GDPR ([*1*](#1))
 
 #### Addresses GDPR Article(s)
