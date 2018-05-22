@@ -62,4 +62,4 @@ All Microsoft employees who have access to personal data from Windows are requir
 
 ## International transfers
 
-Microsoft transfers data collected by Windows from the European Economic Area (EEA) and Switzerland to other locations. When we do so, we adhere to the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks as set forth by the US Department of Commerce regarding the collection, use, and retention of personal information transferred from the EEA and Switzerland to the United States. To view Microsoft’s Privacy Shield certification, please visit https://www.privacyshield.gov/list.
+Microsoft transfers data collected by Windows from the European Economic Area (EEA) and Switzerland to other locations. When we do so, we adhere to the EU-US and Swiss-US Privacy Shield Frameworks as set forth by the US Department of Commerce regarding the collection, use, and retention of personal information transferred from the EEA and Switzerland to the United States. To view Microsoft’s Privacy Shield certification, please visit https://www.privacyshield.gov/list.
