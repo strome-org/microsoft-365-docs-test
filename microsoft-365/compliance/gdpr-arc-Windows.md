@@ -1,15 +1,13 @@
 ---
 title: Windows accountability readiness checklist for the GDPR
 description: Provides a convenient way to access information you may need to support GDPR when using Windows.
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 documentation, GDPR
-author: BrendaCarter
-localization_priority: Priority
+keywords: Microsoft 365, Microsoft 365 documentation, GDPR, Windows
+author: DaniHalfin
 audience: microsoft-business
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 05/24/2018
-ms.author: bcarter
-manager: laurawi
+ms.author: daniha
 audience: itpro
 ms.collection: GDPR
 ---
@@ -1112,7 +1110,7 @@ reports from the tests.
 ## Resources referenced in this topic
 
 * <a id="1"></a><sup>1</sup> [Product Terms](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=53)
-* <a id="2"></a><sup>2</sup> [Data Protection, Security, and Assessment for Windows]()
+* <a id="2"></a><sup>2</sup> [Data protection, security, and assessment for Windows](gdpr-data-protection-security-assessment-for-windows.md)
 * <a id="2a"></a><sup>2a</sup>
 * <a id="3"></a><sup>3</sup>
 * <a id="4"></a><sup>4 [Microsoft Security Policy](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&* downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
@@ -1124,5 +1122,5 @@ reports from the tests.
 * <a id="10"></a><sup>10</sup> [Windows and Breach Notification Under the GDPR](https://aka.ms/BreachWindows)
 * <a id="11"></a><sup>11</sup> [GDPR Considerations for Data Controllers Using Windows]()
 * <a id="14"></a><sup>14</sup> [Microsoft Trust Center Compliance offerings](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)
-* <a id="16"></a><sup>16</sup> [Windows and GDPR Records]()
+* <a id="16"></a><sup>16</sup> [Windows and GDPR Records](gdpr-records-Windows.md)
 * <a id="17"></a><sup>17</sup> [Operational Security Assurance]()

@@ -3,6 +3,8 @@
 ### [Accountability readiness checklists](gdpr-arc.md)
 #### [Office 365](gdpr-arc-Office365.md)
 #### [Windows](gdpr-arc-Windows.md)
+##### [Windows and GDPR Records](gdpr-records-Windows.md)
+##### [Data protection, security, and assessment for Windows](gdpr-data-protection-security-assessment-for-windows.md)
 #### [Azure](gdpr-arc-Azure.md)
 #### [Dynamics 365](gdpr-arc-Dynamics365.md)
 ### [Information protection](gdpr-information-protection.md)
