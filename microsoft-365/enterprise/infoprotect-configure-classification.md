@@ -7,16 +7,19 @@ ms.date: 03/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365
-ms.custom:
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
 - Strat_O365_Enterprise
+ms.custom:
 description: Understand and configure various ways to classify data in your organization.
 ---
 
 # Step 3: Configure classification for your environment
 
 *This step is optional and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*
+
+![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 In Step 3, you work with your legal and compliance teams to define a classification scheme for your organization’s data.
 
