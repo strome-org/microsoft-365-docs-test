@@ -2,18 +2,19 @@
 title: "Deploy Microsoft Teams for Microsoft 365 Enterprise"
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/09/2018
+ms.date: 05/02/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365
-ms.custom:
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
 - Strat_O365_Enterprise
+ms.custom:
 description: Step through the process of planning for, rolling out, and driving the value of Microsoft Teams in Microsoft 365 Enterprise across your organization.
 ---
 
-# Deploy ![](./media/teams-workload/teams_image1.png) for Microsoft 365 Enterprise
+# Deploy Microsoft Teams for Microsoft 365 Enterprise
 
 Microsoft Teams brings together chat, conferencing, document sharing, and threaded conversations in a way that makes it easy to create and share content across groups. Teams is the way you do teamwork and collaboration for Microsoft 365 Enterprise and is a key element of the Built for Teamwork value of Microsoft 365. If you are brand new to Teams, see [Overview of Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview).
  
@@ -56,7 +57,7 @@ In this phase, you plan for the technical aspects of a Teams deployment and star
 
 ### Step 1: Complete your technical planning
 
-Before you begin technical planning, determine whether you want to use FastTrack. If your organization has over 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, which are available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account.
+Before you begin technical planning, determine whether you want to use FastTrack. If your organization has over 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, which are available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account.
 
 If you are doing your own planning (or in conjunction with FastTrack), you need to determine if your network and organization are ready for Teams. It is especially important that you meet the exit criteria for networking in your [foundation infrastructure](deploy-foundation-infrastructure.md), with special attention to bandwidth, throughput, and traffic delays to maximize performance for Teams-based meetings.
 

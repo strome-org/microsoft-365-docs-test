@@ -7,10 +7,11 @@ ms.date: 03/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365
-ms.custom:
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
 - Strat_O365_Enterprise
+ms.custom:
 description: Understand and configure increased security for Office 365, including Office 365 ATP.
 ---
 
@@ -40,7 +41,7 @@ An additional security feature is Office 365 Advanced Threat Protection (ATP), w
 - Providing spoof intelligence and anti-phishing capabilities for email in Exchange Online and files in SharePoint Online, OneDrive for Business, and Microsoft Teams. 
 
 >[!Note]
->Office 365 ATP is only supported by Microsoft 365 Enterprise E5. If you have this version of Microsoft 365 Enterprise, Microsoft requires its use to ensure that you protect yourself from malicious threats. If you have Microsoft 365 Enterprise E3, you cannot use Office 365 ATP and the required use of Microsoft 365 Enterprise E5 is not meant to be implied.
+>Office 365 ATP is included with Microsoft 365 Enterprise E5. If you have Microsoft 365 Enterprise E3, you can purchase individual licenses for ATP.
 >
 
 To enable Office 365 ATP, see [Turn it on](https://support.office.com/article/Office-365-ATP-for-SharePoint-OneDrive-and-Microsoft-Teams-26261670-db33-4c53-b125-af0662c34607#turniton).

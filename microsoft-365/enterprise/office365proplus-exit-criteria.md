@@ -7,16 +7,19 @@ ms.date: 03/29/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365
-ms.custom:
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
 - Strat_O365_Enterprise
+ms.custom:
 description: Ensure that your configuration meets Microsoft 365 Enterprise criteria for Office 365 ProPlus infrastructure.
 ---
 
 # Office 365 ProPlus deployment exit criteria
 
 ![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)
+
+*This applies to both the E3 and E5 versions of Microsoft 365 Enterprise and Microsoft 365 Education*
 
 Before you move on to the next phase in the deployment process, ensure that your configuration meets the following required criteria for Office 365 ProPlus infrastructure.
 

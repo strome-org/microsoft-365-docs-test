@@ -7,16 +7,19 @@ ms.date: 03/29/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365
-ms.custom:
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
 - Strat_O365_Enterprise
+ms.custom:
 description: The steps to deploy the Office 365 ProPlus infrastructure for Microsoft 365 Enterprise.
 ---
 
 # Phase 4: Office 365 ProPlus
 
 ![](./media/deploy-foundation-infrastructure/O365proplus_icon.png)
+
+*This applies to both the E3 and E5 versions of Microsoft 365 Enterprise and Microsoft 365 Education*
 
 Microsoft 365 Enterprise includes Office 365 ProPlus, the subscription version of Office. Like Office 2016, Office 365 ProPlus includes all the Office applications, and those applications are installed directly on your client devices. Unlike Office 2016, Office 365 ProPlus is updated with new features on a regular basis and has a user-based licensing model that allows people to install Office on up to 5 devices. For more details, see [About Office 365 ProPlus in the enterprise](https://docs.microsoft.com/en-us/deployoffice/about-office-365-proplus-in-the-enterprise).
 
