@@ -1651,7 +1651,7 @@ ms.date: 11/01/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-install-2.svg" alt="Enable domain-joined devices to be managed" />
+                                                        <img src="images/bcs-partner-install-2.svg" alt="Enable domain-joined devices to be managed" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
