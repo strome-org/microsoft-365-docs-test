@@ -1645,7 +1645,7 @@ ms.date: 11/01/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy" target="_blank">
+                                <a href="https://support.office.com/article/enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
