@@ -16,9 +16,9 @@ This topic explains the steps necessary to configure your environment for Update
 
 Steps are provided in sections that follow the recommended setup process:
 
-1. [Add Update Readiness](#add-device-health-to-microsoft-operations-management-suite) to Microsoft Operations Management Suite.
-2. [Enroll devices](#deploy-your-commercial-id-to-your-windows-10-devices) to your organization’s devices.
-3. [Use Update Readiness to discover the current state of devices in your environment](#use-device-health-to-monitor-frequency-and-causes-of-device-crashes) once your devices are enrolled.
+1. [Add Update Readiness](#add-update-readiness) to Microsoft Operations Management Suite.
+2. [Enroll devices](#enroll-devices-in-update-readiness) so that Update Readiness can monitor them.
+3. [Use Update Readiness to discover the current state of devices in your environment](#use-update-readiness-to-monitor-the-current-state) once your devices are enrolled.
 
 
 
@@ -65,9 +65,9 @@ After you have added Device Health and devices have a Commercial ID, you will be
 >[!NOTE]
 >You can unsubscribe from the Device Health solution if you no longer want to monitor your organization’s devices. User device data will continue to be shared with Microsoft while the opt-in keys are set on user devices and the proxy allows traffic.
 
-## Enroll devices in Windows Analytics
+## Enroll devices in Update Readiness
 
-Once you've added Update Compliance to Microsoft Operations Management Suite, you can now start enrolling the devices in your organization.
+Once you've added Update Readiness to Microsoft Operations Management Suite, you can now start enrolling the devices in your organization.
 
 ### Copy your Commercial ID key
 
@@ -132,9 +132,9 @@ The compatibility update scans your devices and enables application usage tracki
 >We recommend you configure your update management tool to automatically install the latest version of these updates. There is a related optional update, [KB 3150513](https://catalog.update.microsoft.com/v7/site/Search.aspx?q=3150513), which can provide updated configuration and definitions for older compatibiltiy updates. For more information about this optional update, see <https://support.microsoft.com/kb/3150513>.
 
 
-## Use Device Health to monitor frequency and causes of device crashes
+## Use Update Readiness to monitor the current state
 
-Once your devices are enrolled, you can move on to [Using Device Health](device-health-using.md).
+Once your devices are enrolled, you can move on to [START UDR TO SEE WHAT'S WHAT]
 
 
 ## Related topics
