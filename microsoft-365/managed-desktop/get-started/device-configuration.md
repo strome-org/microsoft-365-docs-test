@@ -11,3 +11,6 @@ ms.date: 04/15/2018
 ---
 
 # device configuration
+
+
+<!--This topic is the target for a "Learn more" link in the Enterprise Agreement (aka.ms/dev-config); do not delete.-->
