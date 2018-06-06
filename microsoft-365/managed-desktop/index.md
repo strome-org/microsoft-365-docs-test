@@ -7,7 +7,7 @@ keywords: Microsoft 365 Managed Desktop, Microsoft 365, business, service, docum
 ms.topic: hub-page
 localization_priority: Normal
 audience: microsoft-business
-ms.prod: microsoft-365-business 
+ms.service: m365-managed-desktop 
 title: Microsoft 365 Managed Desktop
 description: Learn about the product documentation and resources available for Microsoft 365 Managed Desktop.
 ms.date: 05/10/2018
