@@ -10,7 +10,7 @@ audience: microsoft-business
 ms.prod: microsoft-365-business 
 title: Microsoft 365 Business documentation and resources
 description: Learn about the product documentation and resources available for Microsoft 365 Business partners, IT admins, end user professionals, and business owners.
-ms.date: 11/01/2017
+ms.date: 06/08/2018
 ---
 <div id="main" class="v2">
     <div class="container">
