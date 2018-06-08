@@ -8,7 +8,7 @@ ms.prod: microsoft-365-business
 localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, frequently asked questions, answers, business
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ---
 
 
