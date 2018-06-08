@@ -82,6 +82,26 @@ ms.date: 09/25/2017
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365/managed-desktop" target="blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/365-md.svg" alt="Microsoft 365 Managed Desktop documentation and resources" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <br />
+                                                    <h3>Microsoft 365 Managed Desktop</h3>
+                                                    <p>Microsoft 365 Managed Desktop combines Microsoft 365 E5 with device-as-a-service (procurement, configuration, maintenance) and IT-as-a-service (deployment, monitoring, reporting, service desk).</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

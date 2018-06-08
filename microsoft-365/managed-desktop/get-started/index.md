@@ -2,7 +2,7 @@
 title: Get started with Microsoft 365 Managed Desktop 
 description:  
 keywords: 
-ms.service: m365-managed-desktop
+ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: medium
 ms.date: 06/06/2018
