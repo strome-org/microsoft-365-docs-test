@@ -94,7 +94,7 @@ ms.date: 07/01/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <br />
-                                                    <h3>Microsoft 365 Managed Desktop+</h3>
+                                                    <h3>Microsoft 365 Managed Desktop</h3>
                                                     <p>Microsoft 365 Managed Desktop combines Microsoft 365 E5 with device-as-a-service (procurement, configuration, maintenance) and IT-as-a-service (deployment, monitoring, reporting, service desk).</p>
                                                 </div>
                                             </div>
