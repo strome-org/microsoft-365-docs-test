@@ -467,9 +467,12 @@ ms.date: 05/10/2018
                         <ul id="get-help-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p></p>
+                                    <p>If you're an administrator who needs to open a support ticket, see [Get support for Microsoft 365 Managed Desktop](/working-with-managed-desktop/support).</p>
+                                    <p>Do you have a Microsoft 365 Managed Desktop device? Then you have an app that will connect you directly with the folks who can help you. Go to - where? what's it called? </p>
+                                    ![test image](images/untitled.png)
                                 </div>
                             </li>
+                            <!--
                             <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/support?branch=v1" target="_blank">
                                     <div class="cardSize">
@@ -488,8 +491,8 @@ ms.date: 05/10/2018
                                         </div>
                                     </div>
                                 </a>
-                                <p>Testing - one two three</p>
                             </li>
+                            -->
                         </ul>
                     </li>
                     </li>
