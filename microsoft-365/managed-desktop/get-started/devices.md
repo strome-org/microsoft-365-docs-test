@@ -1,5 +1,5 @@
 ---
-title: Getting devices in Microsoft 365 Managed Desktop (Windows 10)
+title: Getting devices in Microsoft 365 Managed Desktop 
 description:  
 keywords: 
 ms.service: m365-md

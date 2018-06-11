@@ -1,5 +1,5 @@
 ---
-title: device configuration (Windows 10)
+title: Device configuration 
 description:  
 keywords: 
 ms.service: m365-md
@@ -8,7 +8,9 @@ ms.localizationpriority: medium
 ms.date: 06/06/2018
 ---
 
-# device configuration
+# Device configuration
 
 
 <!--This topic is the target for a "Learn more" link in the Enterprise Agreement (aka.ms/dev-config); do not delete.-->
+
+Learn about the default policies applied to Microsoft 365 Managed Desktop devices.

@@ -1,5 +1,5 @@
 ---
-title: Is Microsoft 365 Managed Desktop right for you (Windows 10)
+title: Is Microsoft 365 Managed Desktop right for you 
 description:  
 keywords: 
 ms.service: m365-md

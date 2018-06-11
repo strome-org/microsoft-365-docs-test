@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions  (Windows 10)
+title: Frequently Asked Questions  
 description:  
 keywords: 
 ms.service: m365-md

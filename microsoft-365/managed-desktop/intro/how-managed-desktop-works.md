@@ -1,5 +1,5 @@
 ---
-title: How Microsoft 365 Managed Desktop works (Windows 10)
+title: How Microsoft 365 Managed Desktop works 
 description:  
 keywords: 
 ms.service: m365-md
