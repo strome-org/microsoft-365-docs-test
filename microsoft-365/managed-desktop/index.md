@@ -3,7 +3,7 @@ layout: HubPage
 hide_bc: true
 author: jdeckerms
 ms.author: jdecker
-keywords: Microsoft 365 Managed Desktop, Microsoft 365, business, service, documentation, docs, documentation, technical information
+keywords: Microsoft 365 Managed Desktop, Microsoft 365, service, documentation 
 ms.topic: hub-page
 localization_priority: Normal
 audience: microsoft-business

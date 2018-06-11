@@ -1,7 +1,7 @@
 ---
 title: Security in Microsoft 365 Managed Desktop 
 description:  
-keywords: 
+keywords: Microsoft 365 Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: medium
