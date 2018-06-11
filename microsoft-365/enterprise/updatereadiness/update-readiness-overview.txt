@@ -1,0 +1,15 @@
+---
+title: Update Readiness Overview
+description: General overview of Update Readiness and landing page
+ms.prod: w10
+ms.mktglfcycl: manage
+ms.sitesec: library
+author: Jaimeo
+ms.localizationpriority: high
+ms.author: jaimeo
+ms.date: 06/04/2018
+---
+
+# Update Readiness
+
+[Basic overview; links to subtopics showing basic user flow]

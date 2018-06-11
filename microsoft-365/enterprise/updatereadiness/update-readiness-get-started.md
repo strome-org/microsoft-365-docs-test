@@ -1,6 +1,6 @@
 ---
 title: Get started with Update Readiness
-description: How to set up accounts, permissions, and diagnostic data, enroll devices, and other steps to get Update Readiness started in your organization
+description: How to set up accounts, subscriptions, user access, workspaces
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
