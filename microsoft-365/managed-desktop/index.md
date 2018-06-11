@@ -27,6 +27,7 @@ ms.date: 05/10/2018
                                     <p></p>
                                 </div>
                             </li>
+                            <!-- placeholder
                             <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/?branch=v1" target="_blank">
                                     <div class="cardSize">
@@ -46,6 +47,7 @@ ms.date: 05/10/2018
                                     </div>
                                 </a>
                             </li>
+                            -->
                             <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/how-managed-desktop-works" target="_blank">
                                     <div class="cardSize">
