@@ -13,4 +13,4 @@ ms.date: 06/06/2018
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/admin-access); do not delete.-->
 
-In Microsoft 365 Managed Desktop, what does Microsoft do for you? What are your ogranization's responsibilities? 
+In Microsoft 365 Managed Desktop, what does Microsoft do for you? And what are your organization's responsibilities? 
