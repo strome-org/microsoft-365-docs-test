@@ -12,6 +12,8 @@ ms.date: 06/12/2018
 
 # Enroll devices in Updated Readiness
 
+Get the script and run it.
+
 ### Enable data sharing
 
 To enable data sharing, configure your proxy sever to whitelist the following endpoints. You might need to get approval from your security group to do this.

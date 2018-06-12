@@ -69,6 +69,22 @@ At this point, you have the option to proceed to [enrolling your devices](update
 
 If you've come to the dashboard prior to enrolling devices, select **Connected Services** {or is it Connect devices?} to proceed with [enrolling devices](update-readiness-enroll-devices.md).
 
+If your devices are already enrolled, you can start getting familiar with the dashboard:
+
+## Update Readiness dashboard orientation
+
+### Assets
+
+#### Devices
+#### Apps
+Total apps
+Noteworthy apps
+#### Office Apps
+#### Office Add-ins
+
+### Deployment plans
+
+
 
 
 
