@@ -31,7 +31,7 @@ In {entry point console}, click {something}, and you will go to the Update Readi
 
 ## Set up access
 
-**If your account is not already a global administrator**, you'll have to contact someone who is in order to proceed with setup. This dialog will show you who has the necessary permissions; select the administrators you wnat to contact and then select **Send**. This will send e-mail to them.
+**If your account is not already a global administrator**, you'll have to contact someone who is in order to proceed with setup. This dialog will show you who has the necessary permissions; select the administrators you want to contact and then select **Send**. This will send e-mail to them.
 
 [![contact admin dialog](UDRimages/UDR-contact-admin.png)](UDRimages/UDR-contact-admin.png)
 
@@ -63,11 +63,11 @@ The new workspace will appear at the top of the workspace list and is pre-select
 
  ### Complete setup
 
-At this point, you have the option to proceed to enrolling your devices, or you can go directly to the dashboard and enroll devices later. If you go to the dashboard at this point, you will see something like this:
+At this point, you have the option to proceed to [enrolling your devices](update-readiness-enroll-devices.md), or you can go directly to the dashboard and enroll devices later. If you go to the dashboard at this point, you will see something like this:
 
 [![dashboard before enrollment](UDRimages/UDR-dash-not-enrolled.png)](UDRimages/UDR-dash-not-enrolled.png)
 
-If you've come to the dashboard before enrolling devices, select **Connected Services** {or is it Connect devices?} to proceed with [enrolling devices](update-readiness-enroll-devices).
+If you've come to the dashboard prior to enrolling devices, select **Connected Services** {or is it Connect devices?} to proceed with [enrolling devices](update-readiness-enroll-devices.md).
 
 
 

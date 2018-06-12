@@ -11,3 +11,7 @@ ms.date: 06/04/2018
 ---
 
 # Define deployment plans with Updated Readiness
+
+## Global pilot
+
+## Pilot deployment plan
