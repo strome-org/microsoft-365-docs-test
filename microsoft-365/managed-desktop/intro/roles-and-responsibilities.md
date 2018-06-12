@@ -21,7 +21,7 @@ Below are a few key roles and responsibilities that will be provided to you by M
 
 Role or responsibility | Description
 --- | ---
-Account Manager |  Microsoft will provide an Account Manager as a primary point of contact for all communication. The account manager will reach out to the customer IT team with regular updates on the health of the service. 
+Account Manager |  Microsoft will provide an Account Manager as a primary point of contact for all communication. The account manager will reach out to the customer IT team with regular updates on the health of the service. For more information, see [Operations and monitoring](../working-with-managed-desktop/operations-and-monitoring.md). 
 Policy management | Microsoft will apply policy according to best practices and consider requests for policy changes. We will also make changes to your tenant as prescribed in [Device configuration](../get-started/device-configuration.md).
 App deployment | Microsoft will deploy applications to client devices using Intune. There may be some limitations on which applications will work in a modern environment. For VPN clients, Microsoft will deploy a mutually agreed Windows 10-compatible VPN client only when needed. For more information, see [Apps](../get-started/apps.md). 
 End user support | Microsoft will provide end-user support for devices, Windows, and Office product suite for all enrolled users. 
@@ -46,5 +46,5 @@ Network infrastructure, including VPN | Setup, configuration and management (inc
 Printing | Install, maintain and administer printers and print queues. Cloud printing is a recommended solution but is not required. 
 Hardware | Devices and accessories not provided by M365 Managed Desktop. M365 Managed Desktop support extends to only the provided device, docking station and included accessories. 
 Mobile devices | Support for and management of mobile devices.
-Apps | Customers will provide a list of apps that they want to use in their organization (beyond apps included with M365 license). Customers also provide either:<br>- Deployable package (Appx or MSI), or<br>- Installation instructions and executable file<br><br> The customer is responsible for:<br>- App license management: Having the right type and quantity of licenses<br>- App assignment: Assigning apps to Azure AD user groups<br>- App updates: Monitoring app feature and security updates, and letting Microsoft know which updates should be deployed to M365 Managed Desktop devices. 
+Apps | Customers will provide a list of apps that they want to use in their organization (beyond apps included with M365 license). Customers also provide either:<br>- Deployable package (Appx or MSI), or<br>- Installation instructions and executable file<br><br> The customer is responsible for:<br>- App license management: having the right type and quantity of licenses<br>- App assignment: assigning apps to Azure AD user groups<br>- App updates: monitoring app feature and security updates, and letting Microsoft know which updates should be deployed to M365 Managed Desktop devices. 
 
