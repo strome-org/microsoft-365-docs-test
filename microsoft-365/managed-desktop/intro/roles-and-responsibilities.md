@@ -22,13 +22,13 @@ Below are a few key roles and responsibilities that will be provided to you by M
 Role or responsibility | Description
 --- | ---
 Account Manager |  Microsoft will provide an Account Manager as a primary point of contact for all communication. The account manager will reach out to the customer IT team with regular updates on the health of the service. 
-Policy management | Microsoft will apply policy according to best practices and consider requests for policy changes. We will also make changes to your tenant as prescribed (link to be added).
-App deployment | Microsoft will deploy applications to client devices using Intune. There may be some limitations on which applications will work in a modern environment. For VPN clients, Microsoft will deploy a mutually agreed Windows 10-compatible VPN client only when needed. 
+Policy management | Microsoft will apply policy according to best practices and consider requests for policy changes. We will also make changes to your tenant as prescribed in [Device configuration](get-started/device-configuration.md).
+App deployment | Microsoft will deploy applications to client devices using Intune. There may be some limitations on which applications will work in a modern environment. For VPN clients, Microsoft will deploy a mutually agreed Windows 10-compatible VPN client only when needed. For more information, see [Apps](get-started/apps.md). 
 End user support | Microsoft will provide end-user support for devices, Windows, and Office product suite for all enrolled users. 
-IT admin support | Microsoft will provide support to your IT department via a Microsoft operations team. This team will field technical troubleshooting, change requests, and incident management. 
-Security monitoring | Microsoft will monitor devices using Windows Defender ATP. Should a threat be detected, Microsoft will notify the customer, isolate the device, and rectify the issue remotely. 
-Update monitoring and management | Microsoft will actively monitor devices to ensure that the latest quality, feature, and definition updates are installed. We will also manage the deployment of updates in a progressive release pattern, holding as appropriate to minimize business impact. If an issue arises, Microsoft will contact the customer. 
-Device procurement | Microsoft will order and drop-ship devices to end-users or the IT distribution point of your choosing. 
+IT admin support | Microsoft will provide support to your IT department via a Microsoft operations team. This team will field technical troubleshooting, change requests, and incident management. For more information, see [Get support](working-with-managed-desktop/support.md).
+Security monitoring | Microsoft will monitor devices using Windows Defender ATP. Should a threat be detected, Microsoft will notify the customer, isolate the device, and rectify the issue remotely. For more information, see [Security](get-started/security.md).
+Update monitoring and management | Microsoft will actively monitor devices to ensure that the latest quality, feature, and definition updates are installed. We will also manage the deployment of updates in a progressive release pattern, holding as appropriate to minimize business impact. If an issue arises, Microsoft will contact the customer. For more information, see [How updates are handled](working-with-managed-desktop/updates.md).
+Device procurement | Microsoft will order and drop-ship devices to end-users or the IT distribution point of your choosing. For more information, see [Devices](get-started/devices.md).
 
 ## Your roles and responsibilities
 

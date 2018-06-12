@@ -26,7 +26,7 @@ When you enroll in M365 Managed Desktop, Microsoft provides you with devices tha
 
 People in the workcenter unpack their new Surface laptops. Adelaide turns on her laptop and enters her Azure AD credentials. Her laptop is immediately joined to your Azure AD tenant for management, and is configured with settings, policies, and software so that she can get right to work.
 
-### On a regular basis
+### Device is up-to-date
 
 Updates for Windows, Office, and apps are applied to these managed devices, according to the update rings that you helped to define.
 
