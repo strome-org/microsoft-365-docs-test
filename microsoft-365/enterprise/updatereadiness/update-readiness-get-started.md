@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 06/12/2018
+ms.date: 06/14/2018
 ---
 
 # Get started with Updated Readiness
@@ -25,11 +25,10 @@ Steps are provided in sections that follow the recommended setup process:
 
 In {entry point console}, click {something}, and you will go to the Update Readiness console:
 
-{SCREENSHOT of landing page in UDR}
 
 [![Landing page in UDR](UDRimages/UDR-landing.png)](UDRimages/UDR-landing.png)
 
-## Set up access
+## Set up users and workspace
 
 **If your account is not already a global administrator**, you'll have to contact someone who is in order to proceed with setup. This dialog will show you who has the necessary permissions; select the administrators you want to contact and then select **Send**. This will send e-mail to them.
 
@@ -71,24 +70,51 @@ If you've come to the dashboard prior to enrolling devices, select **Connected S
 
 If your devices are already enrolled, you can start getting familiar with the dashboard:
 
-## Update Readiness dashboard orientation
+## Review reported devices
 
-### Assets
+Once device enrollment is complete, you should review carefully the inventory reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, and Office add-ins are visible as items under **Assets**:
 
-#### Devices
-#### Apps
-Total apps
-Noteworthy apps
-#### Office Apps
-#### Office Add-ins
+[![assets view](UDRimages/UDR-main-assets-view.png)](UDRimages/UDR-main-assets-view.png)
 
-### Deployment plans
+### Devices
 
+Key information about all devices in your organization that are enrolled. You can sort on any column or filter for particular values.
 
+### Drivers
+{isn't there an item for drivers? not seeing in mocks or portal}
 
+### Apps
 
+Similarly, the Apps tab shows all installed apps detected on your Windows devices.
 
+[![assets apps view](UDRimages/UDR-assets-apps.png)](UDRimages/UDR-assets-apps.png)
 
+"Noteworthy" apps are those that are installed on more than 2% of enrolled devices. You can change the threshold of "noteworthy" by {doing something}. You can also set the *Importance* of apps by categorizing them into these categories:
+
+- Critical
+- Important
+- Ignore
+- Not reviewed
+
+To set the importance of an app, click it to get its detailed view, and then use the **Importance** pull-down menu to choose a value. You can also assign an owner, as in this example from Office add-ins:
+
+[![assets add-ins detail](UDRimages/UDR-assets-addin-detail.png)](UDRimages/UDR-assets-addin-detail.png)
+
+### Office Apps
+
+Office apps (such as Microsoft Word or Excel) are displayed similarly, though there is no categorization or "noteworthy" count {is this true?}
+
+### Office add-ins
+
+Office add-ins (for example, an e-mail scanner or iCloud add-in) are displayed similarly, including the "noteworthy" count and the means to categorize importance as with apps. You can view details of any add-in by clicking it.
+
+### Office macros
+{implemented? shows up in some material but not other}
+
+## Troubleshooting
+{should we have some steps in case things aren't showing up as expected?}
+
+When you've reviewed all assets and have set whatever values you like, you are ready to move on to creating a pilot [deployment plan](update-readiness-deployment-plans.md).
 
 
 
