@@ -54,6 +54,9 @@ To add a user to either group, type their name or e-mail address in the **Enter 
 
 [![pre-existing workspaces](UDRimages/UDR-existing-workspaces.png)](UDRimages/UDR-existing-workspaces.png)
 
+>[!NOTE]
+>If you are already using Windows Analytics, you can just select the workspace you're using for that from this list and all data and configuration will transfer to Update Readiness.
+
 To create a new workspace, select **+ Create new workspace** and in the dialog that opens, provide a name for the new workspace, use the pull-down menu to select the Azure ID you want to use, select the region, and then click **Create**.
 
 [![create new workspace](UDRimages/UDR-create-new-workspace.png)](UDRimages/UDR-create-new-workspace.png)
