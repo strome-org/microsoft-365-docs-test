@@ -7,7 +7,7 @@ ms.sitesec: library
 author: jwhit
 ms.localizationpriority: high
 ms.author: jwhit
-ms.date: 06/14/2018
+ms.date: 07/16/2018
 ---
 
 # Define deployment plans with Update Readiness
@@ -40,6 +40,19 @@ To actually create YOUR pilot deployment plan, you click things in the recommend
 
 Review the other asset types (apps, drivers, etc.) and set another layer of selection ("Upgrade Decision") based on what you see there. This seems to be pre-filtered to "high risk" assets. So you exclude those or make notes to follow up with certain ones (like if some app has to be manually updated or rebooted or something afterwards).
 
-## Start pilot
+### Office macros
+
+If devices in your environment use Office macros, you can review that usage data and advisories offered by Update Readiness in order to further inform your decisions about which devices to include in the pilot deployment.
+
+[![assets macros advisories](UDRimages/UDR-macro-advisory.png)](UDRimages/UDR-macro-advisory.png)
+
+You can explore further by clicking any specific advisory to see additional details, for example, the relevant list of devices affected. You can also export this list for later use, such as to run the Readiness Toolkit on this subgroup for still more detail about reported issues.
+
+>[!TIP]
+>If you plan to run the Readiness Toolkit [LINK] on this subgroup, it's best to wait until after the pilot deployment is complete to delve into remediating the reported macro issues.
+
+[![assets macros advisory detail](UDRimages/UDR-macro-advisory-detail.png)](UDRimages/UDR-macro-advisory-detail.png)
+
+## Deploy the pilot
 
 Use SCCM connector (hopefully) to pass off plan to that for implementation. Or you can export some file (XML I think) to pass over to SCCM manually.

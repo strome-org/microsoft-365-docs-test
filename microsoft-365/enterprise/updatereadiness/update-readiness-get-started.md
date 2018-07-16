@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 06/14/2018
+ms.date: 07/16/2018
 ---
 
 # Get started with Updated Readiness
@@ -112,7 +112,15 @@ Office apps (such as Microsoft Word or Excel) are displayed similarly, though th
 Office add-ins (for example, an e-mail scanner or iCloud add-in) are displayed similarly, including the "noteworthy" count and the means to categorize importance as with apps. You can view details of any add-in by clicking it.
 
 ### Office macros
-{implemented? shows up in some material but not other}
+
+This section shows whether reporting devices have accessed any files {in what time frame? Ever?} that are capable of including macros. (For a detailed list of these file types, see [File formats supported in the 2007 Office system (corrected)](https://blogs.technet.microsoft.com/office_resource_kit/2009/04/04/file-formats-supported-in-the-2007-office-system-corrected/) at the Office IT Pro blog.)
+
+[![assets macros detail](UDRimages/UDR-assets-macros.png)](UDRimages/UDR-assets-macros.png)
+
+>[!NOTE]
+>If you have run the Readiness Toolkit [LINK] on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Update Readiness.
+
+
 
 ## Troubleshooting
 {should we have some steps in case things aren't showing up as expected?}
