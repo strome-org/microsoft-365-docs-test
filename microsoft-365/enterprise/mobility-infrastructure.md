@@ -5,7 +5,7 @@ keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 documentation, 
 author: arob98 
 ms.author: angrobe 
 manager: angrobe 
-ms.date: 01/29/2018 
+ms.date: 06/28/2018 
 ms.topic: article 
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
@@ -26,6 +26,28 @@ To secure data on your device, you'll use Microsoft Intune. Mobile device manage
 3. [Protect access to email, Office 365, and other services](https://docs.microsoft.com/intune-classic/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)
 
 The entire library of Intune documentation is [available online](https://docs.microsoft.com/intune).
+
+Intune in Enterprise Security + Management (EMS) enables these strategic business scenarios for Microsoft 365 Enterprise:
+
+- Store and share files inside and outside your organization to work seamlessly across organizational boundaries
+- Work securely from anywhere, anytime across your device to achieve more while maintaining a flexible workstyle
+- Provide peace-of-mind with controls and visibility for industry-verified conformity with global standards in compliance
+- Protect your information and reduce the risk of data loss
+- Detect and protect against external threats --Monitor, report and analyze activity to react promptly to provide organizational security
+- Protect your users and their accounts
+
+For more information, see the [Discovery Value tool](https://online.valuediscoveryworkshop.com/). 
+
+|||
+|:-------|:-----|
+|![Test Lab Guides for the Microsoft cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Test Lab Guide: iOS and Android device enrollment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)<P> [Test Lab Guide: Mobile application management policies](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
+|||
+
+
+## How Microsoft does Microsoft 365 Enterprise
+
+Learn how IT experts at Microsoft use EMS to manage Windows 10 and mobile devices with [Managing modern mobile productivity with Enterprise Mobility + Security](https://www.microsoft.com/itshowcase/Article/Content/972/Managing-modern-mobile-productivity-with-Enterprise-Mobility--Security).
+
 
 
 ## Next phase
