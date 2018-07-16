@@ -10,6 +10,8 @@ ms.author: jwhit
 ms.date: 07/16/2018
 ---
 
+[This a skeleton/outline based on demo by Dhirendra--jwhit to flesh out content. Office macro section is from Tara Hanratty]
+
 # Define deployment plans with Update Readiness
 
 Click **Deployment plans** to view any existing plans. Click {something} to create a new one.
@@ -39,6 +41,12 @@ To actually create YOUR pilot deployment plan, you click things in the recommend
 ## Prepare pilot
 
 Review the other asset types (apps, drivers, etc.) and set another layer of selection ("Upgrade Decision") based on what you see there. This seems to be pre-filtered to "high risk" assets. So you exclude those or make notes to follow up with certain ones (like if some app has to be manually updated or rebooted or something afterwards).
+
+### Devices
+### Apps
+### Drivers (?)
+### Office
+### Office add-ins
 
 ### Office macros
 
