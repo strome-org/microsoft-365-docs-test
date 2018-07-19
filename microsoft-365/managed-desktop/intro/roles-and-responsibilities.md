@@ -22,7 +22,7 @@ Below are a few key roles and responsibilities that will be provided to you by M
 Role or responsibility | Description
 --- | ---
 Account Manager |  Microsoft will provide an Account Manager as a primary point of contact for all communication. The account manager will reach out to the customer IT team with regular updates on the health of the service. For more information, see [Operations and monitoring](../working-with-managed-desktop/operations-and-monitoring.md). 
-Policy management | Microsoft will apply policy according to best practices and consider requests for policy changes. We will also make changes to your tenant as prescribed in [Device configuration](../get-started/device-configuration.md).
+Policy management | Microsoft will apply policy according to best practices and consider requests for policy changes. We will also make changes to your tenant as prescribed in [Device policies](../get-started/device-policies.md).
 App deployment | Microsoft will deploy applications to client devices using Intune. There may be some limitations on which applications will work in a modern environment. For VPN clients, Microsoft will deploy a mutually agreed Windows 10-compatible VPN client only when needed. For more information, see [Apps](../get-started/apps.md). 
 End user support | Microsoft will provide end-user support for devices, Windows, and Office product suite for all enrolled users. 
 IT admin support | Microsoft will provide support to your IT department via a Microsoft operations team. This team will field technical troubleshooting, change requests, and incident management. For more information, see [Get support](../working-with-managed-desktop/support.md).
