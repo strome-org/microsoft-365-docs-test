@@ -86,6 +86,7 @@ ms.date: 05/10/2018
                                     </div>
                                 </a>
                             </li>
+                            <!-- placeholder
                             <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/faq" target="_blank">
                                     <div class="cardSize">
@@ -105,6 +106,7 @@ ms.date: 05/10/2018
                                     </div>
                                 </a>
                             </li>
+                            -->
                              <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/intro/roles-and-responsibilities" target="_blank">
                                     <div class="cardSize">
@@ -287,25 +289,6 @@ ms.date: 05/10/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/apps?branch=v1" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-advanced-management-settings-8.svg" alt="Learn how to prepare your apps" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Apps</h3>
-                                                    <p>Learn how to prepare your line-of-business apps for M365 Managed Desktop.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/devices?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -325,6 +308,25 @@ ms.date: 05/10/2018
                                 </a>
                             </li>
                             <li>
+                                <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/apps?branch=v1" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="images/bcs-partner-advanced-management-settings-8.svg" alt="Learn how to prepare your apps" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Apps</h3>
+                                                    <p>Learn how to prepare your line-of-business apps for M365 Managed Desktop.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="https://review.docs.microsoft.com/microsoft-365/managed-desktop/get-started/device-configuration?branch=v1" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -335,7 +337,7 @@ ms.date: 05/10/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Device configuration</h3>
+                                                    <h3>Device policies</h3>
                                                     <p>Learn about the default policies applied to M365 Managed Desktop devices.</p>
                                                 </div>
                                             </div>

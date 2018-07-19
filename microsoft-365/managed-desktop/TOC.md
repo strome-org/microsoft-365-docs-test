@@ -9,7 +9,7 @@
 ## [Get started with M365 Managed Desktop](get-started/index.md)
 ### [Apps](get-started/apps.md)
 ### [Devices](get-started/devices.md)
-### [Device configuration](get-started/device-configuration.md)
+### [Device policies](get-started/device-policies.md)
 ### [Security](get-started/security.md)
 ## [Working with M365 Managed Desktop](working-with-managed-desktop/index.md)
 ### [How updates are handled](working-with-managed-desktop/updates.md)
