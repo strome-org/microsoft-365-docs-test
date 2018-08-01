@@ -9,3 +9,5 @@ ms.date: 06/06/2018
 ---
 
 # Is Microsoft 365 Managed Desktop right for you?
+
+You can add content directly yourself.
