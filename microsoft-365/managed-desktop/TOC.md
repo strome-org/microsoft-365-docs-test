@@ -16,4 +16,4 @@
 ### [Get support for M365 Managed Desktop](working-with-managed-desktop/support.md)
 ### [Manage apps](working-with-managed-desktop/manage-apps.md)
 ### [Operations and monitoring](working-with-managed-desktop/operations-and-monitoring.md)
-## [gallery](gallery.md)
+
