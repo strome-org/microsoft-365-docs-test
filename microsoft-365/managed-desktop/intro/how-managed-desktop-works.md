@@ -10,7 +10,7 @@ ms.date: 08/02/2018
 
 # How Microsoft 365 Managed Desktop works
 
-With Microsoft 365 Managed Desktop, you get: **software as a service**, **devices as a service**, and **IT support as a service**. 
+With Microsoft 365 Managed Desktop, you get **software as a service** (Microsoft 365), **devices as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more). 
 
 ![Microsoft 365 Managed Desktop consists of Windows 365, Surface devices, and IT support](images/m365.png)
 
