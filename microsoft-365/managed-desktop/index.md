@@ -149,7 +149,6 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-            <!-- placeholder
             <li>
                 <a href="#get-ready">Get ready</a>
                 <ul id="get-ready">
@@ -276,7 +275,6 @@ ms.date: 05/10/2018
                     </li>
                 </ul>
             </li>
-            -->
             <li>
                 <a href="#get-started">Get started</a>
                 <ul id="get-started">
