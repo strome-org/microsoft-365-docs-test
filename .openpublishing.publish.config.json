@@ -45,6 +45,7 @@
     ]
   },
   "need_generate_pdf_url_template": true,
+  "resolve_user_profile_using_github": true
   "need_generate_intellisense": false,
   "Targets": {
     "Pdf": {
