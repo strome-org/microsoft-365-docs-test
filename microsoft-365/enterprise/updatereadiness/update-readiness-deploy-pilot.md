@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 08/01/2018
+ms.date: 08/02/2018
 ---
 
 # Deploy the pilot
@@ -52,5 +52,9 @@ Sorted by type of issue:
 
 Click a specific listing in either view to get more details about the detected issue:
 
-[![devices needing attention sorted by issue](UDRimages/UDR-needatten-detail.png)](UDRimages/UDR-needattet-detail.png)
+[![devices needing attention sorted by issue](UDRimages/UDR-needatten-detail.png)](UDRimages/UDR-needatten-detail.png)
+
+As you address these deployment issues, the dashboard will continue to show the progress of devices by updating as devices move from **Needs attention** to **Completed**.
+
+You can commence the production deployment at any time you are sufficiently confident in the success of the pilot deployment--there is no requirement that all (or any particular number) of devices in the pilot deployment reach the "completed" state prior to doing so.
 
