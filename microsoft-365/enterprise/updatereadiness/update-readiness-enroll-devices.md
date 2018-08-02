@@ -89,7 +89,7 @@ The basic functionality of Update Readiness will work at the Basic diagnostic da
 
 ## Enroll a few pilot devices
 
-If you have never used Windows Analytics before and are completely new to this technology, we recommend manually running this script on a few representative devices initially to verify things are properly configured and the device can connect to the diagnostic data endpoints. Make sure to run the pilot version of the script, which will provide extra diagnostics.
+If you have never used Windows Analytics before and are completely new to this technology, we recommend manually running this script on a few representative devices initially to verify things are properly configured and that the device can connect to the diagnostic data endpoints. Make sure to run the pilot version of the script, which will provide extra diagnostics.
 
 See the [Upgrade Readiness deployment script](../upgrade/upgrade-readiness-deployment-script.md) topic for information about obtaining and running the script, and for a description of the error codes that can be displayed. See ["Understanding connectivity scenarios and the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/03/10/understanding-connectivity-scenarios-and-the-deployment-script/) on the Windows Analytics blog for a summary of setting the ClientProxy for the script, which will enable the script properly check for diagnostic data endpoint connectivity.
 

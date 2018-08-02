@@ -50,7 +50,7 @@ Review the other asset types (apps, drivers, etc.) and set another layer of sele
 
 ### Office macros
 
-If devices in your environment use Office macros, you can review that usage data and advisories offered by Update Readiness in order to further inform your decisions about which devices to include in the pilot deployment.
+If devices in your environment use Office macros, you can review the usage data and advisories offered by Update Readiness in order to further inform your decisions about which devices to include in the pilot deployment.
 
 [![assets macros advisories](UDRimages/UDR-macro-advisory.png)](UDRimages/UDR-macro-advisory.png)
 
@@ -63,4 +63,4 @@ You can explore further by clicking any specific advisory to see additional deta
 
 ## Deploy the pilot
 
-Use SCCM connector (hopefully) to pass off plan to that for implementation. Or you can export some file (XML I think) to pass over to SCCM manually.
+Use SCCM connector (hopefully) to pass off plan to that for implementation. Or you can export some file (XML I think) to pass over to SCCM manually. Once your deployment implementation tool has started the pilot deployment, you can use Update Readiness to monitor the progress and results of the deployment as described in [Deploy pilot with Update Readiness](update-readiness-deploy-pilot.md).

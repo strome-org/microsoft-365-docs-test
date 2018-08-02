@@ -7,7 +7,50 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 06/04/2018
+ms.date: 08/01/2018
 ---
 
 # Deploy the pilot
+
+## Transfer the device file to a management tool
+
+To actually effect the pilot deployment, take the file you exported and import it into System Center Configuration Manager (SCCM) {or other management tool? Which ones work?} For more information and steps to follow in SCCM to start the deployment, see the [LINK TO RELEVANT SCCM TOPIC].
+
+## Monitor the pilot deployment progress
+
+You can view the current status of any deployment plan, whether it is in preparation, pilot deployment, or production deployment, from a single location by clicking the deployment plan name, which will display this synoptic view:
+
+[![deployment plan main view](UDRimages/UDR-dep-prog-master.png)](UDRimages/UDR-dep-prog-master.png)
+
+The **2. Pilot** section summarizes the current state of the pilot deployment, displaying data for the number of devices not started, in progress, completed, or returning issues.
+
+[![deployment plan main view](UDRimages/UDR-dep-prog-pilotstep.png)](UDRimages/UDR-dep-prog-pilotstep.png)
+
+Any devices reporting errors or other issues will also be listed in the Pilot detail area to the right. To get details of the reported issue, click **Review**.
+
+[![deployment plan main view](UDRimages/UDR-dep-prog-issueselect.png)](UDRimages/UDR-dep-prog-issueselect.png)
+
+### Address deployment alerts
+
+To get details of reported issues click **Review**. The deployment status details page opens, where you can view lists of the devices in these categories:
+
+- Not started
+- In progress
+- Completed
+- Needs attention - devices
+- Needs attention - issues
+
+The **Needs attention** categories show the same information, but sorted differently.
+
+Sorted by affected device:
+
+[![devices needing attention sorted by device](UDRimages/UDR-needatten-device.png)](UDRimages/UDR-needatten-device.png)
+
+Sorted by type of issue:
+
+[![devices needing attention sorted by issue](UDRimages/UDR-needatten-issue.png)](UDRimages/UDR-needatten-issue.png)
+
+Click a specific listing in either view to get more details about the detected issue:
+
+[![devices needing attention sorted by issue](UDRimages/UDR-needatten-detail.png)](UDRimages/UDR-needattet-detail.png)
+

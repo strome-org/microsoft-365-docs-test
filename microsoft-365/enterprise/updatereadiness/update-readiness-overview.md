@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 06/04/2018
+ms.date: 08/01/2018
 ---
 
 # Update Readiness
@@ -16,10 +16,10 @@ ms.date: 06/04/2018
 
 ## Intro/overview material
 
-## Overview of total process [links to subtopics]
- - Get started with accounts, subscriptions, user access, workspaces
- - Enroll devices
- - Set up deployment plans
- - Deploy and monitor the pilot
+## Steps to use Update Readiness
+ - Get started with accounts, subscriptions, user access, workspaces: [Get started with Update Readiness](update-readiness-get-started.md)
+ - Enroll devices to start the flow of diagnostic data: [Enroll devices in Update Readiness](update-readiness-enroll-devices.md)
+ - Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Update Readiness](update-readiness-deployment-plans.md)
+ - Deploy and monitor the pilot: [Deploy pilot with Update Readiness](update-readiness-deploy-pilot.md)
  - Deploy to production
  - Monitor health

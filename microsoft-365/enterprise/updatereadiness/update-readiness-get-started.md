@@ -75,7 +75,7 @@ If your devices are already enrolled, you can start getting familiar with the da
 
 ## Review reported devices
 
-Once device enrollment is complete, you should review carefully the inventory reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, and Office add-ins are visible as items under **Assets**:
+Once device enrollment is complete, you should review carefully the inventory of reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, and Office add-ins are visible as items under **Assets**:
 
 [![assets view](UDRimages/UDR-main-assets-view.png)](UDRimages/UDR-main-assets-view.png)
 
