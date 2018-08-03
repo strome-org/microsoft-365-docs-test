@@ -106,3 +106,12 @@
 #### [Microsoft Support and Professional Services](../compliance/gdpr-dpia-prof-services.md)
 
 ### [Microsoft's data protection officer](../compliance/gdpr-data-protection-officer.md)
+
+# Update Readiness
+## [Update Readiness Overview](updatereadiness/update-readiness-overview.md)
+## [Get started with Update Readiness](updatereadiness/update-readiness-get-started.md)
+## [Enroll devices in Update Readiness](updatereadiness/update-readiness-enroll-devices.mc)
+## [Define deployment plans with Update Readiness]
+## [Deploy pilot with Update Readiness](updatereadiness/update-readiness-deploy-pilot.md)
+## [Deploy to production with Update Readiness](updatereadiness/update-readiness-deploy-production.md)
+## [Monitor the health and update status of devices](updatereadiness/update-readiness-monitoring.md)
