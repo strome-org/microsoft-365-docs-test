@@ -113,12 +113,12 @@ Office add-ins (for example, an e-mail scanner or iCloud add-in) are displayed s
 
 ### Office macros
 
-This section shows whether reporting devices have accessed any files {in what time frame? Ever?} that are capable of including macros. (For a detailed list of these file types, see [File formats supported in the 2007 Office system (corrected)](https://blogs.technet.microsoft.com/office_resource_kit/2009/04/04/file-formats-supported-in-the-2007-office-system-corrected/) at the Office IT Pro blog.)
+This section shows whether reporting devices have accessed any files recently that are capable of including macros. (For a detailed list of these file types, see [File formats supported in the 2007 Office system (corrected)](https://blogs.technet.microsoft.com/office_resource_kit/2009/04/04/file-formats-supported-in-the-2007-office-system-corrected/) at the Office IT Pro blog.)
 
 [![assets macros detail](UDRimages/UDR-assets-macros.png)](UDRimages/UDR-assets-macros.png)
 
 >[!NOTE]
->If you have run the Readiness Toolkit [LINK] on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Update Readiness.
+>If you have run the Readiness Toolkit [LINK](https://aka.ms/readinesstoolkit) on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Update Readiness.
 
 
 
