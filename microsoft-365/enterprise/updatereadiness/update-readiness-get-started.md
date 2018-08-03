@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 07/16/2018
+ms.date: 08/03/2018
 ---
 
 # Get started with Updated Readiness
@@ -18,6 +18,7 @@ Steps are provided in sections that follow the recommended setup process:
 
 
 ## Entry points to Update Readiness
+{Which of these are functional currently?}
 
 ### From M365 Device Management {most likely for PP}
 ### From System Center Configuration Manager
@@ -73,11 +74,11 @@ If you've come to the dashboard prior to enrolling devices, select **Connected S
 
 If your devices are already enrolled, you can start getting familiar with the dashboard:
 
-## Review reported devices
+## Review assets
 
 Once device enrollment is complete, you should review carefully the inventory of reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, and Office add-ins are visible as items under **Assets**:
 
-[![assets view](UDRimages/UDR-main-assets-view.png)](UDRimages/UDR-main-assets-view.png)
+[![assets view](UDRimages/UDR-manage-assets.png)](UDRimages/UDR-manage-assets.png)
 
 ### Devices
 
@@ -90,7 +91,7 @@ Key information about all devices in your organization that are enrolled. You ca
 
 Similarly, the Apps tab shows all installed apps detected on your Windows devices.
 
-[![assets apps view](UDRimages/UDR-assets-apps.png)](UDRimages/UDR-assets-apps.png)
+[![assets apps view](UDRimages/UDR-assets-apps2.png)](UDRimages/UDR-assets-apps2.png)
 
 "Noteworthy" apps are those that are installed on more than 2% of enrolled devices. You can change the threshold of "noteworthy" by {doing something}. You can also set the *Importance* of apps by categorizing them into these categories:
 
@@ -101,11 +102,11 @@ Similarly, the Apps tab shows all installed apps detected on your Windows device
 
 To set the importance of an app, click it to get its detailed view, and then use the **Importance** pull-down menu to choose a value. You can also assign an owner, as in this example from Office add-ins:
 
-[![assets add-ins detail](UDRimages/UDR-assets-addin-detail.png)](UDRimages/UDR-assets-addin-detail.png)
+[![assets add-ins detail](UDRimages/UDR-app-detail2.png)](UDRimages/UDR-app-detail2.png)
 
-### Office Apps
+### Office apps
 
-Office apps (such as Microsoft Word or Excel) are displayed similarly, though there is no categorization or "noteworthy" count {is this true?}
+Office apps (such as Microsoft Word or Excel) are displayed similarly, though there is no categorization or "noteworthy" count. You set the importance and owner for the Office app the same way as with other apps or add-ins.
 
 ### Office add-ins
 
@@ -119,6 +120,12 @@ This section shows whether reporting devices have accessed any files recently th
 
 >[!NOTE]
 >If you have run the Readiness Toolkit [LINK](https://aka.ms/readinesstoolkit) on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Update Readiness.
+
+## Monitor current state of updates in the environment
+
+### Security updates
+
+### Feature updates
 
 
 
