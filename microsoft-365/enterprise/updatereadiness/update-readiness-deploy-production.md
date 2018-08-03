@@ -37,7 +37,7 @@ As you review each of these specific resources, you set the upgrade decision for
 Based on the data displayed there, you can set an upgrade decision for that particular app. In this example, the administrator has indicated that the Office app Excel 2016 is upgrade-ready.
 
 
-[![production app set to ready](UDRimages/UDR-app-upgrade-ready.png)](UDRimages/UDR-app-uprade-ready.png)
+[![production app set to ready](UDRimages/UDR-app-upgrade-ready.png)](UDRimages/UDR-app-upgrade-ready.png)
 
 Repeat this process for all apps, Office apps, and Office add-ins. Once a given device has a positive upgrade decision for *all* assets (drivers and all apps, Office apps, and Office add-ins installed on it), then its state changes to "ready for production." You can see the current count on the main page for the deployment plan by clicking **3. Deploy**:
 
