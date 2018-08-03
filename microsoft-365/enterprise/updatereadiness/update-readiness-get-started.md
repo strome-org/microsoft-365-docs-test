@@ -10,6 +10,8 @@ ms.author: jaimeo
 ms.date: 08/03/2018
 ---
 
+[This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 # Get started with Updated Readiness
 
 This topic explains the steps necessary to configure your environment for Update Readiness. 
@@ -64,7 +66,7 @@ To create a new workspace, select **+ Create new workspace** and in the dialog t
 
 The new workspace will appear at the top of the workspace list and is pre-selected; to use the new workspace, select **Set as Workspace**, and then click **Continue** in the **Accept Permissions** dialog that opens.
 
- ### Complete setup
+### Complete setup
 
 At this point, you have the option to proceed to [enrolling your devices](update-readiness-enroll-devices.md), or you can go directly to the dashboard and enroll devices later. If you go to the dashboard at this point, you will see something like this:
 
@@ -122,12 +124,25 @@ This section shows whether reporting devices have accessed any files recently th
 >If you have run the Readiness Toolkit [LINK](https://aka.ms/readinesstoolkit) on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Update Readiness.
 
 ## Monitor current state of updates in the environment
+{not sure if this is really part of the flow prior to setting the deployment plan or if it's better in "ongoing monitoring"--or both?}
+
+Knowing the current status of updates in your environment will be helpful as you formulate a deployment plan in the next step.
 
 ### Security updates
 
+To review the current status of security updates, click **Security updates** in the **Monitor** section of Update Readiness:
+
+[![security update status view](UDRimages/UDR-security-status.png)](UDRimages/UDR-security-status.png)
+
+Click **Windows 10** or **Office 365 ProPlus** to see the respective status for each of those entities.
+
 ### Feature updates
 
+To review the current status of feature updates, click **Feature updates** in the **Monitor** section of Update Readiness:
 
+[![feature update status view](UDRimages/UDR-feature-update.png)](UDRimages/UDR-feature-update.png)
+
+Click **Windows 10** or **Office 365 ProPlus** to see the respective status for each of those entities.
 
 ## Troubleshooting
 {should we have some steps in case things aren't showing up as expected?}
