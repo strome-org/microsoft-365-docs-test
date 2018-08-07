@@ -115,3 +115,4 @@
 ## [Deploy pilot with Update Readiness](updatereadiness/update-readiness-deploy-pilot.md)
 ## [Deploy to production with Update Readiness](updatereadiness/update-readiness-deploy-production.md)
 ## [Monitor the health and update status of devices](updatereadiness/update-readiness-monitoring.md)
+## [Update Readiness troubleshooting](updatereadiness/update-readiness-troubleshooting.md)

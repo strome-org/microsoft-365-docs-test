@@ -7,12 +7,12 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: high
 ms.author: jaimeo
-ms.date: 06/15/2018
+ms.date: 08/07/2018
 ---
 
 # Enroll devices in Update Readiness
 
-The simplest way to enroll devices is to obtain the Upgrade Readiness [deployment script](https://aka.ms/urscript) and run it. This script is also used to enroll devices in Windows Analytics, but has been extended to also set things appropriately for **Update** Readiness. For details, see the [Upgrade Readiness deployment script](../upgrade/upgrade-readiness-deployment-script.md) topic, which includes a description of the error codes that can be displayed.
+The simplest way to enroll devices is to obtain the Upgrade Readiness [deployment script](https://aka.ms/urscript) and run it. This script is also used to enroll devices in Update Readiness, but has been extended to also set things appropriately for **Update** Readiness. For details, see the [Upgrade Readiness deployment script](../upgrade/upgrade-readiness-deployment-script.md) topic, which includes a description of the error codes that can be displayed.
 
 >[!NOTE]
 >If you are already using Windows Analytics, you can just select the workspace you're using for that from this list and all data and configuration will transfer to Update Readiness.
@@ -24,11 +24,12 @@ Microsoft uses a unique commercial ID to map information from user computers to 
 
 1.  On the dashboard, navigate to the **Your workspace** panel.
 
+{NEED REAL SCREENSHOT W/O HAND}
     ![Update Readiness Your Workspace section showing Commercial ID as the fourth item](UDRimages/UDR-workspace-commID.png)](UDRimages/UDR-workspace-commID.png)
 
 2. Copy your Commercial ID. Save this Commercial ID because you will need it later for use in the deployment scripts and policies.
 
-    >**Important**<br> Regenerate a Commercial ID key only if your original ID key can no longer be used. Regenerating a commercial ID key resets the data in your workspace for all solutions that use the ID. Additionally, you’ll need to deploy the new commercial ID key to user computers again.
+    >**Important**<br> Regenerate the Commercial ID only if you can no longer use the current one. If you regenerate the commercial ID, you must deploy the new ID to your devices in order to continue to monitor them, which might result in data loss during the transition.
 
 ## Enable data sharing
 
@@ -53,13 +54,13 @@ To enable data sharing, configure your proxy sever to whitelist the following en
 >Proxy authentation and SSL inspections are frequent challenges for enterprises. See the following sections for configuration options.
 
 ### Configuring endpoint access with SSL inspection
-To ensure privacy and data integrity Windows checks for a Microsoft SSL certificate when communicating with the diagnostic data endpoints. Accordingly SSL interception and inspection is not possible. To use Update Readiness you should exclude the above endpoints from SSL inspection.
+To ensure privacy and data integrity Windows checks for a Microsoft SSL certificate when communicating with the diagnostic data endpoints. Accordingly, SSL interception and inspection is not possible. To use Update Readiness you should exclude the above endpoints from SSL inspection.
 
 ### Configuring endpoint access with proxy server authentication
 If your organization uses proxy server authentication for outbound traffic, use one or more of the following approaches to ensure that the diagnostic data is not blocked by proxy authentication:
 
 - **Best option: Bypass** Configure your proxy servers to **not** require proxy authentication for traffic to the diagnostic data endpoints. This is the most comprehensive solution and it works for all versions of Windows 10.
-- **User proxy authentication:** Alternatively, you can configure devices to use the logged on user's context for proxy authentication. First, update the devices to Windows 10, version 1703 or later. Then, ensure that users of the devices have proxy permission to reach the diagnostic data endpoints. This requires that the devices have console users with proxy permissions, so you couldn't use this method with headless devices.
+- **User proxy authentication:** Alternatively, you can configure devices to use the logged-on user's context for proxy authentication. First, update the devices to Windows 10, version 1703 or later. Then, ensure that users of the devices have proxy permission to reach the diagnostic data endpoints. This requires that the devices have console users with proxy permissions, so you couldn't use this method with headless devices.
 - **Device proxy authentication:** Another option--the most complex--is as follows: First, configure a system-level proxy server on the devices. Then, configure these devices to use machine-account-based outbound proxy authentication. Finally, configure proxy servers to allow the machine accounts access to the diagnostic data endpoints. 
 
 ## Deploy the compatibility update and related updates
@@ -91,39 +92,82 @@ The basic functionality of Update Readiness will work at the Basic diagnostic da
 
 If you have never used Windows Analytics before and are completely new to this technology, we recommend manually running this script on a few representative devices initially to verify things are properly configured and that the device can connect to the diagnostic data endpoints. Make sure to run the pilot version of the script, which will provide extra diagnostics.
 
-See the [Upgrade Readiness deployment script](../upgrade/upgrade-readiness-deployment-script.md) topic for information about obtaining and running the script, and for a description of the error codes that can be displayed. See ["Understanding connectivity scenarios and the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/03/10/understanding-connectivity-scenarios-and-the-deployment-script/) on the Windows Analytics blog for a summary of setting the ClientProxy for the script, which will enable the script properly check for diagnostic data endpoint connectivity.
+See the [Update Readiness deployment script NEED LINK](???) topic for information about obtaining and running the script, and for a description of the error codes that can be displayed. See ["Understanding connectivity scenarios and the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/03/10/understanding-connectivity-scenarios-and-the-deployment-script/) on the Windows Analytics blog for a summary of setting the ClientProxy for the script, which will enable the script properly check for diagnostic data endpoint connectivity.
 
-After data is sent from devices to Microsoft, it generally takes 48-56 hours for the data to populate in Update Readiness. The compatibility update takes several minutes to run. If the update does not get a chance to finish running or if the computers are inaccessible (turned off or sleeping for example), data will take longer to populate in Update Readiness. For this reason, you can expect most of your devices to be populated in Update Readiness in about 1-2 weeks after deploying the update and configuration to user computers. As described in the Windows Analytics blog post ["You can now check on the status of your computers within hours of running the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/05/12/wheres-my-data/), you can verify that devices have successfully connected to the service within a few hours. Most of those devices should start to show up in the Update Readiness console within a few days.
+After data is sent from devices to Microsoft, it generally takes 48-56 hours for the data to populate in Update Readiness. The compatibility update takes several minutes to run. If the update does not get a chance to finish running or if the computers are inaccessible (turned off or sleeping for example), data will take longer to populate in Update Readiness. For this reason, you can expect most of your devices to be populated in Update Readiness in about 1-2 weeks after deploying the update and configuration to user computers. As described in the Windows Analytics blog post {NEED INFO FROM DAVID MEBANE/CHARLES INGLIS} ["You can now check on the status of your computers within hours of running the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/05/12/wheres-my-data/), you can verify that devices have successfully connected to the service within a few hours. Most of those devices should start to show up in the Update Readiness console within a few days.
 
-### Distribute the deployment script at scale
+### Enrolling devices at scale with the deployment script
 
-Use a software distribution system such as System Center Configuration Manager to distribute the Upgrade Readiness deployment script at scale. For more information, see [New version of the Upgrade Analytics Deployment Script available](https://blogs.technet.microsoft.com/upgradeanalytics/2016/09/20/new-version-of-the-upgrade-analytics-deployment-script-available/) on the Upgrade Readiness blog. For information on how to deploy PowerShell scripts by using Windows Intune, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension).
+The deployment script is the only recommended option for configuring Windows 7 devices because the required settings are not configurable via policy. You can also use the deployment script to configure Windows 10 devices (although many customers choose to use policy instead for reasons described in the next section).
 
-### Distributing policies at scale
-There are a number of policies that can be centrally managed to control Update Readiness device configuration. All of these policies have *preference* registry key equivalents that can be set by using the deployment script. Policy settings override preference settings if both are set.
->[!NOTE]
->You can only set the diagnostic data level to Enhanced by using policy. For example, this is necessary for device health data to work.
+Use a software distribution system such as System Center Configuration Manager to distribute the Upgrade Readiness deployment script at scale. For more information, see [NEEDLINK TO NEW UPDATE READINESS SCRIPT](https://blogs.technet.microsoft.com/upgradeanalytics/2016/09/20/new-version-of-the-upgrade-analytics-deployment-script-available/) on the Upgrade Readiness blog. For information on how to deploy PowerShell scripts by using Microsoft Intune, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension).
 
-These policies are under Microsoft\Windows\DataCollection:
+### Enrolling Windows 10 devices at scale by using policy
+
+Many customers choose to configure Windows 10 devices using policy, since policies can be centrally managed, are automatically removed when the device leaves the management scope, don't require enabling Windows PowerShell on client devices to manage the associated security configurations, and are much easier to accomplish with mobile device management tools such as Intune.
+
+ All policies described in this section also have *preference* registry key equivalents that can be set by using the deployment script. Policy settings override preference settings if both are set.
+
+
+These Group Policy objects are under Microsoft\Windows\DataCollection:
 
 | Policy   | Value  |
 |-----------------------|------------------|
 | CommercialId | In order for your devices to show up in Update Readiness, they must be configured with your organization’s Commercial ID. |
-| AllowTelemetry (in Windows 10) |	1 (Basic), 2 (Enhanced) or 3 (Full) diagnostic data. Update Readiness will work with basic diagnostic data, but more features are available when you use the Enhanced level (for example, Device Health requires Enhanced diagnostic data and Upgrade Readiness only collects app usage and site discovery data on Windows 10 devices with Enhanced diagnostic data). For more information, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/configuration/configure-windows-diagnostic-data-in-your-organization). |
-| LimitEnhancedDiagnosticDataWindowsAnalytics (in Windows 10) |	Only applies when AllowTelemetry=2. Limits the Enhanced diagnostic data events sent to Microsoft to just those needed by Update Readiness. For more information, see [Windows 10, version 1709 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/configuration/enhanced-diagnostic-data-windows-analytics-events-and-fields).|
-| AllowDeviceNameInTelemetry (in Windows 10) |	In Windows 10, version 1803, a separate opt-in is required to enable devices to continue to send the device name. |
-| CommercialDataOptIn (in Windows 7 and Windows 8) |	1 is required for Upgrade Readiness, which is the only solution that runs on Windows 7 or Windows 8. |
+| AllowTelemetry  |	1 (Basic), 2 (Enhanced) or 3 (Full) diagnostic data. Update Readiness will work with basic diagnostic data, but more features are available when you use the Enhanced level (for example, Device Health requires Enhanced diagnostic data and Upgrade Readiness only collects app usage and site discovery data on Windows 10 devices with Enhanced diagnostic data). For more information, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/configuration/configure-windows-diagnostic-data-in-your-organization). |
+| LimitEnhancedDiagnosticDataWindowsAnalytics |	Only applies when AllowTelemetry=2. Limits the Enhanced diagnostic data events sent to Microsoft to just those needed by Update Readiness. For more information, see [Windows 10, version 1709 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/configuration/enhanced-diagnostic-data-windows-analytics-events-and-fields).|
+| AllowDeviceNameInTelemetry |	In Windows 10, version 1803, a separate opt-in is required to enable devices to continue to send the device name. |
 
-You can set these values by using Group Policy (in Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds) or by using Mobile Device Management (in Provider/ProviderID/CommercialID). For more information about deployment using MDM, see the [DMClient CSP](https://docs.microsoft.com/windows/client-management/mdm/dmclient-csp) topic in MDM documentation.
+You can set these values by using Group Policy (in Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds). You can also configure devices by using a mobile device management tool such as Intune.
 
-The corresponding preference registry values are available in **HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\DataCollection** and can be configured by the deployment script. If a given setting is configured by both preference registry settings and policy, the policy values will override.
+#### To set diagnostic data by using Intune
+1. On the main menu bar in Intune, go to manage **Device Configuration**.
+2.	Select **Create profile** at the top of the pane. 
+3.	Select the Platform **Windows 10 and later** and the Type **Device Restrictions**. 
+4.	Select the settings category **Reporting and Telemetry**. 
+5.	Select your preferred diagnostic data setting from the drop-down menu labeled **Share usage data**. 
+6.	Select **OK** to create the profile. 
+7.	To set this diagnostic data level on devices, assign them to the profile.
 
-### Distribution at scale without using the deployment script
+#### To set the Commercial ID by using Intune
+1.	On the main menu bar in Intune, go to manage **Device Configuration**. 
+2.	Select **Create profile** at the top of the pane. 
+3.	Select the Platform **Windows 10 and later** and the Type **Custom**. 
+4.	Select **ADD** to add a custom OMA-URI setting. 
+5.	Set the field **OMA-URI** to *./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID*  
+6.	From the **Data Type** drop-down menu, select the value **String**. 
+7.	In the **value** field enter your Commercial ID value.  
+8.	Select **OK** to create the profile. 
+9.	To configure the Commercial ID on devices, assign them to the profile.  
 
-We recommend using the deployment script to configure devices. However if this is not an option, you can still manage settings by policy as described in the previous section. However, if you don't run the deployment script, you won't benefit from its error checking, and you might have to wait a long time (possibly weeks) before devices send the initial full inventory scan.
+You cannot currently set the device name opt-in {can we explain better what this is?} on devices running Windows 10, version 1803 by using Mobile Device Management. Instead, set this by using a Windows PowerShell script {can we provide the script?}. To run a PowerShell script on devices by using Intune, follow these steps:
 
-Note that it is possible to intiate a full inventory scan on a device by calling these commands:
-- CompatTelRunner.exe -m:generaltel.dll -f:DoCensusRun
-- CompatTelRunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun ent
+1.	On the main menu bar, go to manage **Device Configuration**. 
+2.	Under **Manage**, select **PowerShell scripts**. 
+3.	Select the **add** button at the top of the page. 
+4.	Select a PowerShell script to upload. 
+5.	Select **Configure**, and then choose to run the script with the user’s credentials on the device (Yes), or system context (No). {is this quoting UI?}  
+6.	Choose whether the script must be signed by a trusted publisher (Yes), or if there is no requirement for the script to be signed (No). 
+7.	To send the script to devices, assign them to the PowerShell policy.  
 
-For details on how to run these and how to check results, see the deployment script.
+{TODO: Document just the part of the script that sets device name opt-in. Here’s the code:}
+
+```powershell
+$deviceNameOptInPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection"
+
+# Create preference key if it doesn’t exist
+$testdeviceNameOptInPath = Test-Path -Path $deviceNameOptInPath
+If ($testdeviceNameOptInPath -eq $false) {
+New-Item -Path $deviceNameOptInPath -ItemType Key}
+
+# Set value to 1 if it’s not already set
+if ((Get-ItemProperty -Path $deviceNameOptInPath -Name AllowDeviceNameInTelemetry -ErrorAction SilentlyContinue) -eq $null) {
+New-ItemProperty -Path $deviceNameOptInPath -Name AllowDeviceNameInTelemetry -PropertyType DWord -Value 1}
+else {
+$existingValue = (Get-ItemProperty -Path $deviceNameOptInPath -Name AllowDeviceNameInTelemetry).AllowDeviceNameInTelemetry
+            if($existingValue -ne 1) {
+Set-ItemProperty -Path $deviceNameOptInPath -Name AllowDeviceNameInTelemetry  -Val}
+}
+``` 
+ ## Troubleshooting
+If you encounter difficulty with enrolling devices in Update Readiness, check [Update Readiness troubleshooting](update-readiness-troubleshooting.md) for suggestions.
