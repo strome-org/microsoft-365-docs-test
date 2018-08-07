@@ -63,7 +63,7 @@ You can create a single deployment plan to cover all your devices or multiple de
 1. On the dashboard, click **Deployment Plans**.
 2. In the **Deployment Plans** pane, click **Create**.
 3. In **Create deployment plan**, type a name for the plan.
-4. Choose which products and and versions to deploy. We recommend creating deployment plans for Office and Windows together and using the most recent versions.
+4. Choose which products and versions to deploy. We recommend creating deployment plans for Office and Windows together and using the most recent versions.
 5. Choose the groups you want to deploy to. 
 6. Define any readiness rules you want for your deployment plan. As part of your readiness rules, you can specify the following:
  - Whether your devices automatically receive drivers from Windows Update. 
@@ -78,7 +78,7 @@ You can create a single deployment plan to cover all your devices or multiple de
 
 As part of the deployment plan, you set the importance of the apps and Office add-ins that are installed on the devices you're deploying to. This setting helps determine which devices are included in the pilot phase of the deployment. 
 
-Any app or add-in that's installed on less than 2% of the devices targeted in the deployment plan is marked Low Install Count. (Two percent is the deafult setting; you can adjust the threshold in the readiness settings from 0 to 10%.) Low install count apps and add-ins are automatically marked as **Ready to upgrade**.  
+Any app or add-in that's installed on less than 2% of the devices targeted in the deployment plan is marked Low Install Count. (Two percent is the default setting; you can adjust the threshold in the readiness settings from 0 to 10%.) Low install count apps and add-ins are automatically marked as **Ready to upgrade**.  
 
 For the remaining apps and add-ins, you can choose **Critical**, **Important**, or **Not important**. If you mark an app or add-in as critical or important, Update Readiness will include some devices with that app or add-in in the pilot deployment. (Making an app or add-in critical means more instances of it will be included in the pilot.) If you mark an app or add-in as Not Important, Upgrade Readiness automatically sets it to **Ready to upgrade**.
 
@@ -104,10 +104,10 @@ In this step, you review, edit, and approve the pilot recommendations. By the en
 
 1. On the dashboard, click Identify pilot.
 2. In the Identify pilot pane, review the recommended devices for the pilot. For each device, do the following:
- - If you agree with the recommednation, select the device and click **Add to pilot**.
+ - If you agree with the recommendation, select the device and click **Add to pilot**.
  - If you disagree with the recommendation, select the device, and click **Replace** to remove it from the pilot.
 
-For details on how the recommendations are made, click the **Information** icon in the **Identify Pilot **dashboard.
+For details on how the recommendations are made, click the information icon in the top right corner of the **Identify Pilot** pane.
 
 ## Step 5: Choose how to fix known issues 
 
@@ -117,7 +117,7 @@ In this step, you review any known issues with the apps, drivers, and Office add
 
 1. On the dashboard, click **Prepare pilot**.
 2. On the **Apps** tab, review the apps that need your input. For each app, do the following:
-	- Click the name of the app and then, in information pane, review the recommendation and choose the upgrade decision. If you choose **Review in progress** or **Unable**, devices with this app will not be upgraded during the deployment.
+ - Click the name of the app and then, in information pane, review the recommendation and choose the upgrade decision. If you choose **Review in progress** or **Unable**, devices with this app will not be upgraded during the deployment.
  - Click **Save**.
 5. Repeat step 2 for the drivers, Office apps, and Office add-ins tabs.
 
@@ -126,9 +126,9 @@ In this step, you review any known issues with the apps, drivers, and Office add
 1. On the dashboard, click **Deployment plans**.
 2. Click the deployment plan you just created.
 3. Review the details of your deployment plan to make sure:
-	- The number of devices is correct
-	- The apps and Office add-ins have all been reviewed and upgrade decisions made when needed
-	- All pilot devices have been identified
+ - The number of devices is correct
+ - The apps and Office add-ins have all been reviewed and upgrade decisions made when needed
+ - All pilot devices have been identified
 5. To export the deployment plan, go to Log Analytics and [[need steps to do this]].
 
 ## Next steps
