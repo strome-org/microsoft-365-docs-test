@@ -111,7 +111,7 @@
 ## [Update Readiness Overview](updatereadiness/update-readiness-overview.md)
 ## [Get started with Update Readiness](updatereadiness/update-readiness-get-started.md)
 ## [Enroll devices in Update Readiness](updatereadiness/update-readiness-enroll-devices.md)
-## [Define deployment plans with Update Readiness]
+## [Define deployment plans with Update Readiness](updatereadiness/update-readiness-deployment-plans.md)
 ## [Deploy pilot with Update Readiness](updatereadiness/update-readiness-deploy-pilot.md)
 ## [Deploy to production with Update Readiness](updatereadiness/update-readiness-deploy-production.md)
 ## [Monitor the health and update status of devices](updatereadiness/update-readiness-monitoring.md)
