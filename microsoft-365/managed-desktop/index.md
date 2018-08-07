@@ -40,7 +40,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>What is Microsoft 365 Managed Desktop?</h3>
-                                                    <p>Watch this video to learn what M365 Managed Desktop has to offer your business.</p>
+                                                    <p>Watch this video to learn what Microsoft&nbsp;365 Managed Desktop has to offer your business.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -55,11 +55,11 @@ ms.date: 05/10/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="How M365 Managed Desktop works" />
+                                                        <img src="images/bcs-partner-policies-set-device-config-1.svg" alt="How Microsoft&nbsp;365 Managed Desktop works" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>How M365 Managed Desktop works</h3>
+                                                    <h3>How Microsoft&nbsp;365 Managed Desktop works</h3>
                                                     <p>Learn about the combination of Microsoft 365, device-as-a-service, and IT-as-a-service.</p>
                                                 </div>
                                             </div>
@@ -79,7 +79,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Prerequisites</h3>
-                                                    <p>What does your business need to do before enrolling in M365 Managed Desktop?</p>
+                                                    <p>What does your business need to do before enrolling in Microsoft&nbsp;365 Managed Desktop?</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -99,7 +99,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>FAQ</h3>
-                                                    <p>Check out some frequently asked questions about M365 Managed Desktop.</p>
+                                                    <p>Check out some frequently asked questions about Microsoft&nbsp;365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -119,7 +119,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Roles and responsibilities</h3>
-                                                    <p>In M365 Managed Desktop, what does Microsoft do? What are your organization's responsibilities?</p>
+                                                    <p>In Microsoft&nbsp;365 Managed Desktop, what does Microsoft do? What are your organization's responsibilities?</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Technologies and devices</h3>
-                                                    <p>See the technologies, apps, and devices specifications used in M365 Managed Desktop.</p>
+                                                    <p>See the technologies, apps, and devices specifications used in Microsoft&nbsp;365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -317,7 +317,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Apps</h3>
-                                                    <p>Learn how to prepare your line-of-business apps for M365 Managed Desktop.</p>
+                                                    <p>Learn how to prepare your line-of-business apps for Microsoft&nbsp;365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -336,7 +336,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Device policies</h3>
-                                                    <p>Learn about the default policies applied to M365 Managed Desktop devices.</p>
+                                                    <p>Learn about the default policies applied to Microsoft&nbsp;365 Managed Desktop devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -355,7 +355,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Security</h3>
-                                                    <p>Learn about the security enforcement for M365 Managed Desktop devices.</p>
+                                                    <p>Learn about the security enforcement for Microsoft&nbsp;365 Managed Desktop devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -390,7 +390,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Updates</h3>
-                                                    <p>Learn how M365 Managed Desktop manages updates to devices.</p>
+                                                    <p>Learn how Microsoft&nbsp;365 Managed Desktop manages updates to devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -409,7 +409,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Support</h3>
-                                                    <p>Learn how to get support for M365 Managed Desktop.</p>
+                                                    <p>Learn how to get support for Microsoft&nbsp;365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -428,7 +428,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>App management</h3>
-                                                    <p>Learn how apps are managed in M365 Managed Desktop.</p>
+                                                    <p>Learn how apps are managed in Microsoft&nbsp;365 Managed Desktop.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -447,7 +447,7 @@ ms.date: 05/10/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Operations and monitoring</h3>
-                                                    <p>Learn how M365 Managed Desktop provides change management notifications, monitoring, and reporting.</p>
+                                                    <p>Learn how Microsoft&nbsp;365 Managed Desktop provides change management notifications, monitoring, and reporting.</p>
                                                 </div>
                                             </div>
                                         </div>
