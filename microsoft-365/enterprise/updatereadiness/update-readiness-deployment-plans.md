@@ -87,12 +87,12 @@ For the remaining apps and add-ins, you can choose **Critical**, **Important**, 
 To change the importance level of an app or add-in:
 
 1.  On the dashboard, click **Identify importance**.
-2. On the apps tab, click **Not Reviewed ** to view the apps that need your input. 
-4.  Select the apps you want to change, click **Edit**, and then choose **Critical**, **Important**, or **Not Important **from the **Importance** list. Note that you can select multiple apps to edit at the same time. 
+2. On the apps tab, click **Not Reviewed** to view the apps that need your input. 
+4.  Select the apps you want to change, click **Edit**, and then choose **Critical**, **Important**, or **Not Important** from the **Importance** list. Note that you can select multiple apps to edit at the same time. 
  > [!NOTE]
  > When assigning importance levels, you can also choose the Upgrade decision. We cover that in more depth in [step 5](#step-5-choose-how-to-fix-known-issues).  
 6.  Click **Save**.
-7. Click the **Office Add-ins **tab, and update the importance of the add-ins.
+7. Click the **Office Add-ins** tab, and update the importance of the add-ins.
 
 ## Step 4: Choose pilot devices
 
@@ -103,9 +103,8 @@ In this step, you review, edit, and approve the pilot recommendations. By the en
 ![Choose pilot devices](UDRimages/UDR-plans-identifypilot.png)
 
 1. On the dashboard, click Identify pilot.
-2. In the Identify pilot pane, review the recommended devices for the pilot. For each device, do the following:
- - If you agree with the recommendation, select the device and click **Add to pilot**.
- - If you disagree with the recommendation, select the device, and click **Replace** to remove it from the pilot.
+2. In the Identify pilot pane, review the recommended devices for the pilot. 
+3. Select seach device and click **Add to pilot** or, if you disagree with the recommendation, **Replace**.
 
 For details on how the recommendations are made, click the information icon in the top right corner of the **Identify Pilot** pane.
 
@@ -116,20 +115,16 @@ In this step, you review any known issues with the apps, drivers, and Office add
 ![Fix known issues](UDRimages/UDR-plans-pilot.png)
 
 1. On the dashboard, click **Prepare pilot**.
-2. On the **Apps** tab, review the apps that need your input. For each app, do the following:
- - Click the name of the app and then, in information pane, review the recommendation and choose the upgrade decision. If you choose **Review in progress** or **Unable**, devices with this app will not be upgraded during the deployment.
- - Click **Save**.
-5. Repeat step 2 for the drivers, Office apps, and Office add-ins tabs.
+2. On the **Apps** tab, review the apps that need your input. 
+3. For each app, click the name of the app and then, in the information pane, review the recommendation and choose the upgrade decision. If you choose **Review in progress** or **Unable**, devices with this app will not be upgraded during the deployment.
+4. Repeat this revieww for the drivers, Office apps, and Office add-ins tabs.
 
 ## Step 6: Review and export the deployment plan
 
 1. On the dashboard, click **Deployment plans**.
 2. Click the deployment plan you just created.
-3. Review the details of your deployment plan to make sure:
- - The number of devices is correct
- - The apps and Office add-ins have all been reviewed and upgrade decisions made when needed
- - All pilot devices have been identified
-5. To export the deployment plan, go to Log Analytics and [[need steps to do this]].
+3. Review the details of your deployment plan to make sure the number of devices is correct, the apps and Office add-ins have all been reviewed and upgrade decisions made when needed. and all pilot devices have been identified.
+4. To export the deployment plan, go to Log Analytics and [[need steps to do this]].
 
 ## Next steps
 
