@@ -100,7 +100,7 @@ After data is sent from devices to Microsoft, it generally takes 48-56 hours for
 
 While it takes some time to gather full data on devices you have enrolled in Update Readiness, there is a way to quickly see new devices that have successfully sent partial data to Microsoft less than an hour after running the deployment script. This is particularly useful to verify that endpoints are correctly configured while you wait for the full amount of data to populate.
 
-To see the list of devices that have newly become associated with your organization’s Commercial ID, head to the Connected Services page in Update Readiness and navigate to the <SECTION>. This will open a flyout showing new devices seen in the last 24 hours. You can adjust the filter to see new devices as far back as 7 days.
+To see the list of devices that have newly become associated with your organization’s Commercial ID, head to the Connected Services page in Update Readiness and navigate to the {SECTION}. This will open a flyout showing new devices seen in the last 24 hours. You can adjust the filter to see new devices as far back as 7 days.
 
 {NEED SCREENSHOT}
 
