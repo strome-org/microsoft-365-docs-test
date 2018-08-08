@@ -12,7 +12,7 @@ ms.date: 08/08/2018
 
 # Enroll devices in Update Readiness
 
-The simplest way to enroll devices is to obtain the Upgrade Readiness [deployment script](https://aka.ms/urscript) and run it. This script is also used to enroll devices in Update Readiness, but has been extended to also set things appropriately for **Update** Readiness. For details, see the [Upgrade Readiness deployment script](../upgrade/upgrade-readiness-deployment-script.md) topic, which includes a description of the error codes that can be displayed.
+The simplest way to enroll devices is to obtain the Update Readiness [deployment script](LINK) and run it. 
 
 >[!NOTE]
 >If you are already using Windows Analytics, you can just select the workspace you're using for that from this list and all data and configuration will transfer to Update Readiness.
