@@ -5,9 +5,9 @@ ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: Jaimeo
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ---
 
 # Enroll devices in Update Readiness
@@ -94,7 +94,15 @@ If you have never used Windows Analytics before and are completely new to this t
 
 See the [Update Readiness deployment script NEED LINK](???) topic for information about obtaining and running the script, and for a description of the error codes that can be displayed. See ["Understanding connectivity scenarios and the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/03/10/understanding-connectivity-scenarios-and-the-deployment-script/) on the Windows Analytics blog for a summary of setting the ClientProxy for the script, which will enable the script properly check for diagnostic data endpoint connectivity.
 
-After data is sent from devices to Microsoft, it generally takes 48-56 hours for the data to populate in Update Readiness. The compatibility update takes several minutes to run. If the update does not get a chance to finish running or if the computers are inaccessible (turned off or sleeping for example), data will take longer to populate in Update Readiness. For this reason, you can expect most of your devices to be populated in Update Readiness in about 1-2 weeks after deploying the update and configuration to user computers. As described in the Windows Analytics blog post {NEED INFO FROM DAVID MEBANE/CHARLES INGLIS} ["You can now check on the status of your computers within hours of running the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/05/12/wheres-my-data/), you can verify that devices have successfully connected to the service within a few hours. Most of those devices should start to show up in the Update Readiness console within a few days.
+After data is sent from devices to Microsoft, it generally takes 48-56 hours for the data to populate in Update Readiness. The compatibility update takes several minutes to run. If the update does not get a chance to finish running or if the computers are inaccessible (turned off or sleeping for example), data will take longer to populate in Update Readiness. For this reason, you can expect most of your devices to be populated in Update Readiness in about 1-2 weeks after deploying the update and configuration to user computers.
+
+## Viewing newly enrolled devices
+
+While it takes some time to gather full data on devices you have enrolled in Update Readiness, there is a way to quickly see new devices that have successfully sent partial data to Microsoft less than an hour after running the deployment script. This is particularly useful to verify that endpoints are correctly configured while you wait for the full amount of data to populate.
+
+To see the list of devices that have newly become associated with your organization’s Commercial ID, head to the Connected Services page in Update Readiness and navigate to the <SECTION>. This will open a flyout showing new devices seen in the last 24 hours. You can adjust the filter to see new devices as far back as 7 days.
+
+{NEED SCREENSHOT}
 
 ### Enrolling devices at scale with the deployment script
 
