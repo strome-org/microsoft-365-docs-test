@@ -7,15 +7,16 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/08/2018
+ms.date: 08/13/2018
 ---
 
 # Enroll devices in Update Readiness
 
-The simplest way to enroll devices is to obtain the Update Readiness [deployment script](LINK) and run it. 
+Update Readiness has no agents that require installation, so device enrollment is simply a matter of configuring settings on the devices you want Update Readiness to monitor. You can do this by using a deployment script, Group Policy, or Mobile Device Management (MDM) policy. These settings control which Update Readiness instance the device should send its data to as well as a number of other configuration options.
+
 
 >[!NOTE]
->If you are already using Windows Analytics, you can just select the workspace you're using for that from this list and all data and configuration will transfer to Update Readiness.
+>If you are already using Windows Analytics, you can just select the workspace you're using for that from the displayed list and all of those devices will show up in your Update Readiness workspace automatically (without the need to enroll them). However, if you chose to configure a different workspace, you will have to first split your entries into devices that are monitored by Windows Analytics and devices that are monitored by Update Readiness; then you must follow the enrollment steps for those devices you want Update Readiness to monitor.
 
 ## Copy your Commercial ID key
 
@@ -41,7 +42,7 @@ To enable data sharing, configure your proxy sever to whitelist the following en
 | `https://v10.vortex-win.data.microsoft.com` | Connected User Experience and Diagnostic component endpoint for Windows 10, version 1709 or earlier |
 | `https://vortex-win.data.microsoft.com` | Connected User Experience and Diagnostic component endpoint for operating systems older than Windows 10 |
 | `https://settings-win.data.microsoft.com` | Enables the compatibility update to send data to Microsoft. 
-| `http://adl.windows.com` | Allows the compatibility update to receive the latest cofdsmpatibility data from Microsoft. |
+| `http://adl.windows.com` | Allows the compatibility update to receive the latest compatibility data from Microsoft. |
 | `https://watson.telemetry.microsoft.com` | Windows Error Reporting (WER); required for Device Health and Update Compliance AV reports. Not used by Upgrade Readiness. |
 | `https://oca.telemetry.microsoft.com`  | Online Crash Analysis; required for Device Health and Update Compliance AV reports. Not used by Upgrade Readiness. |
 | `https://nexusrules.officeapps.live.com` | Used to request dynamic diagnostic data events from Office clients. This is useful for drill-down and diagnostics purposes in the Update Readiness portal |
@@ -51,7 +52,7 @@ To enable data sharing, configure your proxy sever to whitelist the following en
 
 
 >[!NOTE]
->Proxy authentation and SSL inspections are frequent challenges for enterprises. See the following sections for configuration options.
+>Proxy authentication and SSL inspections are frequent challenges for enterprises. See the following sections for configuration options.
 
 ### Configuring endpoint access with SSL inspection
 To ensure privacy and data integrity Windows checks for a Microsoft SSL certificate when communicating with the diagnostic data endpoints. Accordingly, SSL interception and inspection is not possible. To use Update Readiness you should exclude the above endpoints from SSL inspection.
@@ -69,7 +70,7 @@ The compatibility update scans your devices and enables application usage tracki
 
 | **Operating System** | **Updates** |
 |----------------------|-----------------------------------------------------------------------------|
-| Windows 10        | Windows 10 includes the compatibility update, so you will automatically have the latest compatibility update so long as you continue to keep your Windows 10 devices up-to-date with cummulative updates.  |
+| Windows 10        | Windows 10 includes the compatibility update, so you will automatically have the latest compatibility update so long as you continue to keep your Windows 10 devices up-to-date with cumulative updates.  |
 | Windows 8.1          | [KB 2976978](http://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB2976978)<br>Performs diagnostics on the Windows 8.1 systems that participate in the Windows Customer Experience Improvement Program. These diagnostics help determine whether compatibility issues might be encountered when the latest Windows operating system is installed. <br>For more information about this update, see <https://support.microsoft.com/kb/2976978>|
 | Windows 7 SP1        | [KB2952664](http://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB2952664) <br>Performs diagnostics on the Windows 7 SP1 systems that participate in the Windows Customer Experience Improvement Program. These diagnostics help determine whether compatibility issues might be encountered when the latest Windows operating system is installed. <br>For more information about this update, see <https://support.microsoft.com/kb/2952664>|
 
@@ -80,7 +81,7 @@ The compatibility update scans your devices and enables application usage tracki
 >Restart devices after you install the compatibility updates for the first time.
 
 >[!NOTE] 
->We recommend you configure your update management tool to automatically install the latest version of these updates. There is a related optional update, [KB 3150513](https://catalog.update.microsoft.com/v7/site/Search.aspx?q=3150513), which can provide updated configuration and definitions for older compatibiltiy updates. For more information about this optional update, see <https://support.microsoft.com/kb/3150513>.
+>We recommend you configure your update management tool to automatically install the latest version of these updates. There is a related optional update, [KB 3150513](https://catalog.update.microsoft.com/v7/site/Search.aspx?q=3150513), which can provide updated configuration and definitions for older compatibility updates. For more information about this optional update, see <https://support.microsoft.com/kb/3150513>.
 
 ## Set diagnostic data levels
 
@@ -142,7 +143,7 @@ You can set these values by using Group Policy (in Computer Configuration > Admi
 2.	Select **Create profile** at the top of the pane. 
 3.	Select the Platform **Windows 10 and later** and the Type **Custom**. 
 4.	Select **ADD** to add a custom OMA-URI setting. 
-5.	Set the field **OMA-URI** to *./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID*  
+5.	Set the field **OMA-URI** to *./Vendor/MSFT/DMClient/Provider/ProviderID/CommercialID*
 6.	From the **Data Type** drop-down menu, select the value **String**. 
 7.	In the **value** field enter your Commercial ID value.  
 8.	Select **OK** to create the profile. 
