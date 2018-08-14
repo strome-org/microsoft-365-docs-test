@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/13/2018
+ms.date: 08/14/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -20,7 +20,7 @@ There are three main parts to accomplishing the deployment of updates to product
  To make production devices that were not involved in the pilot deployment ready for production deployment, their Upgrade Decision must be set to **Ready** or **Ready with remediations**.
 1. [Deploy to devices that are ready](#deploy-to-devices-that-are-ready)
  To accomplish the actual installation of updates to devices that are ready, you use a device management tool such as System Center Configuration Manager (SCCM). Update Readiness will profvide the list of devices ready for production deployment, as well as reports for monitoring the success of the deployment.
-1. [Monitor the health of updated devices](#montor-the-health-of-updated-devices))
+1. [Monitor the health of updated devices](#montor-the-health-of-updated-devices)
  As the update deployment progresses, you might want to monitor the health of noteworthy assets. If some need attention, you can troubleshoot and fix those issues or, if you decide the issues can't be fixed, you can stop the deployment to the affected devices by setting the Upgrade Decision to **Unable** for them.
 
 > [!NOTE]
@@ -32,11 +32,11 @@ The **Prepare production** page guides you through the process of reviewing your
 
 [![production plan upgrade view](UDRimages/UDR-prod-plan-review.png)](UDRimages/UDR-prod-plan-review.png)
 
-This opens a view where you can review the state of apps, Office apps, and Office add-ins and use that information to set the upgrade decision for each of those assets.
+This opens a view where you can review the state of apps, Office apps, Office add-ins, and Office macros and use that information to set the upgrade decision for each of those assets.
 
 [![production plan assets view](UDRimages/UDR-prod-assets.png)](UDRimages/UDR-prod-assets.png)
 
-Use each of the tabs to review the status of apps, Office apps, and Office add-ins. In each tabbed view, you can filter the results to show devices that are on track for upgrade (that is, they have no detected issues), those at risk, devices with mixed results, and those in an undetermined state.
+Use each of the tabs to review the status of apps, Office apps, Office add-ins, and Office macros. In each tabbed view, you can filter the results to show devices that are on track for upgrade (that is, they have no detected issues), those at risk, devices with mixed results, and those in an undetermined state.
 
 Select **On track** to quickly filter the view to assets that are likely to be ready for deployment based on these criteria:
 
