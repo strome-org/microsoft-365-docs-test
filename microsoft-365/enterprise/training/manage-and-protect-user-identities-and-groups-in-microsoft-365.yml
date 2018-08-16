@@ -19,14 +19,14 @@ metadata:
   appliesto: 
   - Microsoft 365
 items:
-- durationInMinutes: Do we want this?
+- durationInMinutes: 1
   content: |
    
 
    Add module description here. 
 
 - title: Getting your Hybrid identity infrastructure right in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -34,7 +34,7 @@ items:
     Content.....
 
 - title: Manage your Global administrator accounts in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -42,7 +42,7 @@ items:
     Content.....
 
 - title: Manage Users and groups in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -50,7 +50,7 @@ items:
     Content.....
 
 - title: Secure and simplify authentication in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -58,7 +58,7 @@ items:
     Content.....
 
 - title: Simplify and protect credentials management in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 

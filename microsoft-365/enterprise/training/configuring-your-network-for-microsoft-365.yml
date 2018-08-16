@@ -19,14 +19,14 @@ metadata:
   appliesto: 
   - Microsoft 365
 items:
-- durationInMinutes: Do we want this?
+- durationInMinutes: 1
   content: |
    
 
    Add module description here. 
 
 - title: Identify and differentiate Office 365 traffic
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -34,7 +34,7 @@ items:
     Content.....
 
 - title: Configure all your offices with local Internet connections
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -42,7 +42,7 @@ items:
     Content.....
 
 - title: Minimize Network traffic flow double-backs
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -50,7 +50,7 @@ items:
     Content.....
 
 - title: Configure edge devices for Microsoft 365 traffic bypass
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 

@@ -19,14 +19,14 @@ metadata:
   appliesto: 
   - Microsoft 365
 items:
-- durationInMinutes: Do we want this?
+- durationInMinutes: 1
   content: |
    
 
    Add module description here. 
 
 - title: Plan your Windows 10 deployment
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -34,7 +34,7 @@ items:
     Content.....
 
 - title: Deploy Windows 10 to existing devices
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -42,7 +42,7 @@ items:
     Content.....
 
 - title: Deploy Windows 10 to new devices with Autopilot
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -50,7 +50,7 @@ items:
     Content.....
 
 - title: Monitor device health and compliance
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 

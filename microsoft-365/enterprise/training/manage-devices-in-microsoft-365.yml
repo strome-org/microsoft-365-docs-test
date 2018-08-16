@@ -19,14 +19,14 @@ metadata:
   appliesto: 
   - Microsoft 365
 items:
-- durationInMinutes: Do we want this?
+- durationInMinutes: 1
   content: |
    
 
    Add module description here. 
 
 - title: TBD Intune for Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -34,7 +34,7 @@ items:
     Content.....
 
 - title: TBD Device enrollment for Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -42,7 +42,7 @@ items:
     Content.....
 
 - title: TBD Access protection for Microsoft 365 services
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 

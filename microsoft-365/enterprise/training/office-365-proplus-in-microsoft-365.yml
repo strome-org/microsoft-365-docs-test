@@ -19,14 +19,14 @@ metadata:
   appliesto: 
   - Microsoft 365
 items:
-- durationInMinutes: Do we want this?
+- durationInMinutes: 1
   content: |
    
 
    Add module description here. 
 
 - title: Asses your environment for deploying Office 365 in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -34,7 +34,7 @@ items:
     Content.....
 
 - title: Plan your Office 365 deployment in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
@@ -42,7 +42,7 @@ items:
     Content.....
 
 - title: Deploy Office 365 in Microsoft 365
-  durationInMinutes: x
+  durationInMinutes: 1
   content: |
 
     ## 1st section. 
