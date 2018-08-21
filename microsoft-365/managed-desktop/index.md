@@ -69,6 +69,26 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
+                                                    <img src="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3></h3>
+                                                <P></p>
+                                                <P></p>
+                                                <P></p>
+                                                <P></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
                                                     <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy arrow" />
                                                 </div>
                                             </div>
@@ -109,6 +129,26 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
+                                                    <img src="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3></h3>
+                                                <P></p>
+                                                <P></p>
+                                                <P></p>
+                                                <P></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
                                                     <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
                                                 </div>
                                             </div>
@@ -139,6 +179,26 @@ ms.date: 05/10/2018
                                             </div>
                                         </div>
                                     </li> 
+                                    <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3></h3>
+                                                <P></p>
+                                                <P></p>
+                                                <P></p>
+                                                <P></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                               </ul>
                             </li>
                        </ul>
