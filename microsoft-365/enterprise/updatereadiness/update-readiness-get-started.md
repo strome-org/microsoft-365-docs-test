@@ -5,9 +5,9 @@ ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: Jaimeo
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/03/2018
+ms.date: 08/21/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -78,16 +78,14 @@ If your devices are already enrolled, you can start getting familiar with the da
 
 ## Review assets
 
-Once device enrollment is complete, you should review carefully the inventory of reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, and Office add-ins are visible as items under **Assets**:
+Once device enrollment is complete, you should review carefully the inventory of reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, Office add-ins, and Office macros are visible as items under **Assets**:
 
-[![assets view](UDRimages/UDR-manage-assets.png)](UDRimages/UDR-manage-assets.png)
+[![assets view](UDRimages/UDR-main-assets.png)](UDRimages/UDR-main-assets.png)
 
 ### Devices
 
 Key information about all devices in your organization that are enrolled. You can sort on any column or filter for particular values.
 
-### Drivers
-{isn't there an item for drivers? not seeing in mocks or portal}
 
 ### Apps
 
@@ -124,6 +122,9 @@ This section shows whether reporting devices have accessed any files recently th
 >If you have run the Readiness Toolkit [LINK](https://aka.ms/readinesstoolkit) on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Update Readiness.
 
 ## Monitor current state of updates in the environment
+
+{SUPERCEDED by "global-monitoring" topic--should we link to that here or just delete this section in this topic?}
+
 {not sure if this is really part of the flow prior to setting the deployment plan or if it's better in "ongoing monitoring"--or both?}
 
 Knowing the current status of updates in your environment will be helpful as you formulate a deployment plan in the next step.

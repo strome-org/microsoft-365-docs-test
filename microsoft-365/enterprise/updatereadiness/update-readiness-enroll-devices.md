@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/13/2018
+ms.date: 08/21/2018
 ---
 
 # Enroll devices in Update Readiness
@@ -45,6 +45,7 @@ To enable data sharing, configure your proxy sever to whitelist the following en
 | `http://adl.windows.com` | Allows the compatibility update to receive the latest compatibility data from Microsoft. |
 | `https://watson.telemetry.microsoft.com` | Windows Error Reporting (WER); required for Device Health and Update Compliance AV reports. Not used by Upgrade Readiness. |
 | `https://oca.telemetry.microsoft.com`  | Online Crash Analysis; required for Device Health and Update Compliance AV reports. Not used by Upgrade Readiness. |
+| `https://login.live.com` | Windows Error Reporting (WER); required in order to obtain a unique device ID. **Note:** WER does *not* use login.live.com to access Microsoft Account consumer services such as Xbox Live. WER uses an anti-spoofing API at that address to enhance the integrity of error reports. |
 | `https://nexusrules.officeapps.live.com` | Used to request dynamic diagnostic data events from Office clients. This is useful for drill-down and diagnostics purposes in the Update Readiness portal |
 | `https://nexus.officeapps.live.com` | Used by Office clients to send diagnostic data events from Office 14, and Office 15, and versions of Office 16 prior to 16.0.8702.*. Used to collect usage and reliability signals events for Update Readiness. |
 | `https://mobile.pipe.aria.microsoft.com/Collector/3.0/` | Used by Office clients to send diagnostic data events from Universal/Modern Office apps and Win32 Office 16 versions later than 16.0.8702.*. Used to collect usage and reliability signals events for Update Readiness. |
@@ -68,6 +69,8 @@ If your organization uses proxy server authentication for outbound traffic, use 
 
 The compatibility update scans your devices and enables application usage tracking. If you don’t already have these updates installed, you can download the applicable version from the Microsoft Update Catalog or deploy it using Windows Server Update Services (WSUS) or your software distribution solution, such as System Center Configuration Manager.
 
+{NEED LINK TO OPTIONAL UPDATE THAT LOWERS LATENCY (AND DESCRIPTION) FROM ZANE SZAFRANIEC, PRABHU PADHI, OR DAVID MEBANE}
+
 | **Operating System** | **Updates** |
 |----------------------|-----------------------------------------------------------------------------|
 | Windows 10        | Windows 10 includes the compatibility update, so you will automatically have the latest compatibility update so long as you continue to keep your Windows 10 devices up-to-date with cumulative updates.  |
@@ -88,6 +91,7 @@ The compatibility update scans your devices and enables application usage tracki
 You can set the diagnostic data level used by monitored devices either with the Update Readiness deployment script or by policy (by using Group Policy or Mobile Device Management).
 
 The basic functionality of Update Readiness will work at the Basic diagnostic data level, however you won't get usage or health data for your updated devices without enabling the Enhanced level. This means you won't get information about health regressions on updated devices. So it is best to enable the Enhanced diagnostic data level, at least on devices running Windows 10, version 1709 (or later) where the Enhanced diagnostic data setting can be paired with "limited enhanced" data level (see [Windows 10 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields)). For more information, see [Windows Analytics and privacy](https://docs.microsoft.com/windows/deployment/update/windows-analytics-privacy).
+{DO WE NEED TO ADDRESS PRIVACY ISSUES IN SOME WAY ANALOGOUS TO THE WA PRIVACY TOPIC?}
 
 ## Enroll a few pilot devices
 

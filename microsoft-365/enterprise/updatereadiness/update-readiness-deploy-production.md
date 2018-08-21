@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/14/2018
+ms.date: 08/16/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -17,18 +17,18 @@ ms.date: 08/14/2018
 There are three main parts to accomplishing the deployment of updates to production devices:
 
 1. [Review assets that need an Upgrade Decision](#review-assets-that-need-an-updgrade-decision)
- To make production devices that were not involved in the pilot deployment ready for production deployment, their Upgrade Decision must be set to **Ready** or **Ready with remediations**.
-1. [Deploy to devices that are ready](#deploy-to-devices-that-are-ready)
- To accomplish the actual installation of updates to devices that are ready, you use a device management tool such as System Center Configuration Manager (SCCM). Update Readiness will profvide the list of devices ready for production deployment, as well as reports for monitoring the success of the deployment.
-1. [Monitor the health of updated devices](#montor-the-health-of-updated-devices)
- As the update deployment progresses, you might want to monitor the health of noteworthy assets. If some need attention, you can troubleshoot and fix those issues or, if you decide the issues can't be fixed, you can stop the deployment to the affected devices by setting the Upgrade Decision to **Unable** for them.
+ To make devices ready for production deployment, their assets (apps, Office apps, Office add-ins, and Office macros) must have their Upgrade Decision set to **Ready** or **Ready with remediations**.
+2. [Deploy to devices that are ready](#deploy-to-devices-that-are-ready)
+ To accomplish the actual installation of updates to devices that are ready, you use a device management tool such as System Center Configuration Manager (SCCM). Update Readiness will provide the list of devices ready for production deployment, as well as reports for monitoring the success of the deployment.
+3. [Monitor the health of updated devices](#montor-the-health-of-updated-devices)
+ As the update deployment progresses, you can monitor the health of noteworthy assets. If some need attention, you can troubleshoot and fix those issues or, if you decide the issues can't be fixed, you can stop the deployment to the affected devices by setting the Upgrade Decision to **Unable** for them.
 
 > [!NOTE]
 > You can commence the production deployment at any time you are sufficiently confident in the success of the pilot deployment--there is no requirement that all (or any particular number) of devices in the pilot deployment reach the "completed" state prior to doing so.
 
 ## Review assets that need an Upgrade Decision
 
-The **Prepare production** page guides you through the process of reviewing your assets for production deployment. To get to this page, either select **Prepare proeuction** in the left pane or select the **Review** button on the **Deployment plans** page:
+The **Prepare production** page guides you through the process of reviewing your assets for production deployment. To get to this page, either select **Prepare production** in the left pane or select the **Review** button on the **Deployment plans** page:
 
 [![production plan upgrade view](UDRimages/UDR-prod-plan-review.png)](UDRimages/UDR-prod-plan-review.png)
 
@@ -38,10 +38,10 @@ This opens a view where you can review the state of apps, Office apps, Office ad
 
 Use each of the tabs to review the status of apps, Office apps, Office add-ins, and Office macros. In each tabbed view, you can filter the results to show devices that are on track for upgrade (that is, they have no detected issues), those at risk, devices with mixed results, and those in an undetermined state.
 
-Select **On track** to quickly filter the view to assets that are likely to be ready for deployment based on these criteria:
+Select **On track** to quickly filter the view to assets that are likely to be ready for production deployment based on these criteria:
 
-- Risk: our pre-upgrade assessment of known risks for updating devices that have this particular asset installed
-- Health status: our assessment of devices in other deployments that have  this asset installed and whether they experienced problems after the update was installed
+- Risk: our pre-upgrade assessment of known risks for updating devices that have this asset installed {link to an "asset" topic?}
+- Health status: our post-upgrade assessment of devices in other deployments and whether they experienced problems after the update was installed. For more information about health, see [Monitor the health of updated devices](#montor-the-health-of-updated-devices).
 
 [![production plan assets view showing "on track"](UDRimages/UDR-prod-assets-ontrack.png)](UDRimages/UDR-prod-assets-ontrack.png)
 
@@ -57,14 +57,14 @@ Similarly, you can select **Undetermined** to view assets that could not be clas
 
 [![production app detail view](UDRimages/UDR-app-detail.png)](UDRimages/UDR-app-detail.png)
 
-Based on the data displayed there, you can set an upgrade decision for that particular app. In this example, the administrator has indicated that the Office app Excel 2016 is upgrade-ready. For more information, see the [Monitor the health of updated devices](#monitor-the-health-of-updated-devices).
+Based on the data displayed there, you can set an upgrade decision for that particular app. In this example, the administrator has indicated that the Office app Excel 2016 is ready for upgrade. For more information, see the [Monitor the health of updated devices](#monitor-the-health-of-updated-devices) and {link to an "asset" topic?}.
 
 
 [![production app set to ready](UDRimages/UDR-app-upgrade-ready.png)](UDRimages/UDR-app-upgrade-ready.png)
 
 Repeat this process for all apps, Office apps, and Office add-ins. Once a given device has a positive upgrade decision for *all* assets (drivers and all apps, Office apps, and Office add-ins installed on it), then its state changes to "ready for production." You can see the current count on the main page for the deployment plan by clicking **3. Deploy**:
 
-[![production ready count](UDRimages/UDR-prod-prog.png)](UDRimages/UDR-prod-prog.png)
+[![production ready count](UDRimages/UDR-prod-prog2.png)](UDRimages/UDR-prod-prog2.png)
 
 ## Deploy to devices that are ready
 
