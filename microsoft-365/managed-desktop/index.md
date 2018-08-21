@@ -23,7 +23,7 @@ ms.date: 05/10/2018
                 <ul id="home">
                     <li>
                         <a href="#home-all"></a>
-                        <ul id="home-all" class="cardsF">
+                        <ul id="home-all" class="cardsA">
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
