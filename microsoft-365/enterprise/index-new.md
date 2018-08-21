@@ -34,9 +34,9 @@ description: Learn about the product documentation and resources available for M
                                             </div>
                                             <div class="cardText">
                                                 <h3>Explore</h3>
-                                                <P><a href="microsoft-365-overview">Overview</a></p>
+                                                <P>Overview</p>
                                                 <P><a href="https://technet.microsoft.com/library/mt846681.aspx">Service description</a></p>
-                                                <P><a href="microsoft-cloud-networking-for-enterprise-architects">Architecture models</a></p>
+                                                <P>Architecture models</p>
                                                 <P><a href="services-overview.md">Services &amp; concepts</a></p>
                                             </div>
                                         </div>
@@ -55,7 +55,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="cardText">
                                                 <h3>Deploy</h3>
                                                 <P><a href="https://www.microsoft.com/fasttrack/microsoft-365">FastTrack</a></p>
-                                                <P><a href="deploy-microsoft-365-enterprise">Deployment guide</a></p>
+                                                <P>Deployment guide</p>
                                                 <P><a href="microsoft-365-policies-configurations.md">Identity &amp; device access</a></p>
                                                 <P><a href="docs.microsoft.com/en-us/office365/SecurityCompliance/">Office 365 security</a></p>
                                             </div>
@@ -75,7 +75,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="cardText">
                                                 <h3>Get compliant</h3>
                                                 <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview">Compliance solutions</a></p>
-                                                <P><a href="https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/">Office 365 compliance</a></p>
+                                                <P>Office 365 compliance</p>
                                             </div>
                                         </div>
                                     </div>
