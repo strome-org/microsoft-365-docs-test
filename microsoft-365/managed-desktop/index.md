@@ -109,7 +109,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_Office.svg" alt="Office logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
