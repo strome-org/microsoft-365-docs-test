@@ -23,7 +23,7 @@ ms.date: 05/10/2018
                 <ul id="home">
                     <li>
                         <a href="#home-all"></a>
-                        <ul id="home-all" class="cardsE">
+                        <ul id="home-all" class="cardsG">
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -34,7 +34,7 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Evalute</h3>
+                                                <h3>Evaluate</h3>
                                                 <P><a href="intro/how-managed-desktop-works.md">How Microsoft 365 Managed Desktop works</a></p>
                                                 <P><a href="intro/prerequisites.md">Prerequisites for enrolling</a></p>
                                                 <P><a href="intro/roles-and-responsibilities.md">Roles and responsibilities: Microsoft's and yours</a></p>
