@@ -38,7 +38,7 @@ ms.date: 05/10/2018
                                                 <P><a href="intro/how-managed-desktop-works.md">How Microsoft 365 Managed Desktop works</a></p>
                                                 <P><a href="intro/prerequisites.md">Prerequisites for enrolling</a></p>
                                                 <P><a href="intro/roles-and-responsibilities.md">Roles and responsibilities: Microsoft's and yours</a></p>
-                                                <P><a href="intro/technologies-and-devices-md">Technologies and devices</a></p>
+                                                <P><a href="intro/technologies-and-devices.md">Technologies and devices</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@ ms.date: 05/10/2018
                                                 <h3>Get started</h3>
                                                 <P><a href="get-started/devices.md">Order devices</a></p>
                                                 <P><a href="get-started/apps.md">Prepare LOB apps</a></p>
-                                                <P><a href="get-started/device-configuration.md">Device configuration</a></p>
+                                                <P><a href="get-started/device-policies.md">Device policies</a></p>
                                                 <P><a href="get-started/security.md">Security enforcement</a></p>
                                             </div>
                                         </div>
