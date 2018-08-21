@@ -114,7 +114,7 @@ ms.date: 05/10/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Get help for your device</h3>
-                                                <p>If you're an administrator who needs to open a support ticket, see [Get support for Microsoft 365 Managed Desktop](working-with-managed-desktop/support.md).</p>
+                                                <p>If you're an administrator who needs to open a support ticket, see [**Get support for Microsoft 365 Managed Desktop**](working-with-managed-desktop/support.md).</p><br><br>
                                                 <p>Do you have a Microsoft 365 Managed Desktop device? Then you have an app that will connect you directly with the folks who can help you. Go to - where? what's it called? </p>
                                             </div>
                                         </div>
