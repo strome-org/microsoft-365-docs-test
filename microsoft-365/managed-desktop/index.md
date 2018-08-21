@@ -94,7 +94,7 @@ ms.date: 05/10/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Using</h3>
-                                                <P><a href="working-with-managed-desktop/updates.md">Office 365</a></p>
+                                                <P><a href="working-with-managed-desktop/updates.md">Updates</a></p>
                                                 <P><a href="working-with-managed-desktop/support.md">Support</a></p>
                                                 <P><a href="working-with-managed-desktop/manage-apps.md">App management</a></p>
                                                 <P><a href="working-with-managed-desktop/operations-and-monitoring.md">Operations and monitoring</a></p>
