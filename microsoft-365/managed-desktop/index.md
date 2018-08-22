@@ -34,7 +34,7 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Evaluate</h3>
+                                                <h3>Is Microsoft 365 Managed Desktop right for you?</h3>
                                                 <P><a href="intro/how-managed-desktop-works.md">How Microsoft 365 Managed Desktop works</a></p>
                                                 <P><a href="intro/prerequisites.md">Prerequisites for enrolling</a></p>
                                                 <P><a href="intro/roles-and-responsibilities.md">Roles and responsibilities: Microsoft's and yours</a></p>
@@ -54,7 +54,7 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Get ready</h3>
+                                                <h3>Get ready to enroll</h3>
                                                 <P><a href="get-ready/index.md">Azure Active Directory</a></p>
                                                 <P><a href="get-ready/index.md">Office 365</a></p>
                                                 <P><a href="get-ready/index.md">Connectivity</a></p>
@@ -73,7 +73,7 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Get started</h3>
+                                                <h3>Get started with your enrollment</h3>
                                                 <P><a href="get-started/devices.md">Order devices</a></p>
                                                 <P><a href="get-started/apps.md">Prepare LOB apps</a></p>
                                                 <P><a href="get-started/device-policies.md">Device policies</a></p>
@@ -93,7 +93,7 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Using</h3>
+                                                <h3>Working with Microsoft 365 Managed Desktop</h3>
                                                 <P><a href="working-with-managed-desktop/updates.md">Updates</a></p>
                                                 <P><a href="working-with-managed-desktop/support.md">Support</a></p>
                                                 <P><a href="working-with-managed-desktop/manage-apps.md">App management</a></p>
