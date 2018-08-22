@@ -50,7 +50,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/security-blue.svg" alt="A shield with an exclamation mark" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy arrow" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -69,7 +69,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy arrow" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/security-blue.svg" alt="A shield with an exclamation mark" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -89,7 +89,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="Graduation cap" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-blue.svg" alt="Best practices" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
