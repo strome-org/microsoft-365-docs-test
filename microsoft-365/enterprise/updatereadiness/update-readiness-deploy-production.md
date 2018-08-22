@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/16/2018
+ms.date: 08/22/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -50,6 +50,14 @@ You can quickly approve these assets for upgrade by selecting the leftmost colum
 [![production plan assets view showing "on track" and all selected for upgrade](UDRimages/UDR-prod-assets-ontrack-setupgrade.png)](UDRimages/UDR-prod-assets-ontrack-setupgrade.png)
 
 Similarly, you can select **Undetermined** to view assets that could not be classified. These generally are assets that do not have enough coverage for us to perform an analysis of the risk or health status. You might consider adding additional devices with these assets to the pilot or ask pilot users to try these assets to improve the coverage.
+
+### Office macros
+
+For Office macros, what is presented is not the actual macro-enabled files but, instead, advisories related to those files.
+ 
+{Insert Sign-off view for Macros} 
+
+You can explore further by clicking any specific advisory to see additional details, for example, the relevant list of devices affected. You can also export this list for later use, such as to run the Readiness Toolkit on this subgroup for still more detail about reported issues like the names of the files for which the advisories were raised.
 
 {SCREENSHOTS/STEPS FROM RITU}
 
@@ -116,6 +124,44 @@ As you address these deployment issues, the dashboard will continue to show the 
 You can commence the production deployment at any time you are sufficiently confident in the success of the pilot deployment--there is no requirement that all (or any particular number) of devices in the pilot deployment reach the "completed" state prior to doing so.
 
 ## Monitor the health of updated devices
+
+The **Monitor health** page lets you monitor the health of all the noteworthy assets in your deployment plan. Unlike the **Prepare production** page, which focuses on helping you make upgrade decisions for your assets (where the default slicer filters to only those assets that are not yet in the **Ready** state), the **Monitor health** page focuses on showing health issues on any noteworthy asset, even those that are marked **Ready**. If issues are discovered, you can troubleshoot and fix the problem or change the upgrade decision to *Unable* to prevent future upgrades on devices with that asset.
+
+The default slicer applied to this page filters to assets that need attention, which means that we have detected a statistically significant regression to some health metric for that asset (see {somewhere} for details of how this is done). In addition to **Attention needed**, the other possible health status values are as follows:
+
+| **Health status**  | **Meaning**  |
+|---------------------------------------------------------|-----------|
+| Meeting goals | No regression in behavior detected|
+| Insufficient data | No usage data yet available for this asset |
+
+{possibly just include all health statuses and short def of meaning into this table}
+
+You can select the slicer to deselect it, which will show you an unfiltered view: 
+
+[![screenshot provided by marcshep2](UDRimages/marcshep2.png)](UDRimages/marcshep2.png)
+
+>[!NOTE]
+>To reduce the number of assets with insufficient data, we monitor the asset on all of your devices that have upgraded to the target Windows or Office version specified in your deployment plan *including devices not included in that specific deployment plan*.
+
+Whether or not a slicer is selected, the default sort order is by number of devices that have had an incident with that particular asset, so you can quickly see which ones are causing the most problems.
+
+Though there is a slicer for assets that need attention, many IT pros want to look at health for all assets, even those with insufficient data for us to make statistical inferences. Here’s one way to do this:
+first, consider selecting the **Devices with incidents in last two weeks** column and filter to only those assets that have had incidents on some minimum number of devices to be interesting:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {1)	Overview (filtered to just noteworthy assets in the DP, calculate health status based on regression analysis on health signals, monitor all devices in your enterprise on the DP target versions, provide tshooters to solve issues and can toggle upgrade decision to halt upgrades to devices with problem assets).
 2)	Needs attention->health status->tshooters (to remediate) or upgrade decision (to halt future rollouts)
