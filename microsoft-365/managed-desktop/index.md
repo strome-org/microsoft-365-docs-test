@@ -130,7 +130,7 @@ ms.date: 05/10/2018
                                                 <div class="card">
                                                     <div class="cardImageOuter">
                                                         <div class="cardImage">
-                                                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-blue.svg" alt="sign up" />
+                                                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="connector" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
