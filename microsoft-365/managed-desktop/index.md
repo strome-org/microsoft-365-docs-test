@@ -41,6 +41,7 @@ ms.date: 05/10/2018
                                                 <P><a href="intro/technologies-and-devices.md">Technologies and devices</a></p>
                                                 <p></p>
                                                 <p></p>
+                                                <br><br>
                                             </div>
                                         </div>
                                     </div>
