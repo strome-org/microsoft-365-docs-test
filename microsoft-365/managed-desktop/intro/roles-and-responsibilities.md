@@ -1,19 +1,19 @@
 ---
-title: Microsoft 365 Managed Desktop roles and responsibilities
-description: This topic describes the roles and responsibilities provided by Microsoft for Microsoft 365 Managed Desktop. 
-keywords: Microsoft 365 Managed Desktop, Microsoft 365, service, documentation
+title: Microsoft Managed Desktop roles and responsibilities
+description: This topic describes the roles and responsibilities provided by Microsoft for Microsoft Managed Desktop. 
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: medium
 ms.date: 06/11/2018
 ---
 
-# Microsoft 365 Managed Desktop roles and responsibilities
+# Microsoft Managed Desktop roles and responsibilities
 
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/admin-access); do not delete.-->
 
-When your organization is enrolled in Microsoft 365 Managed Desktop, what does Microsoft do for you? And what are your organization's responsibilities?
+When your organization is enrolled in Microsoft Managed Desktop, what does Microsoft do for you? And what are your organization's responsibilities?
 
 ## Microsoft's roles and responsibilities
 

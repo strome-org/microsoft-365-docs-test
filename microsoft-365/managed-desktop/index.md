@@ -3,19 +3,19 @@ layout: HubPage
 hide_bc: true
 author: jdeckerms
 ms.author: jdecker
-keywords: Microsoft 365 Managed Desktop, Microsoft 365, service, documentation 
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation 
 ms.topic: hub-page
 localization_priority: Normal
 audience: microsoft-business
 ms.service: m365-md 
-title: Microsoft 365 Managed Desktop
-description: Learn about the product documentation and resources available for Microsoft 365 Managed Desktop.
+title: Microsoft Managed Desktop
+description: Learn about the product documentation and resources available for Microsoft Managed Desktop.
 ms.date: 05/10/2018
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Microsoft 365 Managed Desktop documentation and resources</h1>
-        <P>Microsoft 365 Managed Desktop packages Microsoft 365 E5, Surface devices set up for your Azure Active Directory tenant, and IT support in a combined service to provide enterprises with a solution to help make your workplace more productive and secure.</p>
+        <h1>Microsoft Managed Desktop documentation and resources</h1>
+        <P>Microsoft Managed Desktop packages Microsoft 365 E5, Surface devices set up for your Azure Active Directory tenant, and IT support in a combined service to provide enterprises with a solution to help make your workplace more productive and secure.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -34,8 +34,8 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Is Microsoft 365 Managed Desktop right for you?</h3>
-                                                <P><a href="intro/how-managed-desktop-works.md">How Microsoft 365 Managed Desktop works</a></p>
+                                                <h3>Is Microsoft Managed Desktop right for you?</h3>
+                                                <P><a href="intro/how-managed-desktop-works.md">How Microsoft Managed Desktop works</a></p>
                                                 <P><a href="intro/prerequisites.md">Prerequisites for enrolling</a></p>
                                                 <P><a href="intro/roles-and-responsibilities.md">Roles and responsibilities: Microsoft's and yours</a></p>
                                                 <P><a href="intro/technologies-and-devices.md">Technologies and devices</a></p>
@@ -93,7 +93,7 @@ ms.date: 05/10/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Working with Microsoft 365 Managed Desktop</h3>
+                                                <h3>Working with Microsoft Managed Desktop</h3>
                                                 <P><a href="working-with-managed-desktop/updates.md">Updates</a></p>
                                                 <P><a href="working-with-managed-desktop/support.md">Support</a></p>
                                                 <P><a href="working-with-managed-desktop/manage-apps.md">App management</a></p>
@@ -114,8 +114,8 @@ ms.date: 05/10/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Get help for your device</h3>
-                                                <p>If you're an administrator who needs to open a support ticket, see [**Get support for Microsoft 365 Managed Desktop**](working-with-managed-desktop/support.md).</p><br><br>
-                                                <p>Do you have a Microsoft 365 Managed Desktop device? Then you have an app that will connect you directly with the folks who can help you. Go to - where? what's it called? </p>
+                                                <p>If you're an administrator who needs to open a support ticket, see [**Get support for Microsoft Managed Desktop**](working-with-managed-desktop/support.md).</p><br><br>
+                                                <p>Do you have a Microsoft Managed Desktop device? Then you have an app that will connect you directly with the folks who can help you. Go to - where? what's it called? </p>
                                             </div>
                                         </div>
                                     </div>
