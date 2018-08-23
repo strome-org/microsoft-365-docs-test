@@ -17,7 +17,7 @@ ms.date: 08/22/2018
 There are three main parts to accomplishing the deployment of updates to production devices:
 
 1. [Review assets that need an Upgrade Decision](#review-assets-that-need-an-updgrade-decision)
- To make devices ready for production deployment, their assets (apps, Office apps, Office add-ins, and Office macros) must have their Upgrade Decision set to **Ready** or **Ready with remediations**.
+ To make devices ready for production deployment, their assets (apps, Office apps, Office add-ins, and Office macros) must have their Upgrade Decision set to **Ready** or **Ready, remediations required**.
 2. [Deploy to devices that are ready](#deploy-to-devices-that-are-ready)
  To accomplish the actual installation of updates to devices that are ready, you use a device management tool such as System Center Configuration Manager (SCCM). Update Readiness will provide the list of devices ready for production deployment, as well as reports for monitoring the success of the deployment.
 3. [Monitor the health of updated devices](#montor-the-health-of-updated-devices)
@@ -57,7 +57,7 @@ For Office macros, what is presented is not the actual macro-enabled files but, 
  
 {Insert Sign-off view for Macros} 
 
-You can explore further by clicking any specific advisory to see additional details, for example, the relevant list of devices affected. You can also export this list for later use, such as to run the Readiness Toolkit on this subgroup for still more detail about reported issues like the names of the files for which the advisories were raised.
+You can explore further by selecting any specific advisory to see additional details, for example, the relevant list of devices affected. You can also export this list for later use, such as to run the Readiness Toolkit on this subgroup for still more detail about reported issues like the names of the files for which the advisories were raised.
 
 {SCREENSHOTS/STEPS FROM RITU}
 
@@ -141,19 +141,112 @@ You can select the slicer to deselect it, which will show you an unfiltered view
 [![screenshot provided by marcshep2](UDRimages/marcshep2.png)](UDRimages/marcshep2.png)
 
 >[!NOTE]
->To reduce the number of assets with insufficient data, we monitor the asset on all of your devices that have upgraded to the target Windows or Office version specified in your deployment plan *including devices not included in that specific deployment plan*.
+>To reduce the number of assets with insufficient data, we monitor the assets on all of your devices that have upgraded to the target Windows or Office version specified in your deployment plan *including devices not included in that specific deployment plan*.
 
 Whether or not a slicer is selected, the default sort order is by number of devices that have had an incident with that particular asset, so you can quickly see which ones are causing the most problems.
 
 Though there is a slicer for assets that need attention, many IT pros want to look at health for all assets, even those with insufficient data for us to make statistical inferences. Here’s one way to do this:
 first, consider selecting the **Devices with incidents in last two weeks** column and filter to only those assets that have had incidents on some minimum number of devices to be interesting:
 
+[![screenshot provided by marcshep1](UDRimages/marcshep1.png)](UDRimages/marcshep1.png)
+
+[![screenshot provided by marcshep2](UDRimages/marcshep2.png)](UDRimages/marcshep2.png)
+[![screenshot provided by marcshep3](UDRimages/marcshep3.png)](UDRimages/marcshep3.png)
+
+Next, select the **% Devices with incidents in the last 2 weeks** column and switch the sort order to descending:
+
+[![screenshot provided by marcshep4](UDRimages/marcshep4.png)](UDRimages/marcshep4.png)
+
+This view shows the assets that have the highest incident rates (but only assets with a minimum number of incidents):
+
+[![screenshot provided by marcshep5](UDRimages/marcshep5.png)](UDRimages/marcshep5.png)
+
+Finally, select any particular asset to get more details or change the upgrade decision for it:
+
+[![screenshot provided by marcshep6](UDRimages/marcshep6.png)](UDRimages/marcshep6.png)
+
+### Details of health status monitoring
+
+This section explains in detail how health monitoring works.
+
+>[!NOTE]
+>Update Readiness only collects health data from devices that provide usage data we can use as a denominator. This means that devices running Windows 7 and Windows 10 devices that are not set to share diagnostic data at the Enhanced level are not included. If more than 10% of devices running Windows 10 are set to share diagnostic data at levels other than Enhanced, you will see a warning in the banner area of the **Monitor health** page.
+
+[![screenshot provided by marcshep6](UDRimages/marcshep6.png)](UDRimages/marcshep6.png)
+
+You can see in the flyout of this view a number of things that Update Readiness monitors:
+
+- **% Device with crashes** is the number of devices that this particular app has crashed on in the last two weeks divided by the number devices that the app has been used on in the last two weeks. We calculate this for several parameters as follows:
+    - **After upgrade** devices are those that have upgraded to the target operating system version specified in the deployment plan. We collect this data for all  ofyour upgraded devices (even those not included in the  deployment plan) in order to reduce the number of assets with insufficient data.
+    - **Before upgrade** devices are that are on an operating system version older than {OLDER THAN WHAT?}. This does not include devices running Windows 7. This lets you see whether the crash rate has increased or decreased on the new operating system version.
+    - **Commercial avg** lets you see the crash rate across all commercial devices, so you can compare the devices in your organization. The commercial average is calculated across *all* versions of the app, so that if this version shows a crash rate above the commercial average it might be a sign that you are using the wrong version.
+- **% Sessions with crashes** is very similar to the above but counts the percentage of sessions with crashes in the last two weeks.
+
+To determine the health status, Update Readiness reports “Insufficient data” unless data is available from at least 20 devices. The health status is currently calculated purely based on the session crash rate from these devices (the device crash rate is provided for information only and is not used in the health status calculation).
+
+At the bottom of the page, there are three tabs to help with troubleshooting:
+
+- **Other versions** lets you see alternative versions of this app you might consider deploying. For each version, we show the relative changes to the crash rates within your organization and the commercial average. We also show if the version has a “ready for Windows” signal. If you find a later version of the app with a lower crash rate, it’s a strong signal that an upgrade can help.
+- **Top issues** lets you see the most frequent failure IDs by count. A failure ID is a GUID that identifies the stack trace associated with the crash and can be used when you call Microsoft or ISV support to get more information about the issue.
+- **Recent crashes** shows recent occurrences of crashes, which you can filter by failure ID and other criteria. You can use this information to troubleshoot the issue by gathering logs or trying fixes on specific devices before on specific devices before trying a broader deployment.
+
+If you find a serious health regression that you are unable to fix, you can change the **Upgrade decision** at the top of the fly-out to *Unable* to prevent future deployment of the update to devices that have this asset installed.
+
+#### Health status for Office apps
+
+This section explains health monitoring specifically for Office apps.
+
+{NEED SCREENSHOT}
+
+You can see in the flyout of this view a number of things that Update Readiness monitors:
+
+- **% Device with crashes** is the number of devices that this particular app has crashed on in the last two weeks divided by the number devices that the app has been used on in the last two weeks. We calculate this for several parameters as follows:
+    - **After upgrade** devices are those that have upgraded to the target operating system version specified in the deployment plan. We collect this data for all of your upgraded devices (even those not included in the  deployment plan) in order to reduce the number of assets with insufficient data.
+    - **Before upgrade** devices are those that are on an operating system version older than {OLDER THAN WHAT?}. This does not include devices running Windows 7. This lets you see whether the crash rate has increased or decreased on the new operating system version.
+    - **Commercial avg** lets you see the crash rate across all commercial devices, so you can compare the devices in your organization. The commercial average is calculated across *all* versions of the app, so that if this version shows a crash rate above the commercial average it might be a sign that you are using the wrong version.
+- **% Sessions with crashes** is very similar to the above but counts the percentage of sessions with crashes in the last two weeks.
+
+To determine the health status, {RITU} to provide details on algo she wants to disclose}
+
+{This is currently a verbatim repeat of the material immediately preceding--do we need to repeat it?}
+
+#### Health status for Office add-ins
+
+This section explains health monitoring specifically for Office add-ins.
+
+[![screenshot provided by javier carillo 1](UDRimages/javcar1.png)](UDRimages/javcar1.png)
+
+You can see in the flyout of this view a number of things that Update Readiness monitors:
+
+- **% Device with incidents** is the number of devices on which the selected add-in had an incident that prevented it from working properly in the last two weeks divided by the number of devices on which the add-in is installed. An incident event for an add-in refers to it failing to load or becoming unresponsive. We calculate this for several parameters as follows:
+    - **After upgrade** devices are those that have upgraded to the target Office version specified in the deployment plan.sion. We collect this data for all of your upgraded devices (even those not included in the  deployment plan) in order to reduce the number of assets with insufficient data.
+    - **Before upgrade** devices those running any version of Office older than the version that the deployment plan targets. This does not include {include min version of Office} . You can compare this metric to the **After upgrade** to assess the health of the add-in.
+    - **Commercial average** shows the incident rate across all commercial devices that use the same version of the add-in on the same version of Office. You can use this to compare against devices in your organization so that if this add-in version is having a higher incident rate than the commercial average, it might be a sign that the problem is not the add-in, but a given configuration in your organization.
+- **% Sessions with incidents** is very similar to the above but counts the percentage of sessions with crashes in the last two weeks.
 
 
+To determine the health status of add-ins, Update Readiness reports insufficient data unless we collect data from at least 3 devices for the device incident rate and at least 10 sessions for the session incident rate. For both rates we compare the before and after values to determine  if there is a regression--no regression is considered as meeting goals. Ultimately, the overall health status of the add-in is calculated based on a combination of both device and session incident rates using the following matrix:
 
+|  | **Insufficient data for device crashes**  | **Healthy device crash metrics** | **Regression in device crash metrics** |
+|----------------|---------------------|-----------------------|------------------------|
+| **Insufficient data for sessions with incidents**| **Insufficient data**| **Meeting goals** | **Insufficient data** |
+| **Healthy metrics for sessions with incidents** | **Meeting goals** | **Meeting goals** | **Meeting goals** |
+| **Regression in metrics for sessions with incidents** | **Insufficient data** | **Meeting goals** | **Attention needed** |
 
+At the bottom of the page, there are three tabs to help with troubleshooting
+- **Recent incidents** shows you the devices on which add-in incidents have occurred recently. This lets you see recent occurrences of incidents and the devices on which they took place. You can use this list to troubleshoot the issue by gathering logs or trying fixes on those specific devices before trying a broader rollout.
 
+#### Health status for Office macros
+{placeholder for Javier to elaborate}
 
+Let’s have a closer look at how we monitor the Office macros. Rather than informing you about the files on which macro issues might be occurring (which may be a rather large number), we focus on “macro advisories”. These are related to an Office application (i.e. Word macros, Excel macros, PowerPoint macros) and can be generic or detailed (related to specific functionality in the macro object model). 
+Not all advisories 
+TODO – add screenshot
+As you can see from the fly-out above, there are several things we monitor for each macro advisory:
+•	“% Devices with runtime errors”: this is the number of devices on which a runtime error related to the advisory took place in the last 2 weeks over the number of devices on which the advisory is present
+To determine the health status, <TODO – Javier to specify what level he wishes to describe the algorithm>
+At the bottom of the page, there are three tabs to help with troubleshooting
+•	<TDODO>
 
 
 

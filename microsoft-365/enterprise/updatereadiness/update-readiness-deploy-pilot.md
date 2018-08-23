@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/21/2018
+ms.date: 08/23/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -23,7 +23,7 @@ To review issues, follow these steps:
 
 1. On the dashboard, select **Prepare pilot**.
 2. On the **Apps** tab, review the apps that need your input.
-3. For each app, select the app name and then, in the information pane, review the recommendation and select the upgrade decision. If you choose **Review in progress** or **Unable**, then devices with this app will not be upgraded during the deployment.
+3. For each app, select the app name and then, in the information pane, review the recommendation and select the upgrade decision. If you choose **Not reviewed** or **Unable**, then devices with this app will not be upgraded during the deployment.
 4. Repeat this review for drivers, Office apps, and Office add-ins by using those tabs.
 
 {INSERT GENERAL INFO ON RISK AND HEALTH--XLINK TO SUBTOPICS?}
