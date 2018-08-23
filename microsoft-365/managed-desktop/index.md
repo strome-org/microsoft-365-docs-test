@@ -39,6 +39,8 @@ ms.date: 05/10/2018
                                                 <P><a href="intro/prerequisites.md">Prerequisites for enrolling</a></p>
                                                 <P><a href="intro/roles-and-responsibilities.md">Roles and responsibilities: Microsoft's and yours</a></p>
                                                 <P><a href="intro/technologies-and-devices.md">Technologies and devices</a></p>
+                                                <p></p>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
