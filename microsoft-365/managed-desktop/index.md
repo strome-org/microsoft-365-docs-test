@@ -53,7 +53,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy arrow" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-blue.svg" alt="sign up" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -72,7 +72,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/security-blue.svg" alt="A shield with an exclamation mark" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
