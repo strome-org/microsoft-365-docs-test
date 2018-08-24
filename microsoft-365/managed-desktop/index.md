@@ -30,7 +30,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-blue.svg" alt="Building blocks" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/blocks-blue.svg" alt="Building blocks" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -53,7 +53,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-blue.svg" alt="sign up" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/sign-up-blue.svg" alt="sign up" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -72,7 +72,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -92,7 +92,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-blue.svg" alt="Best practices" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/best-practices-blue.svg" alt="Best practices" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -112,7 +112,7 @@ ms.date: 05/10/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -130,13 +130,14 @@ ms.date: 05/10/2018
                                                 <div class="card">
                                                     <div class="cardImageOuter">
                                                         <div class="cardImage">
-                                                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="connector" />
+                                                            <img src="https://docs.microsoft.com/office/media/icons/connector-blue.svg" alt="connector" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>Other Microsoft 365 products</h3>
-                                                        <P><a href="https://docs.microsoft.com/en-us/microsoft-365/business/">Microsoft 365 Business</a></p>
-                                                        <P><a href="https://support.office.com/article/Get-started-with-Office-365-Education-AB02ABE5-A1EE-458C-B749-5B44416CCF14">Microsoft 365 Education</a></p>
+                                                        <p><a href="https://docs.microsoft.com/microsoft-365/enterprise>
+                                                        <P><a href="https://docs.microsoft.com/microsoft-365/business/">Microsoft 365 Business</a></p>
+                                                        <P><a href="https://docs.microsoft.com/education/">Microsoft 365 Education</a></p>
                                                     </div>
                                                 </div>
                                             </div>
