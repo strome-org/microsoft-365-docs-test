@@ -135,7 +135,7 @@ ms.date: 05/10/2018
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>Other Microsoft 365 products</h3>
-                                                        <p><a href="https://docs.microsoft.com/microsoft-365/enterprise>
+                                                        <p><a href="https://docs.microsoft.com/microsoft-365/enterprise/">Microsoft 365 Enterprise</a></p>
                                                         <P><a href="https://docs.microsoft.com/microsoft-365/business/">Microsoft 365 Business</a></p>
                                                         <P><a href="https://docs.microsoft.com/education/">Microsoft 365 Education</a></p>
                                                     </div>
