@@ -5,7 +5,7 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: medium
-ms.date: 06/06/2018
+ms.date: 09/24/2018
 ---
 
 # Is Microsoft Managed Desktop right for you?
