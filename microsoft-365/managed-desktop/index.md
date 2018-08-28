@@ -118,7 +118,8 @@ ms.date: 05/10/2018
                                             <div class="cardText">
                                                 <h3>Get help for your device</h3>
                                                 <p>If you're an administrator who needs to open a support ticket, see [**Get support for Microsoft Managed Desktop**](working-with-managed-desktop/support.md).</p><br>
-                                                <p>If you have a Microsoft Managed Desktop device, then you have an app that will connect you directly with experts who can help you. Go to - ***where? what's it called?*** </p>
+                                                <p>If you have a Microsoft Managed Desktop device, then you have an app that will connect you directly with experts who can help you. Go to the **Get Help** app on your taskbar. </p>
+                                                <img src="images/get-help.png" alt="Get Help" />
                                             </div>
                                         </div>
                                     </div>

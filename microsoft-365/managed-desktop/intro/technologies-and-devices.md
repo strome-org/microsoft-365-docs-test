@@ -75,7 +75,7 @@ Microsoft will provide these services for Microsoft Managed Desktop devices.
  --- | ---
 Support	| Support agents will answer questions directly related to device functionality and diagnose device issues.
 Replacement	| The device will be replaced with a similar device after a request is made through support. For coverage details, refer to the warranty terms chosen when selecting your devices.
-Upgrade	| Devices are upgraded and replaced every two years.
+Upgrade	| Devices are upgraded and replaced under the terms of the warranty that you select.
 Inventory |	All devices are tracked in the Microsoft Managed Desktop aAdmin pPortal for inventory and status tracking.
 Device shipment |	Devices are shipped directly to the assigned user or IT distribution point.
 Firmware / driver updates |	Firmware/Driver updates are deployed and monitored for compatibility by Microsoft. 

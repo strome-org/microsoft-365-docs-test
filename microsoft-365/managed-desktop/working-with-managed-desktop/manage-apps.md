@@ -19,6 +19,6 @@ Customers:
 - Monitor their application deployment status
 - Manage application settings profiles for deployment
 
-Microsoft Managed Desktop operations reviews app deployment notifications to ensure that no applications which violate Microsoft Managed Desktop terms are being deployed. 
+Microsoft Managed Desktop Operations Team reviews app deployment notifications to ensure that no applications which violate Microsoft Managed Desktop terms are being deployed. 
 
 Microsoft Managed Desktop support provides support for Microsoft Authored Applications (for example, Office). 
