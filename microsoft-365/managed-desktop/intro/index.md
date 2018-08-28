@@ -10,7 +10,7 @@ ms.date: 06/06/2018
 
 # Is Microsoft Managed Desktop right for you?
 
-<--Overview-->
+<!--from Overview-->
 
 We’re always looking for ways to help make our customer’s workplace more productive and secure. The Microsoft 365 service starts by empowering employees to work together in a creative, secure device and app environment.  
 
