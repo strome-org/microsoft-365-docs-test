@@ -17,6 +17,8 @@ ms.date: 09/24/2018
 
 Microsoft Managed Desktop connects all devices to a modern cloud-based infrastructure. Keeping Windows, Office, drivers, firmware, and Microsoft Store for Business application updates up to date is a balance of speed and stability. Deployment rings will be used to ensure OS and policies are rolled out in a safe manner. 
 
+## Update rings
+
 Microsoft Managed Desktop uses four Azure AD groups to manage updates:
 
 - Test: The test ring is only designed for test and validation of changes made in the customer tenant.  
@@ -46,4 +48,16 @@ How ring promotion works:
 <tr><td>Anti-virus definition</td><td colspan="4">Updated with each scan</td></tr>
 <tr><td>Office Pro-Plus click to run</td><td colspan="4">Aligned with semi-annual channel</td></tr>
 </table>
+
+
+## Windows Insider Program
+
+Microsoft Managed Desktop does not support devices that are part of the Windows Insider program. This program is used to validate pre-release Windows software and is intended for non-mission critical devices. While this is an important Microsoft initiative, it is not intended for broad deployment in production environments. 
+
+Any devices found with Windows Insider builds will be put into the Test ring and not be included for update SLAs.
+
+## Bandwidth management
+
+Delivery optimization is used for all operating system and driver updates. It minimizes the download size from the Windows Update (WU) service by seeking updates from peers within the corporate network.
+
 
