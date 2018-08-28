@@ -48,3 +48,6 @@ Network infrastructure, including VPN | Setup, configuration and management (inc
 Printing | Install, maintain and administer printers and print queues. Cloud printing is a recommended solution, but is not required. 
 Mobile devices | Devices and accessories not provided by Microsoft Managed Desktop. Microsoft Managed Desktop Operations Team only supports the Microsoft Managed Desktop device, docking station and included accessories.
 
+
+
+
