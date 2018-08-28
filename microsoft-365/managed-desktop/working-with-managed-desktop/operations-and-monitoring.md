@@ -68,3 +68,5 @@ Windows Defender Advanced Threat Protection	| Microsoft will:<br>- Monitor and i
 Microsoft Store for Business |	Microsoft will:<br>- Configure and maintain the Windows Autopilot profile for the Microsoft Managed Desktop service<br><br>Customer will:<br>- Open an informational support ticket with Microsoft Managed Desktop Operations when planning a change that Open might impact the access to the Store or modify the Microsoft Managed Desktop Windows Autopilot profile<br>- Not modify the configuration of the Microsoft Managed Desktop Windows Autopilot profile or add/remove assigned devices
 Certificates |	Customer will:<br>- Open an informational support ticket with Microsoft Managed Desktop Operations 60 days prior to any certificate expiring<br>- Update all certificates that are required to configure:<br>    - Certificate profiles<br>    - VPN profiles<br>    - Wi-Fi profiles
 
+
+
