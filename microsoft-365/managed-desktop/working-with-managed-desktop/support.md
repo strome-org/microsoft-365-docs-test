@@ -10,7 +10,14 @@ ms.date: 06/06/2018
 
 # Get support for Microsoft Managed Desktop
 
-Microsoft Managed Desktop devices are managed by and will be repaired or replaced by Microsoft when needed.
+Microsoft Managed Desktop devices are managed by and will be repaired or replaced by Microsoft when needed. Microsoft will provide proactive and reactive incident management. Microsoft tracks incidents in the Microsoft Managed Desktop admin portal. They are classified according to [severity definitions](#severity-definitions). 
+
+Customers can contact Microsoft Managed Desktop operations for:
+- Information requests on the Modern Workplace as a Service tenant or configuration
+- Change requests to the configuration of Modern Workplace as a Service devices
+- Reporting an incident or outage
+
+ 
 
 ## What's included?
 
@@ -37,6 +44,8 @@ Support details:
 ## Getting help: administrators
 
 You can submit Support tickets or Feedback requests to Microsoft using the Microsoft Managed Desktop Administrative Portal. Support requests are always prioritized over Feedback submissions. Support requests will be reviewed and managed according to Severity as outlined earlier in this document. Feedback will be reviewed, and a response provided where requested. 
+
+Contact operations by opening a Support request through the Microsoft 365 Managed Desktop admin portal.  Click on **+ New Support ticket** on the Support request tab in the admin portal.  
 
 ## Getting help for end users
 
@@ -67,6 +76,21 @@ End users with Microsoft Managed Desktop devices also have access to toll-free p
 Hardware devices are replaced for items under the terms of the warranty you select. Devices are refreshed at the end of your Device-as-a-Service term, as is their attached warranty. Devices that need to be replaced for reasons outside of the warranty coverage will be assessed a replacement fee, e.g. lost or stolen devices. For a full list of what is covered under warranty, see [Surface warranty options](https://support.microsoft.com/help/4036296/surface-surface-standard-warranty).
 
 
+
+## Severity definitions
+
+Initial response time is the period from when you submit your support request to when an Microsoft Managed Desktop Engineer contacts you and starts working on your support request. The initial response time varies with the Business Impact of the request (also known as Severity).
+
+Severity Level	| Customer Situation |	Initial Response Time	| Expected Customer Response
+--- | --- | --- | ---
+Severity A – Critical Impact |	Critical business impact<br><br>Customer’s business has significant loss or degradation of services and requires immediate attention. | Initial: < 1 hour<br>Update: 60 minutes<br>Business hours: 24x7	 | When you select Severity A you confirm that the issue has critical business impact, with severe loss and degradation of services.<br><br>The issue demands an immediate response, and you commit to continuous, 24x7 operation, every day with the Microsoft team until resolution, otherwise, Microsoft may at its discretion decrease the Severity to level B.<br><br>You also ensure that Microsoft has your accurate contact information.
+Severity B – Moderate Impact |	Moderate business impact<br><br>Customer’s business has moderate loss or degradation of services, but work can reasonably continue in an impaired manner. |	Initial: < 4 hours<br>Update: 12 hours<br>Business hours 24x7 available |	When you select Severity B you confirm that the issue has moderate impact to your business with loss and degradation of services, but workarounds enable reasonable, temporary, business continuity.<br><br>The issue demands an urgent response. If you chose 24x7 when you submit the support request, you commit to a continuous, 24x7 operation, every day with the Microsoft team until resolution, otherwise, Microsoft may at its discretion decrease the severity to level C. If you chose business-hours support when you submit a Severity B incident, Microsoft will contact you during business hours only.<br><br>You also ensure that Microsoft has your accurate contact information.
+Severity C – Minimal Impact	Minimum business impact | Customer’s business is functioning with minor impediments of services. |	Initial: < 8 business hours<br>Update: As required  |	When you select Severity C you confirm that the issue has minimum impact to your business with minor impediment of service.<br><br>For a Severity C incident, Microsoft will contact you during business hours only.<br><br>You also ensure that Microsoft has your accurate contact information.
+
+Additional details:
+- Support languages - All support is provided in English.
+- Severity level changes - Microsoft may downgrade the severity level if the customer is not able to provide adequate resources or responses to enable Microsoft to continue with problem resolution efforts. 
+- Business hours - For most countries, business hours are from 9:00 AM to 5:00 PM, Pacific Standard Time. 
 
 
 
