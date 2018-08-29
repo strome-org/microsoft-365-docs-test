@@ -62,20 +62,21 @@ Telemetry | Devices will be set to provide Enhanced diagnostic data to Microsoft
  - **App allow list**: Apps must be trusted by the organization to run on Microsoft Managed Desktop devices. This provides a locked-down environment. Any apps that need to be onboarded must be communicated to the Microsoft Managed Desktop Operations Team. For more information, see [Windows Defender Device Guard](https://docs.microsoft.com/windows/device-security/device-guard/device-guard-deployment-guide).
  - **Security monitoring**: Microsoft will monitor devices using [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). If a threat be detected, Microsoft will notify the customer, isolate the device, and rectify the issue remotely. 
  - **Exploit Guard**: We will ensure that mWaaS devices are always secured with the latest security update, for both operating system and apps, using [Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb). Exploit Guard will be configured with these settings:
-    Setting | Policy
-    --- | ---
-    Flag credential stealing from the Windows local security authority subsystem | Audit Only
-    Office apps injecting into other processes | Audit Only
-    Office apps/macros creating executable content | Block
-    Office apps launching child processes | Audit Only
-    Win32 imports from Office macro code | Block
-    Obfuscated js/vbs/ps/macro code | Block
-    Js/vbs executing payload downloaded from internet (no exceptions) | Block
-    Process creation from PSExec and WMI commands | Audit Only
-    Untrusted and unsigned processes that run from USB | Block
-    Executables that don't meet a prevalence, age, or trusted-list criteria | Audit Only
-    Execution of executable content dropped from email | Block
-    Advanced ransomware protection | Audit Only
+
+ Setting | Policy
+ --- | ---
+ Flag credential stealing from the Windows local security authority subsystem | Audit Only
+ Office apps injecting into other processes | Audit Only
+ Office apps/macros creating executable content | Block
+ Office apps launching child processes | Audit Only
+ Win32 imports from Office macro code | Block
+ Obfuscated js/vbs/ps/macro code | Block
+ Js/vbs executing payload downloaded from internet (no exceptions) | Block
+ Process creation from PSExec and WMI commands | Audit Only
+ Untrusted and unsigned processes that run from USB | Block
+ Executables that don't meet a prevalence, age, or trusted-list criteria | Audit Only
+ Execution of executable content dropped from email | Block
+ Advanced ransomware protection | Audit Only
 
 
 
