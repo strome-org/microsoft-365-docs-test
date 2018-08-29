@@ -84,7 +84,7 @@ There are a few requirements:
 Managed Desktop Operations Team will:
 
 - Look up the device name in Intune
-- Send the Factory reset command to the device
+- Send the factory reset command to the device
 
 >[!NOTE]
 >Do not remove the user account from Azure AD before the factory reset. If the user isn’t in Azure AD, Intune can’t send the factory reset command to the device. 
