@@ -40,6 +40,7 @@ Microsoft will: | Customers will:
 - Collect customer feedback to improve rollout of future changes.<br>- Monitor telemetry and support escalations for any unexpected issues. | - Manage internal change management process.<br>- Provide general feedback and specific feedback in the admin feedback tool.<br>- Train users to provide app-specific feedback using the Winbdows Feedback Hub and the Smile button in Office apps. 
 
 
+
 ### Change types
 
 There are several types of changes that are made to the service on a regular basis. The communication channel for those changes, and the actions that customers are responsible for varies.
