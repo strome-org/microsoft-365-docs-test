@@ -6,6 +6,7 @@
 ### [Roles and responsibilities](intro/roles-and-responsibilities.md)
 ### [Technologies and devices](intro/technologies-and-devices.md)
 ## [Get ready for enrollment in Microsoft Managed Desktop](get-ready/index.md)
+### [Network configuration](get-ready/network.md)
 ## [Get started with Microsoft Managed Desktop](get-started/index.md)
 ### [Apps](get-started/apps.md)
 ### [Devices](get-started/devices.md)

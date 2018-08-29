@@ -13,6 +13,7 @@ ms.date: 09/24/2018
 This topic lists the technologies, apps, and device specifications used in Microsoft Managed Desktop.
 
 <!-- Microsoft 365 E5; Device as a Service -->
+<!-- in O365 table, standard suite, removed this sentence "Please see the Installation of Project/Visio 64bit Click to Run Addendum for important deployment instructions. -->
 
 ## Technologies
 
@@ -24,7 +25,7 @@ Microsoft 365 E5 is comprised of 3 components: Office 365 E5, Windows 10 Enterpr
 ### Office 365 E5
  |
  --- | ---
-Office 365 Standard Suite (64bit)* | The standard Office Suite of applications will be shipped with the device:	Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>The 64bit Click to Run (C2R) full versions of Microsoft Project and Microsoft Visio are not included in the Office 365 Standard Suite.  However, since the installation of these applications are dependent on the standard Office Suite installation, Microsoft Managed Desktop has created default Intune deployments and Security groups that the customer will use to deploy these applications to licensed end users.  Please see the Installation of Project/Visio 64bit Click to Run Addendum for important deployment instructions. 
+Office 365 Standard Suite (64bit)* | The standard Office Suite of applications will be shipped with the device:	Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>The 64bit Click to Run (C2R) full versions of Microsoft Project and Microsoft Visio are not included in the Office 365 Standard Suite.  However, since the installation of these applications are dependent on the standard Office Suite installation, Microsoft Managed Desktop has created default Intune deployments and Security groups that the customer will use to deploy these applications to licensed end users.  
 Store Apps |	Microsoft Sway, Microsoft Teams, Power BI Desktop (not Pro) are not shipped with device. These apps are available for download from Microsoft Store.
 Win32 Applications |	Power BI Pro, Azure Information Protection Client, and Microsoft Planner are not shipped with device and can be packaged for deployment by the customer. 
 Web Applications |	Yammer, Office Online, Delve, Flow, StaffHub, PowerApps are not shipped with the device. Users can access the web version of these applications with a browser.
