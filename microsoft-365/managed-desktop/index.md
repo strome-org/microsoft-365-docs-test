@@ -61,6 +61,7 @@ ms.date: 05/10/2018
                                                 <P><a href="get-ready/index.md">Azure Active Directory</a></p>
                                                 <P><a href="get-ready/index.md">Office 365</a></p>
                                                 <P><a href="get-ready/index.md">Connectivity</a></p>
+                                                <p><a href="get-ready/network.md">Network configuration</a></p>
                                         </div>
                                         </div>
                                     </div>
