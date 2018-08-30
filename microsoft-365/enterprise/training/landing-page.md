@@ -39,12 +39,12 @@ Add a description.
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft 365 planning and deployment</h3>
-                        <p><a href="">Configuring your network for Microsoft 365</a></p>
-                        <p><a href="">Manage and protect user identities and groups in Microsoft 365</a></p>
-                        <p><a href="">Implement Windows 10 Enterprise for Microsoft 365</a></p>
-                        <p><a href="">Office 365 ProPlus in Microsoft 365</a></p>
-                        <p><a href="">Manage devices in Microsoft 365</a></p>
-                        <p><a href="">Protecting Information in Microsoft 365</a></p>
+                        <p><a href="configuring-your-network-for-microsoft-365.yml">Configuring your network for Microsoft 365</a></p>
+                        <p><a href="manage-and-protect-user-identities-and-groups-in-microsoft-365.yml">Manage and protect user identities and groups in Microsoft 365</a></p>
+                        <p><a href="implement-windows-10-enterprise-for-microsoft-365.yml">Implement Windows 10 Enterprise for Microsoft 365</a></p>
+                        <p><a href="office-365-proplus-in-microsoft-365.yml">Office 365 ProPlus in Microsoft 365</a></p>
+                        <p><a href="manage-devices-in-microsoft-365.yml">Manage devices in Microsoft 365</a></p>
+                        <p><a href="protecting-information-in-microsoft-365.yml">Protecting Information in Microsoft 365</a></p>
                     </div>
                 </div>
             </div>
