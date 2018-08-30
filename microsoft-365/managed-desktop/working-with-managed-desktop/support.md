@@ -47,6 +47,14 @@ You can submit Support tickets or Feedback requests to Microsoft using the Micro
 
 Contact operations by opening a Support request through the Microsoft 365 Managed Desktop admin portal.  Click on **+ New Support ticket** on the Support request tab in the admin portal.  
 
+When you create your support request, choose the type that matches the kind of help you need.
+
+Support request type | When to use
+--- | ---
+Request for information | Questions about device purchase history.
+Incident | Something you need Microsoft Managed Desktop Operations Team to investigate, like apps not deploying correctly.
+Change request | Something you want Microsoft Managed Desktop Operations Team to change, like moving devices between update ring.
+
 ## Getting help for end users
 
 There are two ways that users in your organization can get help with their Microsoft Managed Desktop devices: **Get Help** app, or phone support. 
