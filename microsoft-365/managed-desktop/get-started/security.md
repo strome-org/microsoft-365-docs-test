@@ -10,17 +10,42 @@ ms.date: 09/24/2018
 
 # Security in Microsoft Managed Desktop
 
-<!--Security -->
+<!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
 By using many Microsoft technologies, we can ensure that Microsoft Managed Desktop devices are secure and that the Microsoft Managed Desktop security ops team can prevent, detect, and respond to advanced threats. Third-party security products, apps, and services are not allowed. Microsoft will apply a standard policy baseline to ensure devices, identity, network, and corporate data are secured and protected.
 
-![Diagram of security components](images/security.png)
-
 These categories of security enforcement are documented in the following sections:
-- [Device security](#device-security) – ensure Microsoft Managed Desktop devices are secure
-- [Identity security](#identity-security) – ensure users in the modern workplace are not compromised
-- [Network security](#network-security) – ensure a secure access to corporate resources
-- [Information security](#information-security) – ensure corporate data is secure
+
+- [Data security](#data-security) - how we ensure your data is stored and meets requirements for Azure security positioning
+- [Device security](#device-security) – how we ensure Microsoft Managed Desktop devices are secure
+- [Identity security](#identity-security) – how we ensure users in the modern workplace are not compromised
+- [Network security](#network-security) – how we ensure a secure access to corporate resources
+- [Information security](#information-security) – how we ensure corporate data is secure
+- [Privileged account access](#privileged-account-access) - how we restrict access
+
+## Data security
+
+Data transmitted from your tenant is stored in Azure SQL databases in the Microsoft tenant hosted in the USA. Your data is stored and meets requirements for Azure security positioning. 
+
+For more information, see [Microsoft Azure security](https://www.microsoft.com/TrustCenter/Security/azure-security).
+
+This list summarizes the types of data transmitted between Microsoft and your tenant. 
+
+- From Microsoft to your tenant
+    - Group names
+    - Security policy configuration
+    - Device orders
+    - User accounts (msadmin, mstest, Microsoft Managed Desktop_soc_ro, Microsoft Managed Desktop_wdgsoc)
+    - E5 License assignment to the above 4 users
+    - Windows update policies for update rings
+    - In the future, further capabilities will be developed to allow for posting of other types of configuration content including apps, policies, and settings.
+- From your tenant to Microsoft
+    - Device update, usage and reliability data
+    - App deployment and reliability data
+    - Update and security policy deployment data
+    - Users assigned to devices
+
+
 
 ## Device security
 
@@ -69,4 +94,13 @@ Service | Description
 Conditional access |	Allow access to corporate resources and services only when the device is compliant.
 Data recovery  | Information stored in key folders on the device is backed up to OneDrive for Bbusiness. Microsoft Managed Desktop is not responsible for data that isn’t synchronized with OneDrive for Business. 
 Windows Information Protection |	For companies that require high levels of information security, we recommend [Windows Information Protection](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) and [Azure Information Protection.](https://www.microsoft.com/cloud-platform/azure-information-protection). 
+
+
+## Privileged account access
+
+Today, we restrict access to the customer MSAdmin credentials and the application through these mechanisms:
+
+- **Operators** – Microsoft full-time-employees located in the US who have successfully completed a periodic background and security check.
+- **Operator identity** – Protected according to the standards set by Microsoft. For more information, see [Managing user identities and secure access at Microsoft](https://www.microsoft.com/itshowcase/Article/Content/931/Managing-user-identities-and-secure-access-at-Microsoft). 
+- **Logging** is performed within the operator environment and within the customer’s tenant. Log data and personal information are retained within the respective environments and do not traverse environments. 
 
