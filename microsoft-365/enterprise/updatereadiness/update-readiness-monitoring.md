@@ -38,7 +38,7 @@ Devices in the bar chart are categorized as follows:
 | **Label**  | **Definition**  |
 |---------------------------------------------------------|-----------|
 | Latest | Devices are running the latest security update per release version and release channel.|
-| Latest-1 | Devices are running a security update one release older than the latest available update on that channel and a build that is not thge most current. |
+| Latest-1 | Devices are running a security update one release older than the latest available update on that channel and a build that is not the most current. |
 | Older | Devices are running a security update older than Latest -1. |
 
 The **Adoption goal** tile shows the progress of adoption of the latest available security update. This goal is not user-configurable--it is set to 95% adoption within seven days of a security update release:
@@ -47,7 +47,7 @@ The **Adoption goal** tile shows the progress of adoption of the latest availabl
 
 Below these two tiles is a section showing the adoption trend on a per-version basis (in this example, the trend is shown for each Windows 10 release version):
 
-[![security update asoption trend tile detail](UDRimages/UDR-security-status-adopttrend.png)](UDRimages/UDR-security-status-adopttrend.png)
+[![security update adoption trend tile detail](UDRimages/UDR-security-status-adopttrend.png)](UDRimages/UDR-security-status-adopttrend.png)
 
  Channel info?{SIC} Each row shows the total number of devices running the indicated Windows 10 release, followed by the percentage of devices that are running the latest security update for that release, a link for additional details, and the number of devices (as a percentage of the total number of Windows 10 devices) that are out of date with respect to security updates. You can also select **View More** to see the adoption trend over time.
 

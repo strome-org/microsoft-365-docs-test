@@ -1,7 +1,7 @@
 ---
-title: Update Readiness troubleshooting
+title: Desktop Analytics troubleshooting
 description: Steps to take when things go wrong with Update Readiness
-keywords: windows analytics, oms, operations management suite, prerequisites, requirements, updates, upgrades, log analytics, health, FAQ, problems, troubleshooting, error
+keywords: desktop analytics, oms, operations management suite, prerequisites, requirements, updates, upgrades, log analytics, health, FAQ, problems, troubleshooting, error
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -12,7 +12,33 @@ ms.date: 08/07/2018
 ms.localizationpriority: medium
 ---
 
-# Update Readiness troubleshooting
+# Desktop Analytics troubleshooting
+
+This topic compiles the most common issues encountered with configuring and using Desktop Analytics, as well as general questions.
+
+## Troubleshooting common problems
+
+### The number of devices reported doesn't match what I know to be in my deployment
+1. check A
+2. check B
+3. etc.
+
+
+### SCCM connector isn't working
+
+1. Go to the Azure portal and find Log Analytics Advanced settings in the Azure portal. Select Computer Groups, SCCM, and then select check box of Import SCCM group memberships from computers. 
+ 
+ 
+You need to guide the customer to navigate to their Analytics query…
+One way to get them there is to enter the ‘Create OMS’ query experience from creating a new deployment plan
+Then ask them to go to ‘Analytics’
+
+
+
+--------------------------------------------------------
+Below this line is the stuff from the WA troubleshooting topic in case we can re-use any of it
+------------------------------------------------------
+
 
 {uncurated blind copy of WA troubleshooting topic as fodder for Update Readiness version}
 
