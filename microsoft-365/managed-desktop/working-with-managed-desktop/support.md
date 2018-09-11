@@ -76,8 +76,8 @@ Get Help is designed to be easy for end-user professionals to use.
 
 End users with Microsoft Managed Desktop devices also have access to toll-free phone numbers they can call. This is meant to be used when Get Help isn’t available. For example, if they can’t sign in to the device, or the device is broken. Here are the phone numbers for phone support:
 
-- United States: +1855-425-0216
-- United Kingdom: +442076601135 
+- United States: [(855) 425-0216](tel:+18554250216)
+- United Kingdom: [+44 20 7660 1135](tel:+442076601135)
 
 ## Hardware replacement
 
