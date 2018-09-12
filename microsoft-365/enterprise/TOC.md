@@ -114,12 +114,13 @@
 
 ### [Microsoft's data protection officer](../compliance/gdpr-data-protection-officer.md)
 
-# Update Readiness
-## [Update Readiness Overview](updatereadiness/update-readiness-overview.md)
-## [Get started with Update Readiness](updatereadiness/update-readiness-get-started.md)
-## [Enroll devices in Update Readiness](updatereadiness/update-readiness-enroll-devices.md)
-## [Define deployment plans with Update Readiness](updatereadiness/update-readiness-deployment-plans.md)
-## [Deploy pilot with Update Readiness](updatereadiness/update-readiness-deploy-pilot.md)
-## [Deploy to production with Update Readiness](updatereadiness/update-readiness-deploy-production.md)
+# Desktop Analytics
+## [Desktop Analytics Overview](updatereadiness/update-readiness-overview.md)
+## [Get started with Desktop Analytics](updatereadiness/update-readiness-get-started.md)
+## [Enroll devices in Desktop Analytics](updatereadiness/update-readiness-enroll-devices.md)
+## [Additional steps after device enrollment in Desktop Analytics](updatereadiness/update-readiness-additional-steps.md)
+## [Define deployment plans with Desktop Analytics](updatereadiness/update-readiness-deployment-plans.md)
+## [Deploy pilot with Desktop Analytics](updatereadiness/update-readiness-deploy-pilot.md)
+## [Deploy to production with Desktop Analytics](updatereadiness/update-readiness-deploy-production.md)
 ## [Monitor the health and update status of devices](updatereadiness/update-readiness-monitoring.md)
-## [Update Readiness troubleshooting](updatereadiness/update-readiness-troubleshooting.md)
+## [Desktop Analytics troubleshooting](updatereadiness/update-readiness-troubleshooting.md)
