@@ -17,4 +17,4 @@
 ### [Get support for Microsoft Managed Desktop](working-with-managed-desktop/support.md)
 ### [Manage apps](working-with-managed-desktop/manage-apps.md)
 ### [Operations and monitoring](working-with-managed-desktop/operations-and-monitoring.md)
-
+## [For Partners](get-started/partner.md)
