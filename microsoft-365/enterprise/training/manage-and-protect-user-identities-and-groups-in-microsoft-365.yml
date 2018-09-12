@@ -29,9 +29,11 @@ items:
   durationInMinutes: 1
   content: |
 
-    ## 1st section. 
+    ## Header 
 
     Content.....
+
+     [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RWjIGW&AutoPlayVideo=false]
 
 - title: Manage your Global administrator accounts in Microsoft 365
   durationInMinutes: 1
