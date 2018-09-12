@@ -29,17 +29,11 @@ Desktop Analytics tool provides you with these key benefits relating to Desktop 
 - what pre-requisites do I need to use Desktop Analytics?
 - what Azure accounts/licenses do I need to budget for and obtain?
 - are there domain requirements?
+- can I run DA from any computer? Does it matter what OS that computer is running? Could I run it from Windows Server w/ Desktop Experience?
 - what Windows and Office versions on the clients are required in order to be monitored/managed by Desktop Analytics?
 - does it cost anything?
 
 
-## Steps to use Desktop Analytics
- - Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md)
- - Enroll devices to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)
- - Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md)
- - Deploy and monitor the pilot: [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md)
- - Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md)
- - Monitor the health and update status of devices: [Monitor the health and update status of devices](update-readiness-monitoring.md)
 
 ## Steps to use Desktop Analytics
 
