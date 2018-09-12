@@ -1,5 +1,5 @@
 ---
-title: Deploy pilot with Update Readiness
+title: Deploy pilot with Desktop Analytics
 description: Start and monitor the pilot deployment
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/23/2018
+ms.date: 09/12/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -17,7 +17,7 @@ ms.date: 08/23/2018
 
 ## Address reported issues
 
-In this step, you review any reported issues with the apps, drivers, and {WHAT ELSE?} that might block your deployment, and then approve, reject, or modify the suggested fix. All items in this step must be marked **Ready** or **Ready (with remediation)** before the pilot deployment starts. For detailed information on reviewing apps, see Resolve app and driver issues {this links to existing UpGRADE Readiness topic--do we need to spool up an analogous one for Update Readiness?}
+In this step, you review any reported issues with the apps, drivers, and {WHAT ELSE?} that might block your deployment, and then approve, reject, or modify the suggested fix. All items in this step must be marked **Ready** or **Ready (with remediation)** before the pilot deployment starts. For detailed information on reviewing apps, see Resolve app and driver issues {this links to existing UpGRADE Readiness topic--do we need to spool up an analogous one for Desktop Analytics?}
 
 To review issues, follow these steps:
 
@@ -29,7 +29,7 @@ To review issues, follow these steps:
 {INSERT GENERAL INFO ON RISK AND HEALTH--XLINK TO SUBTOPICS?}
 
 ## Deploy the update to pilot devices
-To actually install the update on devices in the pilot deployment, use the System Center Configuration Manager (SCCM) connector. To do this, {DO SOMETHING in Update Readiness}, then refer to {LINK TO RELEVANT SCCM CONTENT}.
+To actually install the update on devices in the pilot deployment, use the System Center Configuration Manager (SCCM) connector. To do this, {DO SOMETHING in Desktop Analytics}, then refer to {LINK TO RELEVANT SCCM CONTENT}.
 
 ## Deploy toolkits if needed (optional)
 {GENERAL DESCRIPTION OF AHA AND MACRO TOOLKITS; XLINKS TO DETAILED SUBTOPIC(S) ON SAME}
@@ -82,11 +82,12 @@ You can commence the production deployment at any time you are sufficiently conf
 
 | | |
 | --- | --- |
-| ![done](UDRimages/checklistdone.png) | Learn about Update Readiness |
-| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Update Readiness](update-readiness-get-started.md) |
-| ![done](UDRimages/checklistdone.png) | Enroll devices to start the flow of diagnostic data: [Enroll devices in Update Readiness](update-readiness-enroll-devices.md)|
-| ![done](UDRimages/checklistdone.png)| Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Update Readiness](update-readiness-deployment-plans.md) |
-| ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Update Readiness](update-readiness-deploy-pilot.md) (this topic) |
-| ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Update Readiness](update-readiness-deploy-production.md) |
+| ![done](UDRimages/checklistdone.png) | Learn about Desktop Analytics |
+| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
+| ![done](UDRimages/checklistdone.png) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
+| ![done](UDRimages/checklistdone.png) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
+| ![done](UDRimages/checklistdone.png) | Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
+| ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) (this topic) |
+| ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) |
 | ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
 

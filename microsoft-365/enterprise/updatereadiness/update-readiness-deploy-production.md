@@ -1,5 +1,5 @@
 ---
-title: Deploy to production with Update Readiness
+title: Deploy to production with Desktop Analytics
 description: Start and monitor the production deployment
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/22/2018
+ms.date: 09/12/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -19,7 +19,7 @@ There are three main parts to accomplishing the deployment of updates to product
 1. [Review assets that need an Upgrade Decision](#review-assets-that-need-an-updgrade-decision)
  To make devices ready for production deployment, their assets (apps, Office apps, Office add-ins, and Office macros) must have their Upgrade Decision set to **Ready** or **Ready, remediations required**.
 2. [Deploy to devices that are ready](#deploy-to-devices-that-are-ready)
- To accomplish the actual installation of updates to devices that are ready, you use a device management tool such as System Center Configuration Manager (SCCM). Update Readiness will provide the list of devices ready for production deployment, as well as reports for monitoring the success of the deployment.
+ To accomplish the actual installation of updates to devices that are ready, you use a device management tool such as System Center Configuration Manager (SCCM). Desktop Analytics will provide the list of devices ready for production deployment, as well as reports for monitoring the success of the deployment.
 3. [Monitor the health of updated devices](#montor-the-health-of-updated-devices)
  As the update deployment progresses, you can monitor the health of noteworthy assets. If some need attention, you can troubleshoot and fix those issues or, if you decide the issues can't be fixed, you can stop the deployment to the affected devices by setting the Upgrade Decision to **Unable** for them.
 
@@ -78,11 +78,11 @@ Repeat this process for all apps, Office apps, and Office add-ins. Once a given 
 
 {separate export from the export for the pilot?}
 
-Export the list of devices {somehow} to pass over to SCCM manually. Once your deployment implementation tool has started the pilot deployment, you can use Update Readiness to monitor the progress and results of the deployment.
+Export the list of devices {somehow} to pass over to SCCM manually. Once your deployment implementation tool has started the pilot deployment, you can use Desktop Analytics to monitor the progress and results of the deployment.
 
 ### Address deployment alerts
 
-As with the pilot deployment, Update Readiness will advise you of any issues that need your attention during the production deployment.
+As with the pilot deployment, Desktop Analytics will advise you of any issues that need your attention during the production deployment.
 
 To get details of reported issues click **Review**. The deployment status details page opens, where you can view lists of the devices in these categories:
 
@@ -155,11 +155,11 @@ Finally, select any particular asset to get more details or change the upgrade d
 This section explains in detail how health monitoring works.
 
 >[!NOTE]
->Update Readiness only collects health data from devices that provide usage data we can use as a denominator. This means that devices running Windows 7 and Windows 10 devices that are not set to share diagnostic data at the Enhanced level are not included. If more than 10% of devices running Windows 10 are set to share diagnostic data at levels other than Enhanced, you will see a warning in the banner area of the **Monitor health** page.
+>Desktop Analytics only collects health data from devices that provide usage data we can use as a denominator. This means that devices running Windows 7 and Windows 10 devices that are not set to share diagnostic data at the Enhanced level are not included. If more than 10% of devices running Windows 10 are set to share diagnostic data at levels other than Enhanced, you will see a warning in the banner area of the **Monitor health** page.
 
 [![screenshot provided by marcshep6](UDRimages/marcshep6.png)](UDRimages/marcshep6.png)
 
-You can see in the flyout of this view a number of things that Update Readiness monitors:
+You can see in the flyout of this view a number of things that Desktop Analytics monitors:
 
 - **% Device with crashes** is the number of devices that this particular app has crashed on in the last two weeks divided by the number devices that the app has been used on in the last two weeks. We calculate this for several parameters as follows:
     - **After upgrade** devices are those that have upgraded to the target operating system version specified in the deployment plan. We collect this data for all  ofyour upgraded devices (even those not included in the  deployment plan) in order to reduce the number of assets with insufficient data.
@@ -167,7 +167,7 @@ You can see in the flyout of this view a number of things that Update Readiness 
     - **Commercial avg** lets you see the crash rate across all commercial devices, so you can compare the devices in your organization. The commercial average is calculated across *all* versions of the app, so that if this version shows a crash rate above the commercial average it might be a sign that you are using the wrong version.
 - **% Sessions with crashes** is very similar to the above but counts the percentage of sessions with crashes in the last two weeks.
 
-To determine the health status, Update Readiness reports “Insufficient data” unless data is available from at least 20 devices. The health status is currently calculated purely based on the session crash rate from these devices (the device crash rate is provided for information only and is not used in the health status calculation).
+To determine the health status, Desktop Analytics reports “Insufficient data” unless data is available from at least 20 devices. The health status is currently calculated purely based on the session crash rate from these devices (the device crash rate is provided for information only and is not used in the health status calculation).
 
 At the bottom of the page, there are three tabs to help with troubleshooting:
 
@@ -183,7 +183,7 @@ This section explains health monitoring specifically for Office apps.
 
 {NEED SCREENSHOT}
 
-You can see in the flyout of this view a number of things that Update Readiness monitors:
+You can see in the flyout of this view a number of things that Desktop Analytics monitors:
 
 - **% Device with crashes** is the number of devices that this particular app has crashed on in the last two weeks divided by the number devices that the app has been used on in the last two weeks. We calculate this for several parameters as follows:
     - **After upgrade** devices are those that have upgraded to the target operating system version specified in the deployment plan. We collect this data for all of your upgraded devices (even those not included in the  deployment plan) in order to reduce the number of assets with insufficient data.
@@ -201,7 +201,7 @@ This section explains health monitoring specifically for Office add-ins.
 
 [![screenshot provided by javier carillo 1](UDRimages/javcar1.png)](UDRimages/javcar1.png)
 
-You can see in the flyout of this view a number of things that Update Readiness monitors:
+You can see in the flyout of this view a number of things that Desktop Analytics monitors:
 
 - **% Device with incidents** is the number of devices on which the selected add-in had an incident that prevented it from working properly in the last two weeks divided by the number of devices on which the add-in is installed. An incident event for an add-in refers to it failing to load or becoming unresponsive. We calculate this for several parameters as follows:
     - **After upgrade** devices are those that have upgraded to the target Office version specified in the deployment plan.sion. We collect this data for all of your upgraded devices (even those not included in the  deployment plan) in order to reduce the number of assets with insufficient data.
@@ -210,7 +210,7 @@ You can see in the flyout of this view a number of things that Update Readiness 
 - **% Sessions with incidents** is very similar to the above but counts the percentage of sessions with crashes in the last two weeks.
 
 
-To determine the health status of add-ins, Update Readiness reports insufficient data unless we collect data from at least 3 devices for the device incident rate and at least 10 sessions for the session incident rate. For both rates we compare the before and after values to determine  if there is a regression--no regression is considered as meeting goals. Ultimately, the overall health status of the add-in is calculated based on a combination of both device and session incident rates using the following matrix:
+To determine the health status of add-ins, Desktop Analytics reports insufficient data unless we collect data from at least 3 devices for the device incident rate and at least 10 sessions for the session incident rate. For both rates we compare the before and after values to determine  if there is a regression--no regression is considered as meeting goals. Ultimately, the overall health status of the add-in is calculated based on a combination of both device and session incident rates using the following matrix:
 
 |  | **Insufficient data for device crashes**  | **Healthy device crash metrics** | **Regression in device crash metrics** |
 |----------------|---------------------|-----------------------|------------------------|
@@ -236,7 +236,7 @@ At the bottom of the page, there are three tabs to help with troubleshooting
 {Original Macros material to preserve image links, etc.}
 ### Office macros
 {SHOULDN'T THE MACRO STUFF GO UP HERE SINCE WHAT YOU CHOOSE THERE AFFECTS THE UPGRADE DECISION?}
-If devices in your environment use Office macros, you can review the usage data and advisories offered by Update Readiness in order to further {inform your decisions about which devices to include in the production deployment.}
+If devices in your environment use Office macros, you can review the usage data and advisories offered by Desktop Analytics in order to further {inform your decisions about which devices to include in the production deployment.}
 
 [![assets macros advisories](UDRimages/UDR-macro-advisory.png)](UDRimages/UDR-macro-advisory.png)
 
@@ -270,6 +270,17 @@ As you address these deployment issues, the dashboard will continue to show the 
 [![screenshot provided by marcshep6](UDRimages/marcshep6.png)](UDRimages/marcshep6.png)
 
 }
+
+| | |
+| --- | --- |
+| ![done](UDRimages/checklistdone.png) | Learn about Desktop Analytics |
+| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
+| ![done](UDRimages/checklistdone.png) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
+| ![done](UDRimages/checklistdone.png) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
+| ![done](UDRimages/checklistdone.png) | Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
+| ![done](UDRimages/checklistdone.png) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
+| ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) (this topic) |
+| ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
 
 
 

@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/21/2018
+ms.date: 09/12/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -21,7 +21,7 @@ Knowing the current status of updates in your environment will be helpful as you
 
 ### Security updates
 
-To review the current status of security updates, select **Security updates** in the **Monitor** section of Update Readiness:
+To review the current status of security updates, select **Security updates** in the **Monitor** section of Desktop Analytics:
 
 [![security update status view](UDRimages/UDR-security-status.png)](UDRimages/UDR-security-status.png)
 
@@ -54,8 +54,19 @@ Below these two tiles is a section showing the adoption trend on a per-version b
 
 ### Feature updates
 
-To review the current status of feature updates, select **Feature updates** in the **Monitor** section of Update Readiness:
+To review the current status of feature updates, select **Feature updates** in the **Monitor** section of Desktop Analytics:
 
 [![feature update status view](UDRimages/UDR-feature-update.png)](UDRimages/UDR-feature-update.png)
 
 Select **Windows 10** or **Office 365 ProPlus** to see the respective status for each of those entities.
+
+| | |
+| --- | --- |
+| ![done](UDRimages/checklistdone.png) | Learn about Desktop Analytics |
+| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
+| ![done](UDRimages/checklistdone.png) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
+| ![done](UDRimages/checklistdone.png) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
+| ![done](UDRimages/checklistdone.png) | Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
+| ![done](UDRimages/checklistdone.png) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
+| ![done](UDRimages/checklistdone.png) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) |
+| ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) (this topic) |

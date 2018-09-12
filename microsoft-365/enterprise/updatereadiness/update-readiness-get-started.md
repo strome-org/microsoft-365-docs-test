@@ -93,105 +93,21 @@ At this point, you have the option to proceed to [enrolling your devices](update
 
 If you've come to the dashboard prior to enrolling devices, select **Connected Services** {or is it Connect devices?} to proceed with [enrolling devices](update-readiness-enroll-devices.md).
 
-If your devices are already enrolled, you can start getting familiar with the dashboard:
-
-## Review assets
-
-Once device enrollment is complete, you should review carefully the inventory of reported devices and other assets to determine if any are missing or are reporting unexpected data. Your devices, drivers, apps, Office apps, Office add-ins, and Office macros are visible as items under **Assets**:
-
-[![assets view](UDRimages/UDR-main-assets.png)](UDRimages/UDR-main-assets.png)
-
-### Devices
-
-Key information about all devices in your organization that are enrolled. You can sort on any column or filter for particular values.
+If your devices are already enrolled, you skip ahead to [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md).
 
 
-### Apps
-
-Similarly, the Apps tab shows all installed apps detected on your Windows devices.
-
-[![assets apps view](UDRimages/UDR-assets-apps2.png)](UDRimages/UDR-assets-apps2.png)
-
-"Noteworthy" apps are those that are installed on more than 2% of enrolled devices. You can change the threshold of "noteworthy" by {doing something}. You can also set the *Importance* of apps by categorizing them into these categories:
-
-- Critical
-- Important
-- Ignore
-- Not reviewed
-
-To set the importance of an app, click it to get its detailed view, and then use the **Importance** pull-down menu to choose a value. You can also assign an owner, as in this example from Office add-ins:
-
-[![assets add-ins detail](UDRimages/UDR-app-detail2.png)](UDRimages/UDR-app-detail2.png)
-
-### Office apps
-
-Office apps (such as Microsoft Word or Excel) are displayed similarly, though there is no categorization or "noteworthy" count. You set the importance and owner for the Office app the same way as with other apps or add-ins.
-
-### Office add-ins
-
-Office add-ins (for example, an e-mail scanner or iCloud add-in) are displayed similarly, including the "noteworthy" count and the means to categorize importance as with apps. You can view details of any add-in by clicking it.
-
-### Office macros
-
-This section shows whether reporting devices have accessed any files recently that are capable of including macros. (For a detailed list of these file types, see [File formats supported in the 2007 Office system (corrected)](https://blogs.technet.microsoft.com/office_resource_kit/2009/04/04/file-formats-supported-in-the-2007-office-system-corrected/) at the Office IT Pro blog.)
-
-[![assets macros detail](UDRimages/UDR-assets-macros.png)](UDRimages/UDR-assets-macros.png)
-
->[!NOTE]
->If you have run the Readiness Toolkit [LINK](https://aka.ms/readinesstoolkit) on any devices in your environment, additional data from those devices will be displayed here as well. However, there is no need to obtain or run the Readiness Toolkit to use any aspect of Desktop Analytics.
-
-## View the current state of your environment
-
-{SUPERCEDED by "global-monitoring" topic--should we link to that here or just delete this section in this topic?}
-
-{not sure if this is really part of the flow prior to setting the deployment plan or if it's better in "ongoing monitoring"--or both?}
-
-Knowing the current status of updates in your environment will be helpful as you formulate a deployment plan once devices are enrolled.
-
-### Security updates
-
-To review the current status of security updates, select **Security updates** in the **Monitor** section of Desktop Analytics:
-
-[![security update status view](UDRimages/UDR-security-status.png)](UDRimages/UDR-security-status.png)
-
-This view summarizes security updates for devices that are running Windows or Office (scoped to devices with Click-To-Run installation of Office) {what does this mean?}. The total number of devices considered for both Windows and Office is shown to the left of the bar chart. Devices in the bar chart are categorized as follows:
-
-| **Label**  | **Definition**  |
-|---------------------------------------------------------|-----------|
-| Latest | Devices are running the latest security update per release version and release channel.|
-| Latest-1 | Devices are running a security update one release older than the latest available update on that channel and a build that is not the most current. |
-| Older | Devices are running a security update older than Latest -1. |
-| Not measured | Devices which Desktop Analytics has not assessed. For Windows, this includes devices running Windows 7 or Windows 8.1. For Office, this includes devices with Office 365 ProPlus that are in Insider channels {what is the minimum version?}, perpetual versions of Office that use a Windows installer (for example, Office 2016, Office 2013, and Office 2010), and Office 365 ProPlus devices that have not returned sufficient data to assess the security status. | 
-
-Select **Windows 10** or **Office 365 ProPlus** to see more details for each of those entities. You can also select **Security updates** in the **Monitor** section of Desktop Analytics. For more details about monitoring, see [Monitor the health and update status of devices](update-readiness-monitoring.md).
-
-### Feature updates
-
-To review the current status of feature updates, select **Feature updates** in the **Monitor** section of Desktop Analytics:
-
-[![feature update status view](UDRimages/UDR-feature-update.png)](UDRimages/UDR-feature-update.png)
-
-This view summarizes feature updates for devices that are running Windows or Office (scoped to devices with Click-To-Run installation of Office) {what does this mean?}. The total number of devices considered for both Windows and Office is shown to the left of the bar chart. Devices in the bar chart are categorized as follows:
-
-| **Label**  | **Definition**  |
-|---------------------------------------------------------|-----------|
-| In service | Devices are running the latest feature update per release version and release channel.|
-| Near end of service | Devices are running a feature update that is within 90 days of reaching end of service. |
-| End of service | Devices are running a feature update which is past the end of service date. For details about end of service dates, see {xlink into relevant section of UDR_monitoring}|
-| Not measured | Devices which Desktop Analytics has not assessed. For Windows, this includes devices running Windows 7 or Windows 8.1. For Office, this includes devices with Office 365 ProPlus that are in Insider channels {what is the minimum version?}, perpetual versions of Office that use a Windows installer (for example, Office 2016, Office 2013, and Office 2010), and Office 365 ProPlus devices that have not returned sufficient data to assess the security status. | 
-
-Select **Windows 10** or **Office 365 ProPlus** to see more details for each of those entities. You can also select **Security updates** in the **Monitor** section of Desktop Analytics. For more details about monitoring, see [Monitor the health and update status of devices](update-readiness-monitoring.md).
 
 
 
 | | |
 | --- | --- |
-| ![done](UDRimages/checklistdone.png) | Learn about Update Readiness |
-| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Update Readiness](update-readiness-get-started.md) |
-| ![to do](UDRimages/checklistbox.gif) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Update Readiness](update-readiness-enroll-devices.md)|
-| ![to do](UDRimages/checklistbox.gif)| Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Update Readiness](update-readiness-deployment-plans.md) |
-| ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Update Readiness](update-readiness-deploy-pilot.md) (this topic) |
-| ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Update Readiness](update-readiness-deploy-production.md) |
+| ![done](UDRimages/checklistdone.png) | Learn about Desktop Analytics |
+| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) (this topic) |
+| ![to do](UDRimages/checklistbox.gif) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
+| ![to do](UDRimages/checklistbox.gif) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
+| ![to do](UDRimages/checklistbox.gif)| Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
+| ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
+| ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) |
 | ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
 
 

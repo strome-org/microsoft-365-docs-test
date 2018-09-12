@@ -1,6 +1,6 @@
 ---
 title: Desktop Analytics troubleshooting
-description: Steps to take when things go wrong with Update Readiness
+description: Steps to take when things go wrong with Desktop Analytics
 keywords: desktop analytics, oms, operations management suite, prerequisites, requirements, updates, upgrades, log analytics, health, FAQ, problems, troubleshooting, error
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -40,15 +40,15 @@ Below this line is the stuff from the WA troubleshooting topic in case we can re
 ------------------------------------------------------
 
 
-{uncurated blind copy of WA troubleshooting topic as fodder for Update Readiness version}
+{uncurated blind copy of WA troubleshooting topic as fodder for Desktop Analytics version}
 
 This topic compiles the most common issues encountered with configuring and using Windows Analytics, as well as general questions. This FAQ, along with the [Windows Analytics Technical Community](https://techcommunity.microsoft.com/t5/Windows-Analytics/ct-p/WindowsAnalytics), are recommended resources to consult before contacting Microsoft support.
 
 ## Troubleshooting common problems
 
-If you've followed the steps in the [Enroll devices in Update Readiness](update-readiness-enroll-devices.md) topic and are still encountering problems, you might find the solution here.
+If you've followed the steps in the [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md) topic and are still encountering problems, you might find the solution here.
 
-[Devices not appearing in Update Readiness](#devices-not-appearing-in-update-readiness)
+[Devices not appearing in Desktop Analytics](#devices-not-appearing-in-update-readiness)
 
 [Devices not appearing in Device Health Device Reliability](#devices-not-appearing-in-device-health-device-reliability)
 
@@ -67,7 +67,7 @@ If you've followed the steps in the [Enroll devices in Update Readiness](update-
 [Exporting large data sets](#exporting-large-data-sets)
 
 
-### Devices not appearing in Update Readiness
+### Devices not appearing in Desktop Analytics
 
 In Log Analytics, go to **Settings > Connected sources > Windows telemetry** and verify that you are subscribed to the Windows Analytics solutions you intend to use.
 
@@ -255,7 +255,7 @@ UAApp
  
 
 ## Other common questions
-{do we need this section or analog for Update Readiness?}
+{do we need this section or analog for Desktop Analytics?}
 
 ### What are the requirements and costs for Windows Analytics solutions?
 | Windows Analytics solution| Windows license requirements | Windows version requirements | Minimum diagnostic data requirements |
