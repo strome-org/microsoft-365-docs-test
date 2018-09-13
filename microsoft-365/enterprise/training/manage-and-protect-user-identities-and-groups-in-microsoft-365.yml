@@ -38,7 +38,10 @@ items:
     - Describe how to monitor synchronization health by using Azure AD Connect Health
 
 
-    (below taken from https://docs.microsoft.com/en-us/azure/security/azure-ad-choose-authn)
+    > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWjIGW]
+
+
+    (below taken from https://docs.microsoft.com/en-us/azure/security/azure-ad-choose-authn)<br/>
     Microsoft’s identity solutions span on-premises and cloud-based capabilities, creating a single user identity for authentication and authorization to all resources, regardless of location. This concept is known as Hybrid Identity. There are different design and configuration options for hybrid identity using Microsoft solutions, and in some cases, it might be difficult to determine which combination will best meet the needs of your organization.
     
     If you don’t have a long-term strategy for your hybrid identity infrastructure, chances are that your solution will not be scalable as the business needs grow and change.
@@ -77,9 +80,7 @@ items:
 
     When you integrate your on-premises directories with Azure AD, your users are more productive because there's a common identity to access both cloud and on-premises resources. However, this integration creates the challenge of ensuring that this environment is healthy so that users can reliably access resources both on premises and in the cloud from any device. Azure AD Connect Health helps you monitor and gain insights into your on-premises identity infrastructure that is used to access Office 365 or other Azure AD applications. It is as simple as installing an agent on each of your on-premises identity servers.
 
-    Once you set up directory synchronization, you need to monitor it. You can view basic synchronization information in Azure portal and in Office 365 admin portal. For more in-depth information, as well as alerting, you should use Azure AD Connect Health. You can read how to monitor on-premises identity infrastructure and synchronization services in the cloud here.
-
-    > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWjIGW]
+    Once you set up directory synchronization, you need to monitor it. You can view basic synchronization information in Azure portal and in Office 365 admin portal. For more in-depth information, as well as alerting, you should use Azure AD Connect Health. You can read how to monitor on-premises identity infrastructure and synchronization services in the cloud here.<br/>
 
 - title: Manage your Global administrator accounts in Microsoft 365
   durationInMinutes: 1
