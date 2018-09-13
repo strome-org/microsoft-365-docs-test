@@ -25,6 +25,9 @@ Use the resulting environment to test the features and functionality of [Microso
 
 ![Test Lab Guides for the Microsoft cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
+> [!TIP]
+> Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.
+
 ## Phase 1: Create your Office 365 E5 subscription
 
 Follow the steps in Phase 2 and Phase 3 of the [Office 365 dev/test environment](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment) to create a lightweight Office 365 dev/test environment, as shown in Figure 1.
@@ -63,7 +66,7 @@ First, add the EMS E5 trial subscription and assign an EMS license to your globa
 > [!NOTE]
 > The Enterprise Mobility + Security E5 trial subscription is 90 days. For a permanent test environment, create a new paid subscription with a small number of licenses. 
   
- ***If you completed Phase 3 of the*** [Office 365 dev/test environment](https://docs.microsoft.com/en-us/office365/enterprise/office-365-dev-test-environment), repeat steps 8 and 9 of the previous procedure for all of your other accounts (User 2, User 3, User 4, and User 5).
+ ***If you completed Phase 3 of the*** [Office 365 dev/test environment](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment), repeat steps 8 and 9 of the previous procedure for all of your other accounts (User 2, User 3, User 4, and User 5).
   
 Your test environment now has:
   
@@ -199,6 +202,8 @@ You are now ready to experiment with additional features of [Microsoft 365 Enter
 Explore identity features and capabilities of Microsoft 365 Enterprise with these articles:
   
 - [Password hash synchronization](password-hash-sync-m365-ent-test-environment.md)
+- [Pass-through authentication](pass-through-auth-m365-ent-test-environment.md)
+- [Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md)
 - [Multi-factor authentication](multi-factor-authentication-microsoft-365-test-environment.md)
 - [Protect global administrator accounts](protect-global-administrator-accounts-microsoft-365-test-environment.md)
 - [Automatic licensing and group membership](automate-licenses-group-membership-microsoft-365-test-environment.md)
