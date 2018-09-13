@@ -29,9 +29,55 @@ items:
   durationInMinutes: 1
   content: |
 
-    ## Header 
+    ### Learning Objectives: 
 
-    Content.....
+    At the end of this unit, you will be able to:
+
+    - Describe the benefits of synchronizing on-premises AD DS with the cloud-based Azure AD organization
+    - Describe how to synchronize on-premises AD DS with Azure AD by using Azure AD Connect
+    - Describe how to monitor synchronization health by using Azure AD Connect Health
+
+
+    (below taken from https://docs.microsoft.com/en-us/azure/security/azure-ad-choose-authn)
+    Microsoft’s identity solutions span on-premises and cloud-based capabilities, creating a single user identity for authentication and authorization to all resources, regardless of location. This concept is known as Hybrid Identity. There are different design and configuration options for hybrid identity using Microsoft solutions, and in some cases, it might be difficult to determine which combination will best meet the needs of your organization.
+    
+    If you don’t have a long-term strategy for your hybrid identity infrastructure, chances are that your solution will not be scalable as the business needs grow and change.
+    
+    **Azure AD password hash synchronization.** The simplest way to enable authentication for on-premises directory objects in Azure AD. Users can use the same username and password that they use on-premises without having to deploy any additional infrastructure. Some premium features of Azure AD, like Identity Protection, require password hash synchronization for no matter which authentication method you choose.
+    
+    **Azure AD Pass-through Authentication.** Provides a simple password validation for Azure AD authentication services by using a software agent that runs on one or more on-premises servers. The servers validate the users directly with your on-premises Active Directory, which ensures that the password validation doesn't happen in the cloud.
+    
+    Companies with a security requirement to immediately enforce on-premises user account states, password policies, and sign-in hours might use this authentication method. For more information on the actual pass-through authentication process, see User sign-in with Azure AD pass-through authentication.
+
+    # Federated authentication
+    
+    When you choose this authentication method, Azure AD hands off the authentication process to a separate trusted authentication system, such as on-premises Active Directory Federation Services (AD FS), to validate the user’s password.
+    
+    The authentication system can provide additional advanced authentication requirements. Examples are smartcard-based authentication or third-party multifactor authentication. For more information, see Deploying Active Directory Federation Services.
+
+    # Recommendations
+
+    Your identity system ensures your users' access to cloud apps and the line-of-business apps that you migrate and make available in the cloud. To keep authorized users productive and bad actors out of your organization’s sensitive data, authentication controls access to apps.
+
+    Use or enable password hash synchronization for whichever authentication method you choose, for the following reasons:
+
+    1. **High availability and disaster recovery.** Pass-through Authentication and federation rely on on-premises infrastructure. For pass-through authentication, the on-premises footprint includes the server hardware and networking the Pass-through Authentication agents require. For federation, the on-premises footprint is even larger. It requires servers in your perimeter network to proxy authentication requests and the internal federation servers.<br/>
+    To avoid single points of failures, deploy redundant servers. Then authentication requests will always be serviced if any component fails. Both pass-through authentication and federation also rely on domain controllers to respond to authentication requests, which can also fail. Many of these components need maintenance to stay healthy. Outages are more likely when maintenance isn't planned and implemented correctly. Avoid outages by using password hash synchronization because the Microsoft Azure AD cloud authentication service scales globally and is always available.
+    
+    2. **On-premises outage survival.** The consequences of an on-premises outage due to a cyber-attack or disaster can be substantial, ranging from reputational brand damage to a paralyzed organization unable to deal with the attack. Recently, many organizations were victims of malware attacks, including targeted ransomware, that caused their on-premises servers to go down. When Microsoft helps customers deal with these kinds of attacks, it sees two categories of organizations:
+    - Organizations that previously turned on password hash synchronization changed their authentication method to use password hash synchronization. They were back online in a matter of hours. By using access to email via Office 365, they worked to resolve issues and access other cloud-based workloads.
+    - Organizations that didn’t previously enable password hash synchronization had to resort to untrusted external consumer email systems for communications and resolving issues. In those cases, it took them weeks or more to be up and running again.
+    
+    3. **Identity protection.** One of the best ways to protect users in the cloud is Azure AD Identity Protection. Microsoft continually scans the Internet for user and password lists that bad actors sell and make available on the dark web. Azure AD can use this information to verify if any of the usernames and passwords in your organization are compromised. So it's critical to enable password hash synchronization no matter what authentication method you use, whether that's federated or pass-through authentication. Leaked credentials are presented as a report. Use this information to block or force users to change their passwords when they try to sign in with leaked passwords.
+
+
+    ## Azure AD Connect Health
+
+    https://docs.microsoft.com/en-us/azure/active-directory/connect-health/active-directory-aadconnect-health
+
+    When you integrate your on-premises directories with Azure AD, your users are more productive because there's a common identity to access both cloud and on-premises resources. However, this integration creates the challenge of ensuring that this environment is healthy so that users can reliably access resources both on premises and in the cloud from any device. Azure AD Connect Health helps you monitor and gain insights into your on-premises identity infrastructure that is used to access Office 365 or other Azure AD applications. It is as simple as installing an agent on each of your on-premises identity servers.
+
+    Once you set up directory synchronization, you need to monitor it. You can view basic synchronization information in Azure portal and in Office 365 admin portal. For more in-depth information, as well as alerting, you should use Azure AD Connect Health. You can read how to monitor on-premises identity infrastructure and synchronization services in the cloud here.
 
     > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWjIGW]
 
