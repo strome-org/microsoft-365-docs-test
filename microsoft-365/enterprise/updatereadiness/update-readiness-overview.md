@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 09/12/2018
+ms.date: 09/14/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -39,7 +39,7 @@ Desktop Analytics tool provides you with these key benefits relating to Desktop 
 
 | | |
 | --- | --- |
-| ![to do](UDRimages/checklistbox.gif) | Learn about Desktop Analytics (this topic) |
+| ![done](UDRimages/checklistdone.png) | Learn about Desktop Analytics (this topic) |
 | ![to do](UDRimages/checklistbox.gif) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
 | ![to do](UDRimages/checklistbox.gif) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
 | ![to do](UDRimages/checklistbox.gif) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
@@ -47,10 +47,10 @@ Desktop Analytics tool provides you with these key benefits relating to Desktop 
 | ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
 | ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) |
 | ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
+|                                      |                                                    |
+|
+![to do](UDRimages/checklistbox.gif)   | Additional information: [Troubleshooting](update-readiness-troubleshooting.md)  |
 
-## Additional topics
 
-[Troubleshooting](update-readiness-troubleshooting.md)
 
-reference topics on risk/health and toolkits?
 

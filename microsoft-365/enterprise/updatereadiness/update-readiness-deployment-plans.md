@@ -42,19 +42,10 @@ Before creating a deployment plan, make sure you've completed the following step
 - [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)
 - Define the groups of devices you want to deploy to. [[Need new article to link to. In the meantime, captured limited guidance in the note below.]]
 
-If you've connected Upgrade Readiness to System Center Configuration Manager, you can select your Configuration Manager groups. If you don't use Configuration Manager or if you want to create a new query-based group, click **Create your group in OMS** when choosing target groups. If you create a query-based group, make sure that the query is not based on a computer value that changes as part of the deployment. For more information on how to create groups, see [Computer groups in Log Analytics log searches](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups). 
+If you've connected Desktop Analytics to System Center Configuration Manager, you can select your Configuration Manager groups. If you don't use Configuration Manager or if you want to create a new query-based group, click **Create your group in OMS** when choosing target groups. If you create a query-based group, make sure that the query is not based on a computer value that changes as part of the deployment. For more information on how to create groups, see [Computer groups in Log Analytics log searches](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups). 
  
-## Step 1: Configure your global pilot settings
 
-If you haven't already, we recommend configuring your global pilot settings before creating a deployment plan. In these settings, you choose devices that should always be included in or excluded from the pilot stage of a deployment. For example, if you exclude the group Executives, the devices in that group will never be recommended as part of a pilot deployment.
-
-![Configure global pilot settings](UDRimages/UDR-plans-global.png)
-
-1. On the dashboard, click **Global pilot**.
-2. Click **Manage groups for inclusion**, and then choose the groups that should be always be part of the pilot.
-3. Click **Manage groups for exclusion**, and then choose the groups that should never be part of a pilot. 
-
-## Step 2: Create a deployment plan
+## Step 1: Create a deployment plan
 
 You can create a single deployment plan to cover all your devices or multiple deployment plans to cover different groups of devices and different versions of Windows and Office. 
 
@@ -80,7 +71,7 @@ As part of the deployment plan, you set the importance of the apps and Office ad
 
 Any app or add-in that's installed on less than 2% of the devices targeted in the deployment plan is marked Low Install Count. (Two percent is the default setting; you can adjust the threshold in the readiness settings from 0 to 10%.) Low install count apps and add-ins are automatically marked as **Ready to upgrade**.  
 
-For the remaining apps and add-ins, you can choose **Critical**, **Important**, or **Not important**. If you mark an app or add-in as critical or important, Desktop Analytics will include some devices with that app or add-in in the pilot deployment. (Making an app or add-in critical means more instances of it will be included in the pilot.) If you mark an app or add-in as Not Important, Upgrade Readiness automatically sets it to **Ready to upgrade**.
+For the remaining apps and add-ins, you can choose **Critical**, **Important**, or **Not important**. If you mark an app or add-in as critical or important, Desktop Analytics will include some devices with that app or add-in in the pilot deployment. (Making an app or add-in critical means more instances of it will be included in the pilot.) If you mark an app or add-in as Not Important, Desktop Analytics automatically sets it to **Ready to upgrade**.
 
 ![Set importance](UDRimages/UDR-plans-importance.png)
 
@@ -136,8 +127,10 @@ After exporting the deployment plan, you can use it in Configuration Manager to 
 | ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
 | ![done](UDRimages/checklistdone.png) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
 | ![done](UDRimages/checklistdone.png) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
-| ![to do](UDRimages/checklistbox.gif)| Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) (this topic) |
+| ![done](UDRimages/checklistdone.png)  | Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) (this topic) |
 | ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
 | ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) |
 | ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
+|                                      |                                                    |
+| ![to do](UDRimages/checklistbox.gif)   | Additional information: [Troubleshooting](update-readiness-troubleshooting.md)  |
 

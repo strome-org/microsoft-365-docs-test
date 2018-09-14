@@ -1,5 +1,5 @@
 ---
-title: Enroll devices in Update Readiness
+title: Enroll devices in Desktop Analytics
 description: 
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -7,26 +7,26 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 08/21/2018
+ms.date: 09/14/2018
 ---
 
-# Enroll devices in Update Readiness
+# Enroll devices in Desktop Analytics
 
-Update Readiness has no agents that require installation, so device enrollment is simply a matter of configuring settings on the devices you want Update Readiness to monitor. You can do this by using a deployment script, Group Policy, or Mobile Device Management (MDM) policy. These settings control which Update Readiness instance the device should send its data to as well as a number of other configuration options.
+Desktop Analytics has no agents that require installation, so device enrollment is simply a matter of configuring settings on the devices you want Desktop Analytics to monitor. You can do this by using a deployment script, Group Policy, or Mobile Device Management (MDM) policy. These settings control which Desktop Analytics instance the device should send its data to as well as a number of other configuration options.
 
 
 >[!NOTE]
->If you are already using Windows Analytics, you can just select the workspace you're using for that from the displayed list and all of those devices will show up in your Update Readiness workspace automatically (without the need to enroll them). However, if you chose to configure a different workspace, you will have to first split your entries into devices that are monitored by Windows Analytics and devices that are monitored by Update Readiness; then you must follow the enrollment steps for those devices you want Update Readiness to monitor.
+>If you are already using Windows Analytics, you can just select the workspace you're using for that from the displayed list and all of those devices will show up in your Desktop Analytics workspace automatically (without the need to enroll them). However, if you chose to configure a different workspace, you will have to first split your entries into devices that are monitored by Windows Analytics and devices that are monitored by Desktop Analytics; then you must follow the enrollment steps for those devices you want Desktop Analytics to monitor.
 
 ## Copy your Commercial ID key
 
-Microsoft uses a unique commercial ID to map information from user computers to your Update Readiness workspace. This should be generated for you automatically. Copy your commercial ID key from the Update Readiness dashboard and then deploy it to user computers.
+Microsoft uses a unique commercial ID to map information from user computers to your Desktop Analytics workspace. This should be generated for you automatically. Copy your commercial ID key from the Desktop Analytics dashboard and then deploy it to user computers.
 
 
 1.  On the dashboard, navigate to the **Your workspace** panel.
 
 {NEED REAL SCREENSHOT W/O HAND}
-    ![Update Readiness Your Workspace section showing Commercial ID as the fourth item](UDRimages/UDR-workspace-commID.png)](UDRimages/UDR-workspace-commID.png)
+    ![Desktop Analytics Your Workspace section showing Commercial ID as the fourth item](UDRimages/UDR-workspace-commID.png)](UDRimages/UDR-workspace-commID.png)
 
 2. Copy your Commercial ID. Save this Commercial ID because you will need it later for use in the deployment scripts and policies.
 
@@ -43,12 +43,12 @@ To enable data sharing, configure your proxy sever to whitelist the following en
 | `https://vortex-win.data.microsoft.com` | Connected User Experience and Diagnostic component endpoint for operating systems older than Windows 10 |
 | `https://settings-win.data.microsoft.com` | Enables the compatibility update to send data to Microsoft. 
 | `http://adl.windows.com` | Allows the compatibility update to receive the latest compatibility data from Microsoft. |
-| `https://watson.telemetry.microsoft.com` | Windows Error Reporting (WER); required for Device Health and Update Compliance AV reports. Not used by Upgrade Readiness. |
-| `https://oca.telemetry.microsoft.com`  | Online Crash Analysis; required for Device Health and Update Compliance AV reports. Not used by Upgrade Readiness. |
+| `https://watson.telemetry.microsoft.com` | Windows Error Reporting (WER); required for Device Health and Update Compliance AV reports. Not used by Desktop Analytics. |
+| `https://oca.telemetry.microsoft.com`  | Online Crash Analysis; required for Device Health and Update Compliance AV reports. Not used by Desktop Analytics. |
 | `https://login.live.com` | Windows Error Reporting (WER); required in order to obtain a unique device ID. **Note:** WER does *not* use login.live.com to access Microsoft Account consumer services such as Xbox Live. WER uses an anti-spoofing API at that address to enhance the integrity of error reports. |
-| `https://nexusrules.officeapps.live.com` | Used to request dynamic diagnostic data events from Office clients. This is useful for drill-down and diagnostics purposes in the Update Readiness portal |
-| `https://nexus.officeapps.live.com` | Used by Office clients to send diagnostic data events from Office 14, and Office 15, and versions of Office 16 prior to 16.0.8702.*. Used to collect usage and reliability signals events for Update Readiness. |
-| `https://mobile.pipe.aria.microsoft.com/Collector/3.0/` | Used by Office clients to send diagnostic data events from Universal/Modern Office apps and Win32 Office 16 versions later than 16.0.8702.*. Used to collect usage and reliability signals events for Update Readiness. |
+| `https://nexusrules.officeapps.live.com` | Used to request dynamic diagnostic data events from Office clients. This is useful for drill-down and diagnostics purposes in the Desktop Analytics portal |
+| `https://nexus.officeapps.live.com` | Used by Office clients to send diagnostic data events from Office 14, and Office 15, and versions of Office 16 prior to 16.0.8702.*. Used to collect usage and reliability signals events for Desktop Analytics. |
+| `https://mobile.pipe.aria.microsoft.com/Collector/3.0/` | Used by Office clients to send diagnostic data events from Universal/Modern Office apps and Win32 Office 16 versions later than 16.0.8702.*. Used to collect usage and reliability signals events for Desktop Analytics. |
 | `https://browser.pipe.aria.microsoft.com/Collector/3.0` | Used by Office web clients to send diagnostic data events. This is also used by Office add-ins and other extensions within Office clients. |
 
 
@@ -56,7 +56,7 @@ To enable data sharing, configure your proxy sever to whitelist the following en
 >Proxy authentication and SSL inspections are frequent challenges for enterprises. See the following sections for configuration options.
 
 ### Configuring endpoint access with SSL inspection
-To ensure privacy and data integrity Windows checks for a Microsoft SSL certificate when communicating with the diagnostic data endpoints. Accordingly, SSL interception and inspection is not possible. To use Update Readiness you should exclude the above endpoints from SSL inspection.
+To ensure privacy and data integrity Windows checks for a Microsoft SSL certificate when communicating with the diagnostic data endpoints. Accordingly, SSL interception and inspection is not possible. To use Desktop Analytics you should exclude the above endpoints from SSL inspection.
 
 ### Configuring endpoint access with proxy server authentication
 If your organization uses proxy server authentication for outbound traffic, use one or more of the following approaches to ensure that the diagnostic data is not blocked by proxy authentication:
@@ -88,24 +88,24 @@ The compatibility update scans your devices and enables application usage tracki
 
 ## Set diagnostic data levels
 
-You can set the diagnostic data level used by monitored devices either with the Update Readiness deployment script or by policy (by using Group Policy or Mobile Device Management).
+You can set the diagnostic data level used by monitored devices either with the Desktop Analytics deployment script or by policy (by using Group Policy or Mobile Device Management).
 
-The basic functionality of Update Readiness will work at the Basic diagnostic data level, however you won't get usage or health data for your updated devices without enabling the Enhanced level. This means you won't get information about health regressions on updated devices. So it is best to enable the Enhanced diagnostic data level, at least on devices running Windows 10, version 1709 (or later) where the Enhanced diagnostic data setting can be paired with "limited enhanced" data level (see [Windows 10 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields)). For more information, see [Windows Analytics and privacy](https://docs.microsoft.com/windows/deployment/update/windows-analytics-privacy).
+The basic functionality of Desktop Analytics will work at the Basic diagnostic data level, however you won't get usage or health data for your updated devices without enabling the Enhanced level. This means you won't get information about health regressions on updated devices. So it is best to enable the Enhanced diagnostic data level, at least on devices running Windows 10, version 1709 (or later) where the Enhanced diagnostic data setting can be paired with "limited enhanced" data level (see [Windows 10 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields)). For more information, see [Windows Analytics and privacy](https://docs.microsoft.com/windows/deployment/update/windows-analytics-privacy).
 {DO WE NEED TO ADDRESS PRIVACY ISSUES IN SOME WAY ANALOGOUS TO THE WA PRIVACY TOPIC?}
 
 ## Enroll a few pilot devices
 
 If you have never used Windows Analytics before and are completely new to this technology, we recommend manually running this script on a few representative devices initially to verify things are properly configured and that the device can connect to the diagnostic data endpoints. Make sure to run the pilot version of the script, which will provide extra diagnostics.
 
-See the [Update Readiness deployment script NEED LINK](???) topic for information about obtaining and running the script, and for a description of the error codes that can be displayed. See ["Understanding connectivity scenarios and the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/03/10/understanding-connectivity-scenarios-and-the-deployment-script/) on the Windows Analytics blog for a summary of setting the ClientProxy for the script, which will enable the script properly check for diagnostic data endpoint connectivity.
+See the [Desktop Analytics deployment script NEED LINK](???) topic for information about obtaining and running the script, and for a description of the error codes that can be displayed. See ["Understanding connectivity scenarios and the deployment script"](https://blogs.technet.microsoft.com/upgradeanalytics/2017/03/10/understanding-connectivity-scenarios-and-the-deployment-script/) on the Windows Analytics blog for a summary of setting the ClientProxy for the script, which will enable the script properly check for diagnostic data endpoint connectivity.
 
-After data is sent from devices to Microsoft, it generally takes 48-56 hours for the data to populate in Update Readiness. The compatibility update takes several minutes to run. If the update does not get a chance to finish running or if the computers are inaccessible (turned off or sleeping for example), data will take longer to populate in Update Readiness. For this reason, you can expect most of your devices to be populated in Update Readiness in about 1-2 weeks after deploying the update and configuration to user computers.
+After data is sent from devices to Microsoft, it generally takes 48-56 hours for the data to populate in Desktop Analytics. The compatibility update takes several minutes to run. If the update does not get a chance to finish running or if the computers are inaccessible (turned off or sleeping for example), data will take longer to populate in Desktop Analytics. For this reason, you can expect most of your devices to be populated in Desktop Analytics in about 1-2 weeks after deploying the update and configuration to user computers.
 
 ## Viewing newly enrolled devices
 
-While it takes some time to gather full data on devices you have enrolled in Update Readiness, there is a way to quickly see new devices that have successfully sent partial data to Microsoft less than an hour after running the deployment script. This is particularly useful to verify that endpoints are correctly configured while you wait for the full amount of data to populate.
+While it takes some time to gather full data on devices you have enrolled in Desktop Analytics, there is a way to quickly see new devices that have successfully sent partial data to Microsoft less than an hour after running the deployment script. This is particularly useful to verify that endpoints are correctly configured while you wait for the full amount of data to populate.
 
-To see the list of devices that have newly become associated with your organization’s Commercial ID, head to the Connected Services page in Update Readiness and navigate to the {SECTION}. This will open a flyout showing new devices seen in the last 24 hours. You can adjust the filter to see new devices as far back as 7 days.
+To see the list of devices that have newly become associated with your organization’s Commercial ID, head to the Connected Services page in Desktop Analytics and navigate to the {SECTION}. This will open a flyout showing new devices seen in the last 24 hours. You can adjust the filter to see new devices as far back as 7 days.
 
 {NEED SCREENSHOT}
 
@@ -113,7 +113,7 @@ To see the list of devices that have newly become associated with your organizat
 
 The deployment script is the only recommended option for configuring Windows 7 devices because the required settings are not configurable via policy. You can also use the deployment script to configure Windows 10 devices (although many customers choose to use policy instead for reasons described in the next section).
 
-Use a software distribution system such as System Center Configuration Manager to distribute the Upgrade Readiness deployment script at scale. For more information, see [NEEDLINK TO NEW UPDATE READINESS SCRIPT](https://blogs.technet.microsoft.com/upgradeanalytics/2016/09/20/new-version-of-the-upgrade-analytics-deployment-script-available/) on the Upgrade Readiness blog. For information on how to deploy PowerShell scripts by using Microsoft Intune, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension).
+Use a software distribution system such as System Center Configuration Manager to distribute the Desktop Analytics deployment script at scale. For more information, see [NEEDLINK TO NEW Desktop Analytics SCRIPT](https://blogs.technet.microsoft.com/upgradeanalytics/2016/09/20/new-version-of-the-upgrade-analytics-deployment-script-available/) on the Desktop Analytics blog. For information on how to deploy PowerShell scripts by using Microsoft Intune, see [Manage PowerShell scripts in Intune for Windows 10 devices](https://docs.microsoft.com/intune/intune-management-extension).
 
 ### Enrolling Windows 10 devices at scale by using policy
 
@@ -126,9 +126,9 @@ These Group Policy objects are under Microsoft\Windows\DataCollection:
 
 | Policy   | Value  |
 |-----------------------|------------------|
-| CommercialId | In order for your devices to show up in Update Readiness, they must be configured with your organization’s Commercial ID. |
-| AllowTelemetry  |	1 (Basic), 2 (Enhanced) or 3 (Full) diagnostic data. Update Readiness will work with basic diagnostic data, but more features are available when you use the Enhanced level (for example, Device Health requires Enhanced diagnostic data and Upgrade Readiness only collects app usage and site discovery data on Windows 10 devices with Enhanced diagnostic data). For more information, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/configuration/configure-windows-diagnostic-data-in-your-organization). |
-| LimitEnhancedDiagnosticDataWindowsAnalytics |	Only applies when AllowTelemetry=2. Limits the Enhanced diagnostic data events sent to Microsoft to just those needed by Update Readiness. For more information, see [Windows 10, version 1709 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/configuration/enhanced-diagnostic-data-windows-analytics-events-and-fields).|
+| CommercialId | In order for your devices to show up in Desktop Analytics, they must be configured with your organization’s Commercial ID. |
+| AllowTelemetry  |	1 (Basic), 2 (Enhanced) or 3 (Full) diagnostic data. Desktop Analytics will work with basic diagnostic data, but more features are available when you use the Enhanced level (for example, Device Health requires Enhanced diagnostic data and Desktop Analytics only collects app usage and site discovery data on Windows 10 devices with Enhanced diagnostic data). For more information, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/configuration/configure-windows-diagnostic-data-in-your-organization). |
+| LimitEnhancedDiagnosticDataWindowsAnalytics |	Only applies when AllowTelemetry=2. Limits the Enhanced diagnostic data events sent to Microsoft to just those needed by Desktop Analytics. For more information, see [Windows 10, version 1709 enhanced diagnostic data events and fields used by Windows Analytics](https://docs.microsoft.com/windows/configuration/enhanced-diagnostic-data-windows-analytics-events-and-fields).|
 | AllowDeviceNameInTelemetry |	In Windows 10, version 1803, a separate opt-in is required to enable devices to continue to send the device name. |
 
 You can set these values by using Group Policy (in Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds). You can also configure devices by using a mobile device management tool such as Intune.
@@ -183,4 +183,17 @@ Set-ItemProperty -Path $deviceNameOptInPath -Name AllowDeviceNameInTelemetry  -V
 }
 ``` 
  ## Troubleshooting
-If you encounter difficulty with enrolling devices in Update Readiness, check [Update Readiness troubleshooting](update-readiness-troubleshooting.md) for suggestions.
+If you encounter difficulty with enrolling devices in Desktop Analytics, check [Desktop Analytics troubleshooting](update-readiness-troubleshooting.md) for suggestions.
+
+| | |
+| --- | --- |
+| ![done](UDRimages/checklistdone.png) | Learn about Desktop Analytics (this topic) |
+| ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
+| ![done](UDRimages/checklistdone.png) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
+| ![to do](UDRimages/checklistbox.gif) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
+| ![to do](UDRimages/checklistbox.gif) | Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
+| ![to do](UDRimages/checklistbox.gif) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
+| ![to do](UDRimages/checklistbox.gif) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) |
+| ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
+|                                      |                                                    |
+| ![to do](UDRimages/checklistbox.gif)   | Additional information: [Troubleshooting](update-readiness-troubleshooting.md)  |
