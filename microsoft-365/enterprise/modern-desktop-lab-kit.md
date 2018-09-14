@@ -21,6 +21,7 @@ Extending the value of Microsoft 365, the Modern Desktop makes security the top 
 This free evaluation lab kit features: 
 
 ## A complete lab environment
+
 The kit includes a pre-configured virtual lab environment with evaluation versions of:
 
 * Windows 10 Enterprise, version 1803 (Windows 10 April 2018 Update)
@@ -40,7 +41,6 @@ PLUS, the lab can be connected to trials of:
 ## Step-by-step labs
 
 Illustrated lab guides take you through multiple deployment and management scenarios, including:
-
 
 ### Servicing
 * Windows Analytics Update Compliance 
@@ -67,7 +67,6 @@ Illustrated lab guides take you through multiple deployment and management scena
 * Credential Guard 
 * Device Encryption (Bitlocker)  
 * Remote Access (VPN)  
-* 
 
 ### Compatibility
  
@@ -79,7 +78,6 @@ Illustrated lab guides take you through multiple deployment and management scena
 
 > [!div class="nextstepaction"]
 > [Download the Microsoft 365 Modern Desktop Lab Kit](https://www.microsoft.com/evalcenter/evaluate-microsoft-365-powered-device-lab-kit)
-
 
 Please use a broad bandwidth to download this content to enhance your downloading experience. Lab environment requires a minimum of 16 GB of available memory and 150 GB of free disk space. For optimal performance, 32 GB of available is recommended. The lab expires December 9, 2018. A new version will be published prior to expiration.
 
