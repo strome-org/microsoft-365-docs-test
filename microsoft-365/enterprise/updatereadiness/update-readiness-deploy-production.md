@@ -277,7 +277,7 @@ As you address these deployment issues, the dashboard will continue to show the 
 | ![done](UDRimages/checklistdone.png) | Get started with accounts, subscriptions, user access, workspaces: [Get started with Desktop Analytics](update-readiness-get-started.md) |
 | ![done](UDRimages/checklistdone.png) | Enroll devices in Desktop Analytics to start the flow of diagnostic data: [Enroll devices in Desktop Analytics](update-readiness-enroll-devices.md)|
 | ![done](UDRimages/checklistdone.png) | Additional steps after device enrollment in Desktop Analytics: [Additional steps after device enrollment in Desktop Analytics](update-readiness-additonal-steps.md) |
-| ![done](UDRimages/checklistdone.png) | Set up deployment plans -- define global rules and detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
+| ![done](UDRimages/checklistdone.png) | Set up deployment plans -- define detailed deployment plans for pilot and production: [Define deployment plans with Desktop Analytics](update-readiness-deployment-plans.md) |
 | ![done](UDRimages/checklistdone.png) | [Deploy pilot with Desktop Analytics](update-readiness-deploy-pilot.md) |
 | ![done](UDRimages/checklistdone.png) | Deploy to production: [Deploy to production with Desktop Analytics](update-readiness-deploy-production.md) (this topic) |
 | ![to do](UDRimages/checklistbox.gif) | Monitor status and health of the deployment: [Monitor the health and update status of devices](update-readiness-monitoring.md) |
