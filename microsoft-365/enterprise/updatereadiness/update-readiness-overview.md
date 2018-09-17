@@ -33,7 +33,11 @@ Desktop Analytics tool provides you with these key benefits relating to Desktop 
 - what Windows and Office versions on the clients are required in order to be monitored/managed by Desktop Analytics?
 - does it cost anything?
 
+## Diagnostic data required
 
+![Diagnostic data needed for various features of Desktop Analytics](UDRimages/diag-data-features.png)
+
+{WHAT DO WE NEED TO SAY ABOUT PRIVACY? WA HAS A WHOLE SEPARATE TOPIC ON THIS--IS IT RELEVANT TO DA SO WE CAN GENERALIZE THAT TOPIC? OR IS THE PRIVACY/DATA STORY DIFFERENT ENOUGH THAT A NEW TOPIC IS NEEDED REGARDING PRIVACY/DATA IN DA?}
 
 ## Steps to use Desktop Analytics
 
