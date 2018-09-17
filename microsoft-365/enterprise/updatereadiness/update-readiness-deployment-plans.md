@@ -81,11 +81,12 @@ To change the importance level of an app or add-in:
 
 1.  On the dashboard, click **Identify importance**.
 2. On the apps tab, click **Not Reviewed** to view the apps that need your input. 
-4.  Select the apps you want to change, click **Edit**, and then choose **Critical**, **Important**, or **Not Important** from the **Importance** list. Note that you can select multiple apps to edit at the same time. 
- > [!NOTE]
- > When assigning importance levels, you can also choose the Upgrade decision. We cover that in more depth in [step 5](#step-5-choose-how-to-fix-known-issues).  
-6.  Click **Save**.
-7. Click the **Office Add-ins** tab, and update the importance of the add-ins.
+3.  Select the apps you want to change, click **Edit**, and then choose **Critical**, **Important**, or **Not Important** from the **Importance** list. Note that you can select multiple apps to edit at the same time. 
+ 
+    > [!NOTE]
+    > When assigning importance levels, you can also choose the Upgrade decision.   
+4.  Click **Save**.
+5. Click the **Office Add-ins** tab, and update the importance of the add-ins.
 
 ## Step 3: Choose pilot devices
 
