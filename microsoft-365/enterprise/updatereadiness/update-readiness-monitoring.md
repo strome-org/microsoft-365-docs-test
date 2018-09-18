@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -26,6 +26,8 @@ To review the current status of security updates, select **Security updates** in
 [![security update status view](UDRimages/UDR-security-status.png)](UDRimages/UDR-security-status.png)
 
 Select **Windows 10** or **Office 365 ProPlus** to see the respective status for each of those entities.
+
+#### Windows 10
 
 The **Security updates** tile shows the status of security updates on Windows 10 devices in your organization:
 
@@ -50,6 +52,22 @@ Below these two tiles is a section showing the adoption trend on a per-version b
 [![security update adoption trend tile detail](UDRimages/UDR-security-status-adopttrend.png)](UDRimages/UDR-security-status-adopttrend.png)
 
  Channel info?{SIC} Each row shows the total number of devices running the indicated Windows 10 release, followed by the percentage of devices that are running the latest security update for that release, a link for additional details, and the number of devices (as a percentage of the total number of Windows 10 devices) that are out of date with respect to security updates. You can also select **View More** to see the adoption trend over time.
+
+[![feature update adoption trend 2](UDRimages/UDR-feature-update2.png)](UDRimages/UDR-feature-update2.png)
+
+The table to the left shows the breakdown of devices by update versions as of the latest available data snapshot. This corresponds to the data represented on the most recent date on the graph. The first row shows the latest release version and corresponds to the percent of total devices considered Latest for that release. The next two rows make up the devices that are considered “out of date”, and error details for which are to the right-hand side of the graph.
+
+The graph shows rate of adoption across devices on a release from the first date that a security update was available for the version up to now. 
+
+The table to the right of the graph shows possible deployment errors that have occurred on devices in the process of moving to the latest security update. The table shows the top five errors. Select **See All** to view all deployment errors for the release.
+
+#### Office 365 ProPlus
+
+The Security updates tile shows the status of Office security updates on Windows 10 devices in your organization:
+
+[![office security update status](UDRimages/UDR-office-security-status.png)](UDRimages/UDR-office-security-status.png)
+
+The text under the tile's title indicates the percentage of devices that are running Office 365 ProPlus, while the report indicates the security status of those devices. The number of devices constituting that percentage is displayed next to the bar chart.
 
 
 ### Feature updates
