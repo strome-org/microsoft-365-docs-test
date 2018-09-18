@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -26,10 +26,10 @@ To review issues, follow these steps:
 3. For each app, select the app name and then, in the information pane, review the recommendation and select the upgrade decision. If you choose **Not reviewed** or **Unable**, then devices with this app will not be upgraded during the deployment.
 4. Repeat this review for drivers, Office apps, and Office add-ins by using those tabs.
 
-{INSERT GENERAL INFO ON RISK AND HEALTH--XLINK TO SUBTOPICS?}
+{OUR MASSIVE DISCUSSION OF UNDERSTANDING THE HEALTH STUFF IS CURRENTLY IN ‘DEPLOY TO PRODUCTION’—SHOULD IT GO HERE INSTEAD?}
 
 ## Deploy the update to pilot devices
-To actually install the update on devices in the pilot deployment, use the System Center Configuration Manager (SCCM) connector. To do this, {DO SOMETHING in Desktop Analytics}, then refer to {LINK TO RELEVANT SCCM CONTENT}.
+To actually install the update on devices in the pilot deployment, use the System Center Configuration Manager (SCCM) connector. To do this, {DO SOMETHING in Desktop Analytics}, then refer to {RELEVANT SCCM CONTENT GOES HERE}.
 
 ## Deploy toolkits if needed (optional)
 {GENERAL DESCRIPTION OF AHA AND MACRO TOOLKITS; XLINKS TO DETAILED SUBTOPIC(S) ON SAME}

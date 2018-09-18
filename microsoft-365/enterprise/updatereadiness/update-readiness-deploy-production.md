@@ -7,7 +7,7 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 09/14/2018
+ms.date: 09/18/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
@@ -76,9 +76,7 @@ Repeat this process for all apps, Office apps, and Office add-ins. Once a given 
 
 ## Deploy to devices that are ready
 
-{separate export from the export for the pilot?}
-
-Export the list of devices {somehow} to pass over to SCCM manually. Once your deployment implementation tool has started the pilot deployment, you can use Desktop Analytics to monitor the progress and results of the deployment.
+{HOW TO EFFECT DEPLOYMENT – SCCM WRITERS TO PROVIDE}
 
 ### Address deployment alerts
 
@@ -222,40 +220,34 @@ At the bottom of the page, there are three tabs to help with troubleshooting
 - **Recent incidents** shows you the devices on which add-in incidents have occurred recently. This lets you see recent occurrences of incidents and the devices on which they took place. You can use this list to troubleshoot the issue by gathering logs or trying fixes on those specific devices before trying a broader rollout.
 
 #### Health status for Office macros
-{placeholder for Javier to elaborate}
 
-Let’s have a closer look at how we monitor the Office macros. Rather than informing you about the files on which macro issues might be occurring (which may be a rather large number), we focus on “macro advisories”. These are related to an Office application (i.e. Word macros, Excel macros, PowerPoint macros) and can be generic or detailed (related to specific functionality in the macro object model). 
-Not all advisories 
-TODO – add screenshot
-As you can see from the fly-out above, there are several things we monitor for each macro advisory:
-•	“% Devices with runtime errors”: this is the number of devices on which a runtime error related to the advisory took place in the last 2 weeks over the number of devices on which the advisory is present
-To determine the health status, <TODO – Javier to specify what level he wishes to describe the algorithm>
-At the bottom of the page, there are three tabs to help with troubleshooting
-•	<TDODO>
+Let’s have a closer look at how we monitor the Office macros.
+We report health status on “macro advisories”. Macro advisories are potential issues detected in Office files containing macros which may or may not become a problem and are specific to an Office application (i.e. Word macros, Excel macros, PowerPoint macros). For each macro advisory, Update Readiness monitors both runtime and compile errors. 
+- % Devices with runtime errors is the number of devices on which errors related to the advisory occurred during macro execution in the last 2 weeks, over the number of devices on which the advisory was detected. We calculate this for several parameters as follows:
+    - After Upgrade considers only the devices on which the version of Office is the same as the deployment plan’s target
+    - Before Upgrade considers the devices running any older version of Office than the deployment plan’s target
+    - Commercial Average considers all commercial devices running the same version of Office as the deployment plan’s target
+    - % Devices with compile errors is the number of devices on which errors related to the advisory occurred during macro enablement in the last 2 weeks, over the number of devices on which the advisory was detected. We calculate this for the same parameters as %Devices with runtime errors
+  
 
-{Original Macros material to preserve image links, etc.}
-### Office macros
-{SHOULDN'T THE MACRO STUFF GO UP HERE SINCE WHAT YOU CHOOSE THERE AFFECTS THE UPGRADE DECISION?}
-If devices in your environment use Office macros, you can review the usage data and advisories offered by Desktop Analytics in order to further {inform your decisions about which devices to include in the production deployment.}
+At the bottom of the page, there are three tabs to help with troubleshooting:
 
-[![assets macros advisories](UDRimages/UDR-macro-advisory.png)](UDRimages/UDR-macro-advisory.png)
-
-You can explore further by clicking any specific advisory to see additional details, for example, the relevant list of devices affected. You can also export this list for later use, such as to run the Readiness Toolkit on this subgroup for still more detail about reported issues.
+- Recent incidents shows you the devices on which macro runtime and compile errors have occurred recently. This lets you see recent occurrences of incidents and the devices on which they took place. You can use this list to troubleshoot the issue by gathering logs or trying fixes on those specific devices before trying a broader rollout.
+- {WHAT ARE THE OTHER TABS?}
 
 >[!TIP]
->If you plan to run the Readiness Toolkit [LINK](https://aka.ms/readinesstoolkit) on this subgroup, it's best to wait until after the pilot deployment is complete to delve into remediating the reported macro issues.
+>You can use the Export Device List functionality to create a script to deploy the Readiness Toolkit LINK to the impacted devices and get more detailed information like the specific file names impacted. on this subgroup.
 
-[![assets macros advisory detail](UDRimages/UDR-macro-advisory-detail.png)](UDRimages/UDR-macro-advisory-detail.png)
-
-As you address these deployment issues, the dashboard will continue to show the progress of devices by updating as devices move from **Needs attention** to **Completed**.
-
+As you address these deployment issues, the dashboard will continue to show the progress of devices by updating as devices move from Needs attention to Completed.
+You can commence the production deployment at any time you are sufficiently confident in the success of the pilot deployment--there is no requirement that all (or any particular number) of devices in the pilot deployment reach the "completed" state prior to doing so.
 
 
 
 
 
 
-
+----------------------------------------------------
+{MATERIAL PROVIDED BY MARCSHEP--NEED TO FIGURE OUT HOW IT FITS IN}
 {1)	Overview (filtered to just noteworthy assets in the DP, calculate health status based on regression analysis on health signals, monitor all devices in your enterprise on the DP target versions, provide tshooters to solve issues and can toggle upgrade decision to halt upgrades to devices with problem assets).
 2)	Needs attention->health status->tshooters (to remediate) or upgrade decision (to halt future rollouts)
 
@@ -270,6 +262,8 @@ As you address these deployment issues, the dashboard will continue to show the 
 [![screenshot provided by marcshep6](UDRimages/marcshep6.png)](UDRimages/marcshep6.png)
 
 }
+
+------------------------------------------------------
 
 | | |
 | --- | --- |
