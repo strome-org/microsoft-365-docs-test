@@ -7,26 +7,20 @@ ms.sitesec: library
 author: Jaimeo
 ms.localizationpriority: medium
 ms.author: jaimeo
-ms.date: 09/10/2018
+ms.date: 09/18/2018
 ---
 
 [This information relates to a pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-# Get started with Updated Readiness
+# Get started with Desktop Analytics
 
 This topic explains the steps necessary to configure your environment for Desktop Analytics. 
 
-Steps are provided in sections that follow the recommended setup process:
-
 
 ## Entry points to Desktop Analytics
-{Which of these are functional currently?}
+{NEED INFO FROM THE SCCM EXPERTS}
 
-### From M365 Device Management {most likely for PP}
-### From System Center Configuration Manager
-### From Azure
-
-In {entry point console}, click {something}, and you will go to the Desktop Analytics console:
+In {SCCM entry point console}, click {something}, and you will go to the Desktop Analytics console:
 
 
 [![Landing page in UDR](UDRimages/UDR-landing.png)](UDRimages/UDR-landing.png)
