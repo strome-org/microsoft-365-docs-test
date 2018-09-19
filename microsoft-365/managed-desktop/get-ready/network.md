@@ -25,12 +25,30 @@ The proxy or firewall must support TLS 1.2. Otherwise, you may have to disable p
 
 These URLs needs to be in the allowed list so that Microsoft Managed Desktop devices can communicate with Microsoft Services.
 
-
+Microsoft service  | URLs required on allow list 
+--- | --- | ---
+Get Help | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+Quick Assist | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*.lync.com
+ 
 
 ### Endpoints allowed - other Microsoft products
 
-These URLs needs to be in the allowed list so that Microsoft Managed Desktop devices can communicate with Microsoft Services.
+There are URLs from several Microsoft products that need to be in the allowed list so that Microsoft Managed Desktop devices can communicate with those Microsoft Services. Use the links to to see the complete list for each product. 
 
+Microsoft service | Documentation source - URLs required on allow list
+--- | ---
+Windows Update for Business (WUfB) | [Windows Update for Business firewall and proxy requirements](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
+Delivery Optimization | [Windows Update proxy requirements](https://support.microsoft.com/help/3175743/proxy-requirements-for-windows-update)
+Microsoft Store for Business | [Microsoft Store allow list](https://support.microsoft.com/help/2778122/using-authenticated-proxy-servers-together-with-windows-8)
+Office 365 | [Office 365 URL and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Azure Active Directory | [Hybrid identity required ports and protocols](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports) and [Active Directory and Active Directory Domain Services Port Requirements](https://aka.ms/AA26ygm) 
+Microsoft Intune | [Intune network configuration requirements](https://docs.microsoft.com/intune/network-bandwidth-use)
+OneDrive for Business <br> | [Required URLs and ports for OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports)
+Windows Defender Advanced Threat Protection (ATP) | [Windows Defender ATP endpoints](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection)
+SharePoint Online  | [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#bkmk_teams)
+Power BI | [OneNote](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+
+<!---
 Microsoft service  | URLs required on allow list | Documentation source
 --- | --- | ---
 Windows Update for Business (WUfB) | update.microsoft.com<br>\*.update.microsoft.com<br>download.windowsupdate.com<br>\*.download.windowsupdate.com<br>download.microsoft.com<br>\*.download.microsoft.com<br>windowsupdate.com<br>\*.windowsupdate.com<br>ntservicepack.microsoft.com<br>wustat.windows.com<br>login.live.com <br>mp.microsoft.com<br>\*.mp.microsoft.com | [Windows Update for Business firewall and proxy requirements](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
@@ -48,6 +66,4 @@ OneDrive for Business | admin.onedrive.com  <br>officeclient.microsoft.com <br>o
 Microsoft Teams | \*.teams.skype.com  <br>\*.teams.microsoft.com  <br>teams.microsoft.com <br>\*.asm.skype.com <br>\ *.cc.skype.com  <br>\*.conv.skype.com  <br>\*.dc.trouter.io  <br>\*.msg.skype.com  <br>prod.registrar.skype.com  <br>prod.tpc.skype.com <br>\*.broker.skype.com <br>\*.config.skype.com  <br>\*.pipe.skype.com  <br>\*.pipe.aria.microsoft.com  <br>config.edge.skype.com  <br>pipe.skype.com  <br>s-0001.s-msedge.net  <br>s-0004.s-msedge.net  <br>scsinstrument-ss-us.trafficmanager.net  <br>scsquery-ss- <br>us.trafficmanager.net  <br>scsquery-ss-eu.trafficmanager.net  <br>scsquery-ss-asia.trafficmanager.net <br>\*.msedge.net <br>compass-ssl.microsoft.com  <br>feedback.skype.com <br>\*.secure.skypeassets.com  <br>mlccdnprod.azureedge.net  <br>videoplayercdn.osi.office.net <br>\*.mstea.ms | [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#bkmk_teams)
 Power BI | maxcdn.bootstrapcdn.com <br>ajax.aspnetcdn.com <br>netdna.bootstrapcdn.com <br>cdn.optimizely.com <br>google-analytics.com <br>\*.mktoresp.com <br>\*.aadcdn.microsoftonline-p.com <br>\*.msecnd.com <br>\*.localytics.com <br>ajax.aspnetcdn.com <br>\*.localytics.com <br>\*.virtualearth.net <br>platform.bing.com <br>powerbi.microsoft.com <br>c.microsoft.com <br>app.powerbi.com <br>\*.powerbi.com <br>dc.services.visualstudio.com <br>support.powerbi.com <br>powerbi.uservoice.com <br>go.microsoft.com <br>c1.microsoft.com <br>\*.azureedge.net |[ Power BI & Express Route](https://docs.microsoft.com/power-bi/service-admin-power-bi-expressroute)
 OneNote | apis.live.net <br>www.onedrive.com <br>login.microsoft.com  <br>www.onenote.com <br>\*.onenote.com <br>\*.msecnd.net <br>\*.microsoft.com <br>\*.office.net <br>cdn.onenote.net <br>site-cdn.onenote.net <br>cdn.optimizely.com <br>Ajax.aspnetcdn.com <br>officeapps.live.com <br>\\*.onenote.com <br>\*cdn.onenote.net <br>contentstorage.osi.office.net <br>\*onenote.officeapps.live.com <br>\*.microsoft.com | [OneNote] (https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-
-
-
+-->
