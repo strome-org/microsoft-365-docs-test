@@ -15,15 +15,21 @@ ms.date: 09/24/2018
 
 ## Proxy configuration
 
-Microsoft Managed Desktop is a cloud-managed service. There is a set of endpoints that the Microsoft Managed Desktop services needs to be able to reach. Most customers will set up a proxy or firewall to only allow network traffic from specific domains for security reason. This section lists the endpoints that need to be allowed. 
+Microsoft Managed Desktop is a cloud-managed service. There is a set of endpoints that the Microsoft Managed Desktop services needs to be able to reach. Most customers will set up a proxy or firewall to only allow network traffic from specific domains for security reasons. This section lists the endpoints that need to be allowed. 
 
 ### Proxy requirement
 
 The proxy or firewall must support TLS 1.2. Otherwise, you may have to disable protocol detection.
 
-### Endpoints allowed
+### Endpoints allowed - specific for Microsoft Managed Desktop
 
-These URLs needs to be in the allowed list so that mWaaS devices can communicate with Microsoft Services.
+These URLs needs to be in the allowed list so that Microsoft Managed Desktop devices can communicate with Microsoft Services.
+
+
+
+### Endpoints allowed - other Microsoft products
+
+These URLs needs to be in the allowed list so that Microsoft Managed Desktop devices can communicate with Microsoft Services.
 
 Microsoft service  | URLs required on allow list | Documentation source
 --- | --- | ---
