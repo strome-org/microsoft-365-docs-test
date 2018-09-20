@@ -16,5 +16,4 @@ In the modern workplace, managing your desktop devices is transitioned to an ent
 
 - [Apps](apps.md)
 - [Devices](devices.md)
-- [Device policies](device-policies.md)
-- [Security](security.md)
+- [Add Admin contacts](add-admin-contacts.md)
