@@ -80,8 +80,7 @@ ms.date: 05/10/2018
                                                 <h3>Get started with your enrollment</h3>
                                                 <P><a href="get-started/devices.md">Order devices</a></p>
                                                 <P><a href="get-started/apps.md">Prepare LOB apps</a></p>
-                                                <P><a href="get-started/device-policies.md">Device policies</a></p>
-                                                <P><a href="get-started/security.md">Security enforcement</a></p>
+                                                <p><a href="get-started/add-admin-contacts.md">Add Admin contacts</a></p>
                                             </div>
                                         </div>
                                     </div>
