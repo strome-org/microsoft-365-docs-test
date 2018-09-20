@@ -3,7 +3,7 @@ title: "MAM policies for your Microsoft 365 Enterprise test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/27/2018
+ms.date: 09/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -19,13 +19,19 @@ description: Use this Test Lab Guide to add Intune mobile application management
 With the instructions in this article, you add Intune mobile application management (MAM) policies to your Microsoft 365 Enterprise test environment.
 
 ![Test Lab Guides for the Microsoft cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
-  
-## Phase 1: Build out your Microsoft 365 Enterprise test environment
 
-Follow the instructions in the [lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
-  
 > [!TIP]
 > Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.
+
+## Phase 1: Build out your Microsoft 365 Enterprise test environment
+
+If you just want to configure MAM policies in a lightweight way with the minimum requirements, follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).
+  
+If you want to configure MAM policies in a simulated enterprise, follow the instructions in [Pass-through authentication](pass-through-auth-m365-ent-test-environment.md).
+  
+> [!NOTE]
+> Testing automated licensing and group membership does not require the simulated enterprise test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can test automated licensing and group membership and experiment with it in an environment that represents a typical organization. 
+>  
 
 ## Phase 2: Create and deploy MAM policies for iOS and Android devices
 
@@ -91,27 +97,27 @@ In this phase, you create and deploy two different MAM policies: one for iOS dev
     
 30. Repeat step 29 for the following apps:
     
-  - Outlook for Android
+    - Outlook for Android
     
-  - Word for iOS
+    - Word for iOS
     
-  - Excel for iOS
+    - Excel for iOS
     
-  - Outlook for iOS
+    - Outlook for iOS
     
-  - Microsoft Dynamics CRM on iPad for iOS
+    - Microsoft Dynamics CRM on iPad for iOS
     
-  - Microsoft Dynamics CRM on iPhone for iOS
+    - Microsoft Dynamics CRM on iPhone for iOS
     
-  - Dynamics CRM for Phones for Android
+    - Dynamics CRM for Phones for Android
     
-  - Dynamics CRM for Tablets for Android
+    - Dynamics CRM for Tablets for Android
     
-  - Excel for Android
+    - Excel for Android
     
-  - Word for Android
+    - Word for Android
     
-  - OneNote for iOS
+    - OneNote for iOS
     
 31. Close the **Mobile Apps - Apps** blade.
     
@@ -131,7 +137,7 @@ In this phase, you create and deploy two different MAM policies: one for iOS dev
     
 39. On the **Apps** blade, click **PowerPoint**, **Dynamics CRM for tablets**, **Excel**, **Word**, **Outlook**, and **Dynamics CRM for phones**, and then click **Select**.
     
-10. On the **Add a policy** blade, click **Create**.
+40. On the **Add a policy** blade, click **Create**.
     
 You now have two MAM policies, one for iOS devices and one for Android devices, and are ready to experiment with testing settings for the selected apps. 
   
