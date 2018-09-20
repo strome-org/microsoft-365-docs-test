@@ -10,9 +10,9 @@ ms.date: 09/24/2018
 
 # Add Admin contacts in Microsoft Managed Desktop admin portal
 
-There are several ways that Microsoft Managed Desktop service communicates with customers. To streamline communication and ensure we’re checking with the best contacts, you need to provide a set of admin con tacts.  Microsoft Managed Desktop IT Operations will contact these people for assistance troubleshooting issues for your tenant.
+There are several ways that Microsoft Managed Desktop service communicates with customers. To streamline communication and ensure we’re checking with the best contacts, you need to provide a set of admin contacts. Microsoft Managed Desktop IT Operations will contact these people for assistance troubleshooting issues for your tenant.
 
-Admin contacts should be the best person, or group, that can answer questions and make decisions for different focus areas. These areas include:
+Admin contacts should be the best person or group that can answer questions and make decisions for different focus areas. These areas include:
 
 Focus area | For questions about
 --- | ---
