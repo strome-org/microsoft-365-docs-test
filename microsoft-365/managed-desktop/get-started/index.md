@@ -14,6 +14,6 @@ In the modern workplace, managing your desktop devices is transitioned to an ent
 
 ## In this section
 
-- [Apps](apps.md)
-- [Devices](devices.md)
+- [Prepare LOB apps](apps.md)
+- [Order devices](devices.md)
 - [Add Admin contacts](add-admin-contacts.md)
