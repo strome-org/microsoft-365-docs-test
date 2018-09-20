@@ -39,6 +39,6 @@ Admin contacts are required when you [submit a Support request](../working-with-
 
 4.	Select an **Area of focus** and enter the info for the contact. 
 
-    ![the list of areas of focus](images/areasoffocus.png)
+    ![the list of areas of focus](images/areaoffocus.png)
 
 5. Repeat for each area of focus. 
