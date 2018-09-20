@@ -3,7 +3,7 @@ title: "Microsoft 365 Enterprise Test Lab Guides"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/13/2018
+ms.date: 09/16/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -26,6 +26,9 @@ TLGs are designed to be modular. They build upon each other to create multiple c
 You can also use TLGs to create representative environments for development and testing of applications, also known as dev/test environments.
   
 ![Test Lab Guides for the Microsoft cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+
+> [!TIP]
+> Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.
   
 ## Base configuration
 
@@ -47,6 +50,10 @@ To demonstrate identity-related features and capabilities, see:
   
    Enable and test pass-through authentication to a Windows Server AD domain controller.
 
+- [Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md)
+  
+   Enable and test Azure AD Seamless Single Sign-on (SSO) with a Windows Server AD domain controller.
+
 - [Multi-factor authentication](multi-factor-authentication-microsoft-365-test-environment.md)
   
    Enable and test smart phone-based multi-factor authentication for a specific user account.
@@ -55,6 +62,10 @@ To demonstrate identity-related features and capabilities, see:
  
    Lock down your global administrator accounts with Office 365 Cloud App Security and conditional access policies.
 
+- [Password reset](password-reset-m365-ent-test-environment.md)
+
+   Use self-service password reset (SSPR) to reset your password.
+
 - [Automatic licensing and group membership](automate-licenses-group-membership-microsoft-365-test-environment.md)
 
    Make administering new accounts easier than ever with automatic licensing and dynamic group membership.
@@ -62,8 +73,6 @@ To demonstrate identity-related features and capabilities, see:
 - [Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md)
 
    Scan your current user accounts for vulnerabilities.
-
-
 
 ## Mobile device management
 
@@ -76,10 +85,19 @@ To demonstrate mobile device management-related features and capabilities, see:
 - [Enroll iOS and Android devices in your Microsoft 365 Enterprise test environment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
    
    Enroll iOS or Android devices and manage them remotely.
+
+
+## Information protection
+
+To demonstrate information protection-related features and capabilities, see:
+
+- [Increased Office 365 security for your Microsoft 365 Enterprise test environment](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+    
+   Configure settings for increased Office 365 security and investigate built-in security tools.
     
 
 ## See also
 
-[Experience the Microsoft Cloud with Cloud Adoption Test Lab Guides](https://mva.microsoft.com/en-US/training-courses/experience-the-microsoft-cloud-with-cloud-adoption-test-lab-guides-17960?l=LXNRdhSLE_1000115881)
+[Experience the Microsoft Cloud with Cloud Adoption Test Lab Guides](https://mva.microsoft.com/training-courses/experience-the-microsoft-cloud-with-cloud-adoption-test-lab-guides-17960?l=LXNRdhSLE_1000115881)
     
 [One Microsoft Cloud Test Lab Guide stack](http://aka.ms/catlgstack)
