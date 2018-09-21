@@ -1,5 +1,5 @@
 ---
-title: Getting devices in Microsoft Managed Desktop 
+title: Order devices in Microsoft Managed Desktop 
 description:  
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -8,4 +8,6 @@ ms.localizationpriority: medium
 ms.date: 06/06/2018
 ---
 
-# Getting devices in Microsoft Managed Desktop
+# Order devices in Microsoft Managed Desktop
+
+COMING SOON!
