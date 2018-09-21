@@ -26,21 +26,20 @@ Here’s a summary of how the change process is shared between Microsoft and cus
 <table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
 <tr><td><ul><li>Notify customers 5 days in advance for changes that require administrator action.</li><li>For emergency changes, apply a mitigation prior to notifying.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Acknowledge and approve, when required.</li></ul></td></tr><table 
 
-Microsoft will: | Customers will:
-| --- | --- |
-- Notify customers 5 days in advance for changes that require administrator action. For more information, see [change types](#change-types).<br><br> - For emergency changes, apply a mitigation prior to notifying. | - Read and understand notification email.<br><br> - Acknowledge and approve, when required.<br><br> - Manage internal change management processes.
+
 
 #### During a change
 
-Microsoft will: | Customers will:
---- | ---
-- Deploy change for Windows 10 and Office, release security and non-security updates, as needed.<br><br> - Monitor telemetry and support escalations for any unexpected issues. | - Take action requested by Microsoft, based on timeframes listed in [change types](#change-types).<br><br> - Create a Support request, if required.
+<table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
+<tr><td><ul><li>Deploy change for Windows 10 and Office, release security and non-security updates, as needed.</li><li>Monitor telemetry and support escalations for any unexpected issues.</li></ul></td><td><ul><li>Manage internal change management process.</li><li>Create a Support request, if required.</li></ul></td></tr><table 
+
+
 
 #### After a change
 
-Microsoft will: | Customers will:
---- | ---
-- Collect customer feedback to improve rollout of future changes.<br><br> - Monitor telemetry and support escalations for any unexpected issues. | - Manage internal change management process.<br><br> - Provide general feedback and specific feedback in the admin feedback tool.<br><br> - Train users to provide app-specific feedback using the Winbdows Feedback Hub and the Smile button in Office apps. 
+<table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
+<tr><td><ul><li>Collect customer feedback to improve rollout of future changes.</li><li>Monitor telemetry and support escalations for any unexpected issues.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Provide general feedback and specific feedback in the admin feedback tool.</li><li>Train users to provide app-specific feedback using the Windows Feedback Hub and the Smile button in Office apps.</li></ul></td></tr><table 
+
 
 
 
