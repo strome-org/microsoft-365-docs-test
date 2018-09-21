@@ -21,22 +21,22 @@ Microsoft and customers will share change management for the Microsoft Managed D
 
 Here’s a summary of how the change process is shared between Microsoft and customers. 
 
-**Before a change**
+#### Before a change
 
 <table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
-<tr><td><ul><li>Notify customers 5 days in advance for changes that require administrator action.</li><li>For emergency changes, apply a mitigation prior to notifying.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Acknowledge and approve, when required.</li></ul></td></tr><table> 
+<tr><td><ul><li>Notify customers 5 days in advance for changes that require administrator action.</li><li>For emergency changes, apply a mitigation prior to notifying.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Acknowledge and approve, when required.</li></ul></td></tr><table 
 
 Microsoft will: | Customers will:
 | --- | --- |
 - Notify customers 5 days in advance for changes that require administrator action. For more information, see [change types](#change-types).<br><br> - For emergency changes, apply a mitigation prior to notifying. | - Read and understand notification email.<br><br> - Acknowledge and approve, when required.<br><br> - Manage internal change management processes.
 
-**During a change**
+#### During a change
 
 Microsoft will: | Customers will:
 --- | ---
 - Deploy change for Windows 10 and Office, release security and non-security updates, as needed.<br><br> - Monitor telemetry and support escalations for any unexpected issues. | - Take action requested by Microsoft, based on timeframes listed in [change types](#change-types).<br><br> - Create a Support request, if required.
 
-**After a change**
+#### After a change
 
 Microsoft will: | Customers will:
 --- | ---
