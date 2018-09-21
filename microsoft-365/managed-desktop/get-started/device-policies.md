@@ -51,14 +51,11 @@ Telemetry | Devices will be set to provide Enhanced diagnostic data to Microsoft
 
  This section outlines the policies that will be deployed as additional to the standard Microsoft Managed Desktop policies. Standard policies are listed in [Default policies](#default-policies). This configuration is designed with Financial Services and highly-regulated industries in mind: optimizing for the most secure stance, while maintaining user productivity.
 
- ### Changes from default policies
-
- In a change to the published **Security baseline**, the setting [**Do not display network selection UI**](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-dontdisplaynetworkselectionui) will be disabled.
+In a change to the published **Security baseline**, the setting [**Do not display network selection UI**](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-dontdisplaynetworkselectionui) will be disabled.
 
  ### Additional security policies
 
- These policies are new in this addendum. We’ve added them to increase security for highly-regulated industries. 
-
+ These policies are added to increase security for highly-regulated industries. 
  - **App allow list**: Apps must be trusted by the organization to run on Microsoft Managed Desktop devices. This provides a locked-down environment. Any apps that need to be onboarded must be communicated to the Microsoft Managed Desktop Operations Team. For more information, see [Windows Defender Device Guard](https://docs.microsoft.com/windows/device-security/device-guard/device-guard-deployment-guide).
  - **Security monitoring**: Microsoft will monitor devices using [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). If a threat be detected, Microsoft will notify the customer, isolate the device, and rectify the issue remotely. 
  - **Exploit Guard**: We will ensure that mWaaS devices are always secured with the latest security update, for both operating system and apps, using [Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb). Exploit Guard will be configured with these settings:
