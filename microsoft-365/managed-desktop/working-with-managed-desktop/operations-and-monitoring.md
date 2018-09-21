@@ -23,9 +23,8 @@ Here’s a summary of how the change process is shared between Microsoft and cus
 
 **Before a change**
 
-Microsoft will: | Customers will:
---- | ---
-- Notify customers | - Read and understand
+<table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
+<tr><td><ul><li>Notify customers 5 days in advance for changes that require administrator action.</li><li>For emergency changes, apply a mitigation prior to notifying.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Acknowledge and approve, when required.</li></ul></td></tr><table> 
 
 Microsoft will: | Customers will:
 | --- | --- |
