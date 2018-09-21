@@ -28,7 +28,7 @@ Microsoft will: | Customers will:
 Notify customers | Read and understand
 
 Microsoft will: | Customers will:
---- | ---
+| --- | --- |
 - Notify customers 5 days in advance for changes that require administrator action. For more information, see [change types](#change-types).<br><br> - For emergency changes, apply a mitigation prior to notifying. | - Read and understand notification email.<br><br> - Acknowledge and approve, when required.<br><br> - Manage internal change management processes.
 
 **During a change**
