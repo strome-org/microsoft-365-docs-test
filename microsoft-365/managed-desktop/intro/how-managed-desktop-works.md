@@ -29,20 +29,20 @@ There are two main phases: onboarding and management.
 This phase uses a Microsoft Managed Desktop app to complete tasks that prepare your tenant.
 
 - Allows the Microsoft Managed Desktop app permissions to take actions on the environment in the context of the user. For more information, see [API permissions and API calls](#ref).
-- Create four Azure Active Directory (AD) accounts to support administration and validation within your tenant. For more information, see [Workplace accounts](#workplace-accounts).
-- Create two accounts to support managing Microsoft Defender Advanced Threat Protection. For more information, see [Microsoft Defender Advanced Threat Protection accounts](#microsoft-defender-advanced-threat-protection).
+- Create four Azure Active Directory (AD) accounts to support administration and validation within your tenant. 
+- Create two accounts to support managing Microsoft Defender Advanced Threat Protection.
 - Create four new Active Directory Groups: Test, First, Fast, and Broad. We don’t assign users to the groups at this time. We use these groups for [managing updates and changes](../working-with-managed-desktop/updates.md).
 - Create update policies for the four new groups.
 - Create security baseline and leave it unassigned. For more information, see [Windows Security Baselines](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines) and the Microsoft Managed Desktop-specific information in [Device policies](../get-started/device-policies.md).
 
 ## Management
 
-This phase includes ongoing activities performed by the MSAdmin account, using both automated and interactive sessions. Actions include all activities required to manage and operate the tenant. For more information on the API permissions and typical API calls that are made in this phase, see [API permissions and API calls](#ref).
+This phase includes ongoing activities performed by the MSAdmin account, using both automated and interactive sessions. Actions include all activities required to manage and operate the tenant. For more information on the API permissions and typical API calls that are made in this phase, see [API permissions and API calls](#reference).
 
 ![customer as global admin takes one-time action and Microsoft as MSAdmin takes future management actions using app](images/onboard.png)
 
 
-<span id="ref" />
+
 ## Reference
 
  
@@ -90,6 +90,4 @@ This phase includes ongoing activities performed by the MSAdmin account, using b
     - POST /users/{id | userPrincipalName}/assignLicense
     - GET /subscribedSkus
 
-### Workplace accounts
 
-### Microsoft Defender Advanced Threat Protection accounts
