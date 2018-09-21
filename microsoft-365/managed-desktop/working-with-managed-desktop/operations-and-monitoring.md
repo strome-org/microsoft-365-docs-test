@@ -23,22 +23,21 @@ Here’s a summary of how the change process is shared between Microsoft and cus
 
 
 
-<table><tr><th colspan="2">Before a change</th></tr>
+<table><tr><th align="center" colspan="2">Before a change</th></tr>
 <tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
 <tr><td><ul><li>Notify customers 5 days in advance for changes that require administrator action.</li><li>For emergency changes, apply a mitigation prior to notifying.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Acknowledge and approve, when required.</li></ul></td></tr><table 
 
 
 
-#### During a change
 
-<table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
+
+<table><tr><th align="center" colspan="2">During a change</th></tr><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
 <tr><td><ul><li>Deploy change for Windows 10 and Office, release security and non-security updates, as needed.</li><li>Monitor telemetry and support escalations for any unexpected issues.</li></ul></td><td><ul><li>Manage internal change management process.</li><li>Create a Support request, if required.</li></ul></td></tr><table 
 
 
 
-#### After a change
 
-<table><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
+<table><tr><th align="center" colspan="2">After a change</th></tr><tr><th><p>Microsoft will:</p></th><th><p>Customers will:</p></th></tr>
 <tr><td><ul><li>Collect customer feedback to improve rollout of future changes.</li><li>Monitor telemetry and support escalations for any unexpected issues.</li></ul></td><td><ul><li>Read and understand notification email.</li><li>Provide general feedback and specific feedback in the admin feedback tool.</li><li>Train users to provide app-specific feedback using the Windows Feedback Hub and the Smile button in Office apps.</li></ul></td></tr><table 
 
 
