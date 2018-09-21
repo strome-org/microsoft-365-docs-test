@@ -19,8 +19,8 @@ When you enroll in Microsoft Managed Desktop, Microsoft provides you with device
 Additional information:
 
 - [Learn about the devices and apps you get with Managed Desktop](technologies-and-devices.md)
-- [Learn about device configuration](get-started/device-policies.md)
-- [Learn about security in Microsoft Managed Desktop](get-started/security.md)
+- [Learn about device configuration](../get-started/device-policies.md)
+- [Learn about security in Microsoft Managed Desktop](../get-started/security.md)
 
 <!---
 Microsoft will run a cloud application on your tenant to onboard you to Microsoft Managed Desktop. This onboarding app allows Microsoft to take actions against the tenant, while operating within the scope of the required permissions. After onboarding, Microsoft uses another app to manage your tenant and devices.
