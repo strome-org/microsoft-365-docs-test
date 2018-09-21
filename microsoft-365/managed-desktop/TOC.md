@@ -1,6 +1,6 @@
 # [Microsoft Managed Desktop](index.md)
 ## [Is Microsoft Managed Desktop right for you?](intro/index.md)
-### [How Microsoft Managed Desktop works](intro/how-managed-desktop-works.md)
+### [What is Microsoft Managed Desktop?](intro/how-managed-desktop-works.md)
 #### [Device configuration in Microsoft Managed Desktop](get-started/device-policies.md)
 #### [Security in Microsoft Managed Desktop](get-started/security.md)
 ### [Roles and responsibilities](intro/roles-and-responsibilities.md)
