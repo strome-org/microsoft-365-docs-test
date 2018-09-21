@@ -37,12 +37,12 @@ This phase uses a Microsoft Managed Desktop app to complete tasks that prepare y
 
 ## Management
 
-This phase includes ongoing activities performed by the MSAdmin account, using both automated and interactive sessions. Actions include all activities required to manage and operate the tenant. For more information on the API permissions and typical API calls that are made in this phase, see [API permissions and API calls](#ref).
+This phase includes ongoing activities performed by the MSAdmin account, using both automated and interactive sessions. Actions include all activities required to manage and operate the tenant. For more information on the API permissions and typical API calls that are made in this phase, see [API permissions and API calls](#reference).
 
 ![customer as global admin takes one-time action and Microsoft as MSAdmin takes future management actions using app](images/onboard.png)
 
 
-<span id="ref" />
+
 ## Reference
 
  
