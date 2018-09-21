@@ -27,3 +27,5 @@ Office 365 |	It is highly recommended that the following services be migrated to
 Data back-up and recovery |	Microsoft Managed Desktop requires files to be synced to OneDrive for Business for protection. Any files not synced to OneDrive for Business are not guaranteed by Microsoft Managed Desktop and may be lost during device exchanges, or support calls requiring a device reset.  
 
 [Learn how to meet the prerequisites for Microsoft Managed Desktop enrollment.](../get-ready/index.md)
+
+When you're ready to get started with Microsoft Managed Desktop, contact your Microsoft Account Manager. 

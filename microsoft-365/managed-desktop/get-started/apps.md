@@ -43,16 +43,9 @@ Since line-of-business (LOB) apps are unique for each customer, customers are re
 Once the core set of LOB apps has been identified the customer will procure, license, package, and test those applications in the Microsoft Managed Desktop environment. The customer must upload and deploy applications to Intune to deploy, update, and decommission their LOB applications. Customers are responsible for managing LOB apps support for their users. 
 
 ## Office applications
-The Office 365 Standard Suite (64 Bit), as seen in the table below, is deployed by Microsoft. <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
+As part of the Microsoft 365 E5 license, Office 365 Standard Suite (64 Bit) is deployed by Microsoft. 
 
-| Office 365 E5 |    | 
-| ---- | --- |
-|Office 365 Standard Suite (64bit) | Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote. <br>The standard Office Suite of applications will be shipped with the device. |
-|Store Apps | Microsoft Sway, Microsoft Teams, Power BI Desktop (not Pro) are not shipped with device.<br>These apps are available for download from Microsoft Store.|
-|Win32 Applications | Power BI Pro, Azure Information Protection Client, and Microsoft Planner.<br>These apps are not shipped with device and can be packaged for deployment by the customer. |
-| Web Applications | Yammer, Office Online, Delve, Flow, StaffHub, PowerApps.<br>Users can access the web version of these applications with a browser. | 
-|Skype for Business Online Cloud PBX | This feature is available with Office E5. Microsoft Managed Desktop will not configure any aspect of this service. |
-
+For details, see [Technologies and devices](../technologies-and-devices.md#technologies) <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
 
 ## Line-of-business applications
 This table summarizes responsibilities across the different phases for line-of-business (LOB) applications. 

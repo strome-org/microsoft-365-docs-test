@@ -10,7 +10,7 @@ ms.date: 09/24/2018
 
 # What is Microsoft Managed Desktop?
 
-With Microsoft 365 Managed Desktop, you get **software as a service** (Microsoft 365 E5), **devices as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more). 
+With Microsoft 365 Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more). 
 
 ![Microsoft Managed Desktop consists of Windows 365, Surface devices, and IT support](images/m365.png)
 
@@ -19,7 +19,7 @@ When you enroll in Microsoft Managed Desktop, Microsoft provides you with device
 Additional information:
 
 - [Learn about the devices and apps you get with Managed Desktop](technologies-and-devices.md)
-- [Learn about device configuration](../get-started/device-policies.md)
+- [Learn about Microsoft Managed Desktop device configuration](../get-started/device-policies.md)
 - [Learn about security in Microsoft Managed Desktop](../get-started/security.md)
 
 <!---

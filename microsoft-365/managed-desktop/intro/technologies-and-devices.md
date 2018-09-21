@@ -56,23 +56,36 @@ Azure Information Protection P2	 |This is an optional feature that customers can
 
 <!-- Device as a service -->
 
+<!---
 A device will be provided as a part of the Microsoft Managed Desktop service. Our catalog of devices is designed to ensure a premium experience for all Enterprise features like Windows Autopilot, Windows Hello, Cortana premium, Bitlocker, Secure Boot and Hyper-V. Devices will use Enterprise software, such as System Guard (DRTM), Virtualization, drivers and applications that are HVCI-ready.
 
-Microsoft does not support configuring, managing, or supporting existing devices in a customer’s organization that were not provided as part of Microsoft Managed Desktop. There is also no PC recycle or buy back program for existing devices. 
+Microsoft does not support configuring, managing, or supporting existing devices in a customer’s organization that were not provided as part of Microsoft Managed Desktop. There is also no PC recycle or buy back program for existing devices.
 
 Current device catalog:
 
 - Surface Laptop: w/ 2.4 GHz i5, 8 GB DDR3, and 256 GB SSD
 - Surface Pro: w/ 2.4 GHz i5, 8 GB DDR3, and 256 GB SSD 
 - Surface Book 2: w/ 1.9GHz quad-core i7, 16 GB DDR3, and 512GB SSD
+-->
+
+Our catalog of devices is designed to provide a premium experience for all Enterprise features like Windows Autopilot, Windows Hello, Cortana premium, Bitlocker, Secure Boot and Hyper-V. Devices will use Enterprise software, such as System Guard (DRTM), Virtualization, drivers and applications that are HVCI-ready. 
+
+These are the requirements for the approved devices that will be supported under the Microsoft Managed Desktop service.
+- Approved devices catalogue as of 3Q-CY2018:
+    - Surface Laptop: w/ 2.4 GHz i5, 8 GB DDR3, and 256 GB SSD
+    - Surface Pro: w/ 2.4 GHz i5, 8 GB DDR3, and 256 GB SSD 
+    - Surface Book 2: w/ 15” screen, 1.9GHz quad-core i7, 16 GB DDR3, and 512GB SSD
+- Device is activated less than One (1) year old
+- Device is freshly imaged
+    - Microsoft Office is pre-installed
+- Device is configured to work with Autopilot 
 
 For more information on capabilities and features of these devices, see [Compare Surface devices](https://www.microsoft.com/surface/devices/compare-devices).
 
 ### Services for Microsoft Managed Desktop devices 
 
 Microsoft will provide these services for Microsoft Managed Desktop devices.
-
-|
+  | 
  --- | ---
 Support	| Support agents will answer questions directly related to device functionality and diagnose device issues.
 Replacement	| The device will be replaced with a similar device after a request is made through support. For coverage details, refer to the warranty terms chosen when selecting your devices.
@@ -85,9 +98,7 @@ Device setup	| Devices will be pre-configured with the current version of Window
 
 ### Service limitations
 
-
 Microsoft will not provide service for these items. 
-
 |
  --- | ---
 Other accessories |	Only accessories shipped with the device are supported.
