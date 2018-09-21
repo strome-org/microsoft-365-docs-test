@@ -13,11 +13,10 @@ ms.date: 09/24/2018
 <!--This topic is the target for 3 "Learn more" links in the Admin Portal and Enterprise Agreement (aka.ms/app-overview;app-package;app-req); also target for link from Online resources (aka.ms/app-overviewmmd-app-prep) do not delete.-->
 
 <!--Applications: supported/onboard/deployment -->
+ 
+Microsoft and Microsoft Managed Desktop customers have equally critical, yet different responsibilities around applications used with Microsoft Managed Desktop.
 
-## Roles and responsibilities 
-Microsoft and the Customer- have equally critical, yet different responsibilities around applications Under Microsoft Managed Desktop
-
-### Microsoft responsibilites
+## Microsoft responsibilites
 **Office 365 apps**
 Microsoft will provide full service for the deployment, update, and support of specific Office 365 apps. All users will receive the base set of Office 365 click to run, 64 bit version of applications included in the device’s image so that a user can quickly become productive. The Project and Visio applications in of the Office 365 suite are licensed separately.  Microsoft Managed Desktop will provide deployment groups allowing the IT Administrator to manage licenses and deploy these applications appropriately for their organization. Microsoft will support end users of these applications through the Microsoft Managed Desktop Support channels.
 
@@ -30,7 +29,7 @@ Intune will be linked to the **Microsoft Store for Business** during Microsoft M
 **App management**
 Microsoft may identify restricted applications which are not suitable for the modern workplace because of their system impact. When such an application is identified Microsoft will notify the customer and that application will need to be removed from the tenant. 
 
-### Customer responsibilities
+## Customer responsibilities
 The Office 365 Suite is core to Microsoft’s productivity offerings and is included in the M365 License for all Microsoft Managed Desktop users. While Microsoft deploys, updates, and supports Office Applications to Microsoft Managed Desktop Devices there are still some areas for which the customer is responsible.
 - **Assign licenses** - Customers are responsible for  assigning of the appropriate licenses to end users for Office 365. 
 - **Add users to security groups** - For customers with users that need Project or Visio the IT administrator must add that user to the appropriate deployment groups. IT administrators are also responsible for managing end of life for that user. 
@@ -43,7 +42,7 @@ Since line-of-business (LOB) apps are unique for each customer, customers are re
 
 Once the core set of LOB apps has been identified the customer will procure, license, package, and test those applications in the Microsoft Managed Desktop environment. The customer must upload and deploy applications to Intune to deploy, update, and decommission their LOB applications. Customers are responsible for managing LOB apps support for their users. 
 
-### Office applications
+## Office applications
 The Office 365 Standard Suite (64 Bit), as seen in the table below, is deployed by Microsoft. <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
 
 | Office 365 E5 |    | 
@@ -55,7 +54,7 @@ The Office 365 Standard Suite (64 Bit), as seen in the table below, is deployed 
 |Skype for Business Online Cloud PBX | This feature is available with Office E5. Microsoft Managed Desktop will not configure any aspect of this service. |
 
 
-### Line-of-business applications
+## Line-of-business applications
 This table summarizes responsibilities across the different phases for line-of-business (LOB) applications. 
 
 Application work items |	Customer	| Microsoft
