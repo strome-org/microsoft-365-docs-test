@@ -30,7 +30,7 @@ Intune will be linked to the **Microsoft Store for Business** during Microsoft M
 Microsoft may identify restricted applications which are not suitable for the modern workplace because of their system impact. When such an application is identified Microsoft will notify the customer and that application will need to be removed from the tenant. 
 
 ## Customer responsibilities
-The Office 365 Suite is core to Microsoft’s productivity offerings and is included in the M365 License for all Microsoft Managed Desktop users. While Microsoft deploys, updates, and supports Office Applications to Microsoft Managed Desktop Devices there are still some areas for which the customer is responsible.
+The Office 365 Suite is core to Microsoft’s productivity offerings and is included in the Microsoft 365 License for all Microsoft Managed Desktop users. While Microsoft deploys, updates, and supports Office Applications to Microsoft Managed Desktop Devices there are still some areas for which the customer is responsible.
 - **Assign licenses** - Customers are responsible for  assigning of the appropriate licenses to end users for Office 365. 
 - **Add users to security groups** - For customers with users that need Project or Visio the IT administrator must add that user to the appropriate deployment groups. IT administrators are also responsible for managing end of life for that user. 
 - **Deploy Office 365 Add Ons** - Customers are responsible for deploying of any plugins to the Office 365 suite which are deemed necessary. 
@@ -45,7 +45,7 @@ Once the core set of LOB apps has been identified the customer will procure, lic
 ## Office applications
 As part of the Microsoft 365 E5 license, Office 365 Standard Suite (64 Bit) is deployed by Microsoft. 
 
-For details, see [Technologies and devices](../technologies-and-devices.md#technologies) <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
+For details, see [Technologies and devices](../intro/technologies-and-devices.md#technologies) <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
 
 ## Line-of-business applications
 This table summarizes responsibilities across the different phases for line-of-business (LOB) applications. 
