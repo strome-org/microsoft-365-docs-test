@@ -25,7 +25,7 @@ Here’s a summary of how the change process is shared between Microsoft and cus
 
 Microsoft will: | Customers will:
 --- | ---
-Notify customers | Read and understand
+- Notify customers | - Read and understand
 
 Microsoft will: | Customers will:
 | --- | --- |
