@@ -21,4 +21,29 @@ Outside of the United States | Contact your Microsoft Account team
 Ordering more than 50 devices | Contact your Microsoft Account team
 
 ## Order devices
-Use these instructions to order devices in the United States 
+Use these instructions to order devices in the United States. You'll start in the Microsoft **Managed Desktop Admin portal**, but you'll make the purchases through **Microsoft Store for Business**. 
+
+ **To order devices**
+ 1. Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal)
+ 2. On Getting Started, under Order Devices, select **Open Microsoft Store for Business to order devices**.
+
+    ![Getting Started, Order devices](images/mmd-order-devices.png)
+
+3. In Microsoft Store for Business, you can review info about Microsoft Managed Desktop and a comparison chart of the devices available. Click **Buy** to choose a device. 
+
+    ![Store for Business, Buy](images/msfb-buy.png)
+
+4. On **Pick your device**, select the device you want. 
+
+    ![Store for Business, Pick device](images/msfb-pick-device.png)
+
+5. On **Choose device features**, select a **Service Plan**, type the number of devices, and then click **Add to Cart**.
+
+6. Review your Cart and then select **Checkout**, or **Add another device**. 
+
+7. Continue the checkout process, review your pricing, accept licensing terms, and select **Sign and Place Order**. 
+
+Devices usually ship within three days. 
+
+When you're done ordering devices, you can review 
+
