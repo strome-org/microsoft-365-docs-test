@@ -16,7 +16,7 @@ How should I order devices for Microsoft Managed Desktop?
 
   |   
  --- | ---
-From within the United States, ordering less than 50 devices | [Order from Microsoft Managed Desktop Admin portal]()
+From within the United States, ordering less than 50 devices | [Order from Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal)
 Outside of the United States | Contact your Microsoft Account team
 Ordering more than 50 devices | Contact your Microsoft Account team
 
@@ -28,6 +28,7 @@ Use these instructions to order devices in the United States. You'll start in th
  2. On Getting Started, under Order Devices, select **Open Microsoft Store for Business to order devices**.
 
     ![Getting Started, Order devices](images/mmd-order-devices.png)
+    ![Support menu, Admin contacts](images/admincontacts.png)
 
 3. In Microsoft Store for Business, you can review info about Microsoft Managed Desktop and a comparison chart of the devices available. Click **Buy** to choose a device. 
 
@@ -45,5 +46,7 @@ Use these instructions to order devices in the United States. You'll start in th
 
 Devices usually ship within three days. 
 
-When you're done ordering devices, you can review 
+When you're done ordering devices, you can check the devices you ordered in [Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal). Under **Inventory**, select **Devices**. 
+
+When devices arrive, distribute them to your employees. There's no additional set up, or configuration required. 
 
