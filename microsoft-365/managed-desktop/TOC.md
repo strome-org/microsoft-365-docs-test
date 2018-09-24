@@ -13,8 +13,8 @@
 ### [Prepare line-of-business apps](get-started/apps.md)
 ### [Order devices](get-started/devices.md)
 ## [Working with Microsoft Managed Desktop](working-with-managed-desktop/index.md)
-### [How updates are handled](working-with-managed-desktop/updates.md)
+### [How updates are handled in Microsoft Managed Desktop](working-with-managed-desktop/updates.md)
 ### [Get support for Microsoft Managed Desktop](working-with-managed-desktop/support.md)
-### [Manage apps](working-with-managed-desktop/manage-apps.md)
-### [Operations and monitoring](working-with-managed-desktop/operations-and-monitoring.md)
+### [Manage apps in Microsoft Managed Desktop](working-with-managed-desktop/manage-apps.md)
+### [Operations and monitoring for Microsoft Managed Desktop](working-with-managed-desktop/operations-and-monitoring.md)
 
