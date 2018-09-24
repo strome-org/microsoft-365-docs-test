@@ -27,7 +27,7 @@ Desktop Analytics is fully committed to privacy, centering on these tenets:
 
 The following illustration shows how diagnostic data flows from individual devices through the Diagnostic Data Service, Azure Log Analytics storage, and to your Log Analytics workspace:
 
-[![Diagram illustrating flow of diagnostic data from devices](images/WA-data-flow-v1.png)](images/WA-data-flow-v1.png)
+[![Diagram illustrating flow of diagnostic data from devices](UDRimages/WA-data-flow-v1.png)](images/WA-data-flow-v1.png)
 
 The data flow sequence is as follows:
 
