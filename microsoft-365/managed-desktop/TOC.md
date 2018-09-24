@@ -11,6 +11,7 @@
 ## [Get started with Microsoft Managed Desktop](get-started/index.md)
 ### [Add Admin contacts](get-started/add-admin-contacts.md)
 ### [Prepare line-of-business apps](get-started/apps.md)
+### [Microsoft Managed Desktop application requirements](get-started/mmd-app-requirements.md)
 ### [Order devices](get-started/devices.md)
 ## [Working with Microsoft Managed Desktop](working-with-managed-desktop/index.md)
 ### [How updates are handled in Microsoft Managed Desktop](working-with-managed-desktop/updates.md)
