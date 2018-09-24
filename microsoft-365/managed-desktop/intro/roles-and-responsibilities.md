@@ -23,7 +23,7 @@ Below are a few key roles and responsibilities that will be provided to you by M
 Role or responsibility | Description
 --- | ---
 MDM policy management | Microsoft will apply MDM policies according to best practices, and consider requests for policy changes. We will also make changes to your tenant as prescribed in [Device policies](../get-started/device-policies.md).
-App deployment | Microsoft will deploy approved applications to client’s MMD devices using Intune. For more information, see [Apps](../get-started/apps.md). 
+App deployment | Microsoft will deploy approved applications to client’s Microsoft Managed Desktop devices using Intune. For more information, see [Apps](../get-started/apps.md). 
 End user support | Microsoft will provide end-user support for devices, Windows, and Office product suite for all enrolled users. 
 Microsoft Managed Desktop service support | Microsoft will provide support to customer IT departments through a Microsoft Managed Desktop Operations Team. This team will support technical troubleshooting, change requests, and incident management for the customer’s Microsoft Managed Desktop environment. For more information, see [Get support](../working-with-managed-desktop/support.md).
 Security monitoring | Microsoft will monitor customer Microsoft Managed Desktop devices using Windows Defender ATP. If a threat is detected by the Microsoft Managed Desktop Security Operations Center (SOC), Microsoft will notify the customer, isolate the device, and rectify the issue remotely. For more information, see [Security](../get-started/security.md).

@@ -23,8 +23,8 @@ Microsoft Managed Desktop expands on this vision by making sure our customers al
 
 ## In this section
 
-- [How Microsoft Managed Desktop works](how-managed-desktop-works.md)
-- [Prerequisites for Microsoft Managed Desktop](prerequisites.md)
-- [Microsoft Managed Desktop FAQ](faq.md)
+- [What is Microsoft Managed Desktop?](how-managed-desktop-works.md)
+- [Device configuration in Microsoft Managed Desktop](../get-started/device-policies.md)
+- [Security in Microsoft Managed Desktop](../get-started/security.md)
 - [Roles and responsibilities](roles-and-responsibilities.md)
 - [Technologies and devices](technologies-and-devices.md)

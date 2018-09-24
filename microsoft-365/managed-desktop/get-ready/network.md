@@ -15,7 +15,7 @@ ms.date: 09/24/2018
 
 ## Proxy configuration
 
-Microsoft Managed Desktop is a cloud-managed service. There is a set of endpoints that the Microsoft Managed Desktop services needs to be able to reach. Most customers will set up a proxy or firewall to only allow network traffic from specific domains for security reasons. This section lists the endpoints that need to be allowed. 
+Microsoft Managed Desktop is a cloud-managed service. There is a set of endpoints that the Microsoft Managed Desktop services needs to be able to reach. When customers set up a proxy or firewall, they only allow network traffic from specific domains for security reasons. This section lists the endpoints that need to be allowed. 
 
 ### Proxy requirement
 
