@@ -28,7 +28,7 @@ Use these instructions to order devices in the United States. You'll start in th
  2. On Getting Started, under Order Devices, select **Open Microsoft Store for Business to order devices**.
 
     ![Getting Started, Order devices](images/mmd-order-devices.png)
-    ![Support menu, Admin contacts](images/admincontacts.png)
+    ![Support menu, Admin contacts](images/mmd-order-devices.png)
 
 3. In Microsoft Store for Business, you can review info about Microsoft Managed Desktop and a comparison chart of the devices available. Click **Buy** to choose a device. 
 
