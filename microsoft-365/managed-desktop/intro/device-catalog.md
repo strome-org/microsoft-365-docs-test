@@ -8,9 +8,9 @@ ms.localizationpriority: medium
 ms.date: 09/24/2018
 ---
 
-# Microsoft Managed Desktop technologies and devices
+# Microsoft Managed Desktop devices
 
-This topic lists the device specifications used in Microsoft Managed Desktop.
+This topic lists the specifications for devices used in Microsoft Managed Desktop.
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- in O365 table, standard suite, removed this sentence "Please see the Installation of Project/Visio 64bit Click to Run Addendum for important deployment instructions. -->
