@@ -45,7 +45,7 @@ Once the core set of LOB apps has been identified the customer will procure, lic
 ## Office applications
 As part of the Microsoft 365 E5 license, Office 365 Standard Suite (64 Bit) is deployed by Microsoft. 
 
-For details, see [Technologies and devices](../intro/technologies-and-devices.md#technologies) <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
+For details, see [Microsoft Managed Desktop technologies](../intro/technologies-and-devices.md) <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
 
 ## Line-of-business applications
 This table summarizes responsibilities across the different phases for line-of-business (LOB) applications. 
