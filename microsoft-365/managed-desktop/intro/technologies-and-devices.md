@@ -99,7 +99,8 @@ Device setup	| Devices will be pre-configured with the current version of Window
 
 ### Service limitations
 
-Microsoft will not provide service for these items. 
+Microsoft will not provide service for these items.
+
  | 
  --- | ---
 Other accessories |	Only accessories shipped with the device are supported.
