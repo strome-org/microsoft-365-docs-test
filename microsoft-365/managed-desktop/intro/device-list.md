@@ -35,5 +35,7 @@ To be enrolled in Microsoft Managed Desktop:
 **Footnotes**
 
 &#x00B9; Additions can be made to this list at any time. Removals will be posted to this page 90 days prior to disallowing those devices from enrolling.
+
 &#x00B2; For more information on capabilities and features of these devices, see [Compare Surface devices](https://www.microsoft.com/surface/devices/compare-devices).
+
 &#x00B3; This can be implemented either through a new device acquisition or by re-imaging a previously acquired device.
