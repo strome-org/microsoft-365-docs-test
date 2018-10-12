@@ -14,10 +14,6 @@ Microsoft Managed Desktop regularly evaluates devices to be included in the serv
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-
-
-For more information on Microsoft Managed Desktop, see [Microsoft Managed Desktop documentation and resources](https://docs.microsoft.com/microsoft-365/managed-desktop/).
-
 To be enrolled in Microsoft Managed Desktop:
 
 - The device must be one of the following&#x00B9;:
@@ -39,3 +35,7 @@ To be enrolled in Microsoft Managed Desktop:
 &#x00B2; For more information on capabilities and features of these devices, see [Compare Surface devices](https://www.microsoft.com/surface/devices/compare-devices).
 
 &#x00B3; This can be implemented either through a new device acquisition or by re-imaging a previously acquired device.
+
+**Resources**
+
+For more information on Microsoft Managed Desktop, see [Microsoft Managed Desktop documentation and resources](https://docs.microsoft.com/microsoft-365/managed-desktop/).
