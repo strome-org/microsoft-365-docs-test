@@ -10,7 +10,9 @@ ms.date: 10/12/2018
 
 # Microsoft Managed Desktop devices
 
-Microsoft Managed Desktop regularly evaluates devices to be included in the service. This topic outlines the requirements for a device to be enrolled in Microsoft Managed Desktop. 
+Microsoft Managed Desktop regularly evaluates devices to be included in the service. This topic outlines the requirements for a device to be enrolled in Microsoft Managed Desktop.
+
+For more information on Microsoft Managed Desktop, see [Microsoft Managed Desktop documentation and resources](https://docs.microsoft.com/microsoft-365/managed-desktop/). 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
@@ -36,6 +38,3 @@ To be enrolled in Microsoft Managed Desktop:
 
 &#x00B3; This can be implemented either through a new device acquisition or by re-imaging a previously acquired device.
 
-**Resources**
-
-For more information on Microsoft Managed Desktop, see [Microsoft Managed Desktop documentation and resources](https://docs.microsoft.com/microsoft-365/managed-desktop/).
